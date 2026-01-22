@@ -1,0 +1,13 @@
+{
+  "date": "2026-04-17",
+  "displayDate": "Apr 17, 2026",
+  "games": [
+    {
+      "title": "Aurora Cartographers",
+      "genre": ["Adventure", "Co-op"],
+      "style": "Co-op mapping of shifting polar skies.",
+      "studio": "Northwind",
+      "platforms": ["PC", "PS5", "Xbox"]
+    }
+  ]
+}

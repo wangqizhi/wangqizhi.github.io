@@ -1,0 +1,13 @@
+{
+  "date": "2025-11-03",
+  "displayDate": "Nov 03, 2025",
+  "games": [
+    {
+      "title": "Shadow Canticles",
+      "genre": ["Action", "Stealth"],
+      "style": "Choir-powered abilities in candlelit cathedrals.",
+      "studio": "Noctis Room",
+      "platforms": ["PC", "PS5"]
+    }
+  ]
+}

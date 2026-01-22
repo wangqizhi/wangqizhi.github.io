@@ -1,0 +1,13 @@
+{
+  "date": "2025-02-21",
+  "displayDate": "Feb 21, 2025",
+  "games": [
+    {
+      "title": "Signal & Tide",
+      "genre": ["Strategy", "Survival"],
+      "style": "Islands, weather, and radio pings shape your route.",
+      "studio": "Mariner House",
+      "platforms": ["PC", "PS5", "Xbox"]
+    }
+  ]
+}
