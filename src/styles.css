@@ -1,0 +1,478 @@
+:root {
+  --ink: #0e0f13;
+  --muted: #5a6070;
+  --haze: rgba(255, 255, 255, 0.72);
+  --line: rgba(15, 17, 26, 0.15);
+  --accent: #ff8a5b;
+  --accent-2: #1f6f78;
+  --panel: rgba(255, 255, 255, 0.82);
+  --panel-solid: #ffffff;
+  --bg-grad-1: #fff4e6;
+  --bg-grad-2: #f5f0ff;
+  --bg-grad-3: #eef7ff;
+  --glow: rgba(255, 138, 91, 0.25);
+  --shadow: rgba(15, 17, 26, 0.08);
+  --nav-bg: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] {
+  --ink: #eef1f5;
+  --muted: #949aab;
+  --haze: rgba(20, 22, 28, 0.72);
+  --line: rgba(238, 241, 245, 0.15);
+  --accent: #ff9f76;
+  --accent-2: #4dbdc9;
+  --panel: rgba(30, 32, 40, 0.82);
+  --panel-solid: #252830;
+  --bg-grad-1: #1a1c22;
+  --bg-grad-2: #14151a;
+  --bg-grad-3: #111216;
+  --glow: rgba(255, 159, 118, 0.2);
+  --shadow: rgba(0, 0, 0, 0.4);
+  --nav-bg: rgba(20, 22, 28, 0.8);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: radial-gradient(circle at top, var(--bg-grad-1), var(--bg-grad-2) 35%, var(--bg-grad-3) 75%);
+  height: 100vh;
+  overflow: hidden; /* Fix body height, no scroll */
+  transition: color 0.3s, background 0.3s;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background: var(--nav-bg);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-content {
+  width: 100%;
+  max-width: 1920px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+}
+
+.brand-icon {
+  color: var(--accent);
+}
+
+.nav-brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s;
+}
+
+.theme-toggle:hover {
+  background: var(--line);
+  color: var(--accent);
+}
+
+.theme-toggle span {
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.page {
+  position: relative;
+  height: calc(100vh - 48px);
+  margin-top: 48px;
+  padding: 0;
+  overflow: hidden;
+  max-width: 100%; /* Use full width */
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(320px, 25%) 1fr;
+  gap: 0;
+}
+
+header {
+  position: relative;
+  z-index: 1;
+  padding: 40px;
+  overflow-y: auto;
+  border-right: 1px solid var(--line); /* Optional separation */
+  background: rgba(255, 255, 255, 0.05); /* Slight tint for sidebar */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center intro vertically if short */
+}
+
+/* Override previous header styles that might conflict */
+header {
+  display: flex; /* Changed from grid to flex for vertical centering */
+  gap: 32px;
+  margin-bottom: 0;
+  max-width: none;
+}
+
+.title {
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: clamp(2.6rem, 6vw, 4rem);
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.intro {
+  max-width: 640px;
+  font-size: 1.1rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.pill {
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pill:hover {
+  transform: translateY(-2px);
+  background: var(--panel-solid);
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+
+section.timeline-shell {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 40px; /* Padding for the timeline area */
+  display: flex;
+  flex-direction: column;
+}
+
+.section-head {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.section-header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.section-hint {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.today-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px var(--shadow);
+}
+
+.today-btn:hover {
+  background: var(--panel-solid);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.today-btn:active {
+  transform: translateY(0);
+}
+
+
+.timeline-scroll {
+  position: relative;
+  border-radius: 24px;
+  /* Add padding to match the mask height so content isn't cut off at start/end */
+  padding: 100px 0;
+  /* max-height: 75vh; REMOVE max-height */
+  height: 100%; /* Fill remaining space */
+  flex: 1; /* Flex grow */
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--muted) transparent;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 100px, black calc(100% - 100px), transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 100px, black calc(100% - 100px), transparent 100%);
+}
+
+
+.timeline-start-pad {
+  height: 32px;
+}
+.timeline-end-pad {
+  height: 32px;
+}
+
+.timeline-wrapper {
+  padding: 32px 32px;
+}
+
+/* Timeline Layout Redesign */
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 120px; /* Fixed distance from left */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+  opacity: 0.3;
+}
+
+.timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 120px 1fr; /* Date | Content */
+  gap: 0;
+  animation: rise 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(10px);
+  margin-bottom: 32px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item.static {
+  opacity: 1;
+  transform: none;
+  animation: none;
+}
+
+.timeline-date {
+  padding-right: 24px;
+  text-align: right;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  padding-top: 18px; /* Align with card top */
+  position: sticky;
+  top: 10px;
+  align-self: start;
+}
+
+/* The Dot */
+.timeline-dot {
+  position: absolute;
+  left: 120px; /* Match line position */
+  top: 22px; /* Match date/card top somewhat */
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--panel-solid); /* Use border to "cut" the line visually */
+  box-shadow: 0 0 0 2px var(--glow);
+  transform: translateX(-50%); /* Center on the line */
+  z-index: 2;
+}
+
+.game-card-wrapper {
+  padding-left: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 16px;
+}
+
+.game-card {
+  background: var(--panel-solid);
+  border-radius: 16px;
+  padding: 20px 24px;
+  border: 1px solid var(--line);
+  display: grid;
+  gap: 8px;
+  width: 100%;
+  box-shadow: 0 2px 8px var(--shadow);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+}
+
+/* Removed margin-bottom logic as we use grid gap now */
+
+.game-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px var(--shadow);
+  border-color: var(--accent);
+}
+
+.game-card h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+
+.game-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.game-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.tag {
+  background: rgba(31, 111, 120, 0.08); /* accent-2 low opacity */
+  color: var(--accent-2);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .page {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  
+  header {
+    display: none; /* Hide header on narrow screens as requested */
+  }
+
+  .timeline-shell {
+    padding: 0 16px;
+  }
+  
+  .timeline::before {
+    left: 20px;
+  }
+  
+  .timeline-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px; /* Space for line */
+    margin-bottom: 40px;
+  }
+  
+  .timeline-date {
+    text-align: left;
+    padding-right: 0;
+    margin-bottom: 8px;
+    padding-top: 0;
+    padding-left: 8px;
+    color: var(--accent-2);
+  }
+  
+  .timeline-dot {
+    left: 20px;
+    top: 4px; /* Align with date */
+  }
+  
+  .game-card-wrapper {
+    padding-left: 0;
+    grid-template-columns: 1fr; /* Stack vertically on very small screens */
+  }
+}
+
+.footer-note {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

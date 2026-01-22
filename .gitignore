@@ -1,0 +1,53 @@
+# Node
+node_modules/
+dist/
+.tmp/
+.cache/
+.pnpm-debug.log*
+.npm-debug.log*
+.yarn-debug.log*
+.yarn-error.log*
+
+# Env
+.env
+.env.*
+.venv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# Editors
+.fleet/
+.project
+.settings/
+*.sublime-*
+
+# Testing
+coverage/
+
+# AI tools
+.cursor/
+.continue/
+.windsurf/
+.cody/
+.aider/
+
+# Vercel/Netlify
+.vercel/
+.netlify/
+
+# Repo metadata
+.github/
+.claude/
+AGENTS.md
