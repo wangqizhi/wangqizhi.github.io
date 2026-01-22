@@ -90,10 +90,10 @@ const App = () => {
         const grouped = new Map<string, ReleaseGroup>();
 
         entries.forEach((entry) => {
-          const current = grouped.get(entry.date) ?? {
+          const current: ReleaseGroup = grouped.get(entry.date) ?? {
             date: entry.date,
             displayDate: entry.displayDate || entry.date,
-            games: [],
+            games: [] as Game[],
           };
           entry.games.forEach((game: Game) => current.games.push(game));
           grouped.set(entry.date, current);
