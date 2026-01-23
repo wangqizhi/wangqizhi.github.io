@@ -82,6 +82,7 @@ const App = () => {
   const [loadingNext, setLoadingNext] = useState(false);
   const [canAutoLoad, setCanAutoLoad] = useState(false);
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const [animationsEnabled, setAnimationsEnabled] = useState(true);
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const [language, setLanguage] = useState<"en" | "zh">(getInitialLanguage);
   const [uiTranslations, setUiTranslations] = useState<Record<string, UiStrings>>({
@@ -132,13 +133,17 @@ const App = () => {
     targetIndex: number;
     yearAnchorIndex: number;
   } | null>(null);
+  const scrollRafRef = useRef<number | null>(null);
+  const pendingScrollTopRef = useRef<number | null>(null);
+  const measureRafRef = useRef<number | null>(null);
+  const pendingMeasureVersionRef = useRef(false);
   const [measureVersion, setMeasureVersion] = useState(0);
   const [scrollTop, setScrollTop] = useState(0);
   const [viewportHeight, setViewportHeight] = useState(0);
 
   const ESTIMATED_ITEM_HEIGHT = 260;
   const ITEM_GAP = 32;
-  const OVERSCAN_PX = 800;
+  const OVERSCAN_PX = 1200;
   const SCROLL_THRESHOLD = 120;
   const SCROLL_SNAP_ATTEMPTS = 3;
   const ANIMATION_STAGGER_STEP = 0.06;
@@ -546,6 +551,7 @@ const App = () => {
         window.cancelAnimationFrame(todayJumpRafRef.current);
         todayJumpRafRef.current = null;
       }
+      setAnimationsEnabled(false);
       setCanAutoLoad(true);
     };
     const handleWheel = (event: WheelEvent) => {
@@ -563,9 +569,18 @@ const App = () => {
           nextScrollTop > lastScrollTopRef.current ? "down" : "up";
         lastScrollTopRef.current = nextScrollTop;
       }
-      setScrollTop(nextScrollTop);
+      pendingScrollTopRef.current = nextScrollTop;
+      if (scrollRafRef.current !== null) {
+        return;
+      }
+      scrollRafRef.current = window.requestAnimationFrame(() => {
+        scrollRafRef.current = null;
+        if (pendingScrollTopRef.current !== null) {
+          setScrollTop(pendingScrollTopRef.current);
+        }
+      });
     };
-    handleScroll();
+    setScrollTop(scrollEl.scrollTop);
     scrollEl.addEventListener("scroll", handleScroll);
     scrollEl.addEventListener("wheel", handleWheel, { passive: true });
     scrollEl.addEventListener("touchstart", markUserInteraction, { passive: true });
@@ -575,6 +590,10 @@ const App = () => {
       scrollEl.removeEventListener("wheel", handleWheel);
       scrollEl.removeEventListener("touchstart", markUserInteraction);
       scrollEl.removeEventListener("pointerdown", markUserInteraction);
+      if (scrollRafRef.current !== null) {
+        window.cancelAnimationFrame(scrollRafRef.current);
+        scrollRafRef.current = null;
+      }
     };
   }, []);
 
@@ -626,8 +645,8 @@ const App = () => {
           });
           heightsRef.current = newHeights;
           pendingScrollShiftRef.current += estimateAddedHeight(entries.length);
-        } else {
-          resetMeasurements();
+        } else if (direction === "next") {
+          // 追加到末尾时，现有 items 的索引不变：保留高度缓存，避免全量 re-measure 导致卡顿
         }
         setMeasureVersion((v) => v + 1);
         setTimeline((prev) => mergeTimeline(prev, entries));
@@ -695,7 +714,18 @@ const App = () => {
     const prev = heightsRef.current.get(index);
     if (height > 0 && prev !== height) {
       heightsRef.current.set(index, height);
-      setMeasureVersion((value) => value + 1);
+      if (pendingMeasureVersionRef.current) {
+        return;
+      }
+      pendingMeasureVersionRef.current = true;
+      if (measureRafRef.current !== null) {
+        return;
+      }
+      measureRafRef.current = window.requestAnimationFrame(() => {
+        measureRafRef.current = null;
+        pendingMeasureVersionRef.current = false;
+        setMeasureVersion((value) => value + 1);
+      });
     }
   };
 
@@ -1126,7 +1156,10 @@ const App = () => {
               <span>{topStatusText}</span>
             </div>
           ) : null}
-          <div className="timeline" style={timelineStyle}>
+          <div
+            className={`timeline${animationsEnabled ? "" : " no-anim"}`}
+            style={timelineStyle}
+          >
             {showError ? (
               <div className="timeline-item static">
                 <div className="timeline-dot" />

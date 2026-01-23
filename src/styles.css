@@ -461,6 +461,12 @@ section.timeline-shell {
   margin-bottom: 32px;
 }
 
+.timeline.no-anim .timeline-item {
+  animation: none;
+  opacity: 1;
+  transform: none;
+}
+
 .timeline-item:last-child {
   margin-bottom: 0;
 }
