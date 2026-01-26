@@ -46,6 +46,7 @@ const defaultUiStrings = {
   today: "Today",
   loadingPrevYear: "Loading previous year...",
   loadingNextYear: "Loading next year...",
+  clickToLoadPrevYear: "Click to load previous year",
   noMoreData: "No more data.",
   dataError: "Data error",
   loading: "Loading",
@@ -185,8 +186,23 @@ const toLocalDayValue = (dateString: string) => {
 const sortGroupsByDate = (groups: ReleaseGroup[]) =>
   [...groups].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
+type TimelineState = {
+  data: ReleaseGroup[];
+  firstItemIndex: number;
+};
+
+const INITIAL_FIRST_ITEM_INDEX = 100000;
+
 const App = () => {
-  const [timeline, setTimeline] = useState<ReleaseGroup[]>([]);
+  // 将 timeline 和 firstItemIndex 合并为一个状态，确保原子更新
+  // 这是修复 prepend 数据时滚动位置跳动的关键
+  const [timelineState, setTimelineState] = useState<TimelineState>({
+    data: [],
+    firstItemIndex: INITIAL_FIRST_ITEM_INDEX,
+  });
+  const timeline = timelineState.data;
+  const firstItemIndex = timelineState.firstItemIndex;
+
   const [error, setError] = useState<string | null>(null);
   const [availableYears, setAvailableYears] = useState<number[]>([]);
   const [loadedYears, setLoadedYears] = useState<number[]>([]);
@@ -224,7 +240,10 @@ const App = () => {
 
   const virtuosoRef = useRef<VirtuosoHandle>(null);
   const didInitialScrollRef = useRef(false);
-  const [firstItemIndex, setFirstItemIndex] = useState(100000);
+  const loadingPrevRef = useRef(false);
+  const loadingNextRef = useRef(false);
+  const timelineRef = useRef<ReleaseGroup[]>([]);
+  const visibleRangeRef = useRef({ startIndex: 0, endIndex: 0 });
 
   const ANIMATION_STAGGER_STEP = 0.06;
   const ANIMATION_MAX_DELAY = 0.6;
@@ -317,6 +336,10 @@ const App = () => {
   }, [selectedPlatforms]);
 
   useEffect(() => {
+    timelineRef.current = timeline;
+  }, [timeline]);
+
+  useEffect(() => {
     const loadUiTranslations = async () => {
       try {
         const response = await fetch("/data/i18n.json");
@@ -369,6 +392,8 @@ const App = () => {
     if (p === "pc") return "platform-pc";
     return "platform-other";
   }, []);
+
+  const itemKey = useCallback((_index: number, group: ReleaseGroup) => group.date, []);
 
   const normalizeYearPayload = (payload: YearPayload) => {
     if (Array.isArray(payload)) {
@@ -445,8 +470,10 @@ const App = () => {
         if (active) {
           setAvailableYears(years);
           setLoadedYears([initialYear]);
-          setFirstItemIndex(100000);
-          setTimeline(entries);
+          setTimelineState({
+            data: entries,
+            firstItemIndex: INITIAL_FIRST_ITEM_INDEX,
+          });
           setError(null);
         }
       } catch (err) {
@@ -490,44 +517,74 @@ const App = () => {
     return null;
   }, [availableYears, maxLoadedYear]);
 
-  const loadAdjacentYear = useCallback(
-    async (year: number, direction: "prev" | "next") => {
-      if (loadedYears.includes(year)) {
-        return;
-      }
-      if (direction === "prev") setLoadingPrev(true);
-      else setLoadingNext(true);
+  const loadPrev = useCallback(async () => {
+    if (!canAutoLoad || prevYear === null || loadedYears.includes(prevYear) || loadingPrevRef.current) {
+      return;
+    }
+    loadingPrevRef.current = true;
+    setLoadingPrev(true);
 
-      try {
-        const entries = await fetchYear(year);
-        setTimeline((prev) => {
-          if (!entries.length) {
-            return prev;
-          }
-          const prevDates = new Set(prev.map((g) => g.date));
-          const uniqueNew = entries.filter((g) => !prevDates.has(g.date));
-          if (!uniqueNew.length) {
-            return prev;
-          }
+    // 记住当前可见的第一个项目在数组中的索引
+    const currentVisibleArrayIndex = visibleRangeRef.current.startIndex - firstItemIndex;
 
-          if (direction === "prev") {
-            setFirstItemIndex((value) => value - uniqueNew.length);
-            return [...uniqueNew, ...prev];
-          }
-          return [...prev, ...uniqueNew];
+    try {
+      const entries = await fetchYear(prevYear);
+      const prevDates = new Set(timelineRef.current.map((group) => group.date));
+      const newItems = entries.filter((group) => !prevDates.has(group.date));
+      if (newItems.length) {
+        // 原子更新 data 和 firstItemIndex
+        setTimelineState((prev) => ({
+          data: [...newItems, ...prev.data],
+          firstItemIndex: prev.firstItemIndex - newItems.length,
+        }));
+
+        // 在下一帧滚动到原来可见的位置（新索引 = 原索引 + 新增数量）
+        requestAnimationFrame(() => {
+          const newArrayIndex = currentVisibleArrayIndex + newItems.length;
+          virtuosoRef.current?.scrollToIndex({
+            index: newArrayIndex,
+            align: "start",
+            behavior: "auto",
+          });
         });
-
-        setLoadedYears((prev) => (prev.includes(year) ? prev : [...prev, year]));
-        setError(null);
-      } catch (err) {
-        setError(err instanceof Error ? err.message : "Failed to load timeline.");
-      } finally {
-        if (direction === "prev") setLoadingPrev(false);
-        else setLoadingNext(false);
       }
-    },
-    [fetchYear, loadedYears]
-  );
+      setLoadedYears((prev) => (prev.includes(prevYear) ? prev : [...prev, prevYear]));
+      setError(null);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to load timeline.");
+    } finally {
+      loadingPrevRef.current = false;
+      setLoadingPrev(false);
+    }
+  }, [canAutoLoad, fetchYear, firstItemIndex, loadedYears, prevYear]);
+
+  const loadNext = useCallback(async () => {
+    if (!canAutoLoad || nextYear === null || loadedYears.includes(nextYear) || loadingNextRef.current) {
+      return;
+    }
+    loadingNextRef.current = true;
+    setLoadingNext(true);
+
+    try {
+      const entries = await fetchYear(nextYear);
+      const prevDates = new Set(timelineRef.current.map((group) => group.date));
+      const newItems = entries.filter((group) => !prevDates.has(group.date));
+      if (newItems.length) {
+        // append 数据时只需要更新 data，firstItemIndex 保持不变
+        setTimelineState((prev) => ({
+          ...prev,
+          data: [...prev.data, ...newItems],
+        }));
+      }
+      setLoadedYears((prev) => (prev.includes(nextYear) ? prev : [...prev, nextYear]));
+      setError(null);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to load timeline.");
+    } finally {
+      loadingNextRef.current = false;
+      setLoadingNext(false);
+    }
+  }, [canAutoLoad, fetchYear, loadedYears, nextYear]);
 
   const markUserInteraction = useCallback(() => {
     setAnimationsEnabled(false);
@@ -633,10 +690,16 @@ const App = () => {
   const viewDetailsLabel = useMemo(() => t("viewDetails"), [t]);
   const showError = Boolean(error) && !timeline.length;
 
-  const showTopStatus = Boolean(timeline.length) && canAutoLoad && (loadingPrev || prevYear === null);
+  // 向上：显示加载中、点击加载上一年、或没有更多数据
+  const showTopStatus = Boolean(timeline.length) && canAutoLoad;
   const showBottomStatus = Boolean(timeline.length) && canAutoLoad && (loadingNext || nextYear === null);
-  const topStatusText = loadingPrev ? t("loadingPrevYear") : t("noMoreData");
+  const topStatusText = loadingPrev
+    ? t("loadingPrevYear")
+    : prevYear !== null
+      ? t("clickToLoadPrevYear")
+      : t("noMoreData");
   const bottomStatusText = loadingNext ? t("loadingNextYear") : t("noMoreData");
+  const canClickLoadPrev = !loadingPrev && prevYear !== null;
 
   return (
     <>
@@ -740,21 +803,27 @@ const App = () => {
                 style={{ height: "100%" }}
                 data={timeline}
                 firstItemIndex={firstItemIndex}
-                                increaseViewportBy={1200}
-                computeItemKey={(_index: number, group: ReleaseGroup) => group.date}
-                startReached={() => {
-                  if (!canAutoLoad || loadingPrev || prevYear === null) return;
-                  void loadAdjacentYear(prevYear, "prev");
-                }}
-                endReached={() => {
-                  if (!canAutoLoad || loadingNext || nextYear === null) return;
-                  void loadAdjacentYear(nextYear, "next");
+                increaseViewportBy={1200}
+                computeItemKey={itemKey}
+                endReached={loadNext}
+                rangeChanged={(range) => {
+                  visibleRangeRef.current = range;
                 }}
                 components={{
                   Header: () =>
                     showTopStatus ? (
                       <div className="timeline-status top" aria-live="polite">
-                        <span>{topStatusText}</span>
+                        {canClickLoadPrev ? (
+                          <button
+                            className="load-prev-btn"
+                            onClick={loadPrev}
+                            disabled={loadingPrev}
+                          >
+                            {topStatusText}
+                          </button>
+                        ) : (
+                          <span>{topStatusText}</span>
+                        )}
                       </div>
                     ) : null,
                   Footer: () =>
