@@ -14765,36 +14765,6 @@
         ]
       },
       {
-        "title": "Mythic Crusade",
-        "genre": [
-          "角色扮演"
-        ],
-        "style": "探索、获取资源、扩建城镇、招募军队、与异教徒作战、寻找新法术、学习技能、寻找强大的神器。创建您独一无二的建筑，夺回神话圣地。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Soulcaller's Tower",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "Soulcaller's Tower is a 2D top-down survival game. You must defeat enemies to upgrade your spells, improve your stats like hit points and speed, and u",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Stumblepath",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "Levels await you, leading ever deeper into the forest. There are no randomly generated floors—instead, the game emphasizes tense progression, delibera",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "8AM: The Shopping Mall",
         "genre": [
           "动作游戏"
@@ -14810,6 +14780,36 @@
           "冒险游戏"
         ],
         "style": "Rose-Crimson是一个年轻，充满活力的女孩，她想知道生活的所有乐趣。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Stumblepath",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Levels await you, leading ever deeper into the forest. There are no randomly generated floors—instead, the game emphasizes tense progression, delibera",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Soulcaller's Tower",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Soulcaller's Tower is a 2D top-down survival game. You must defeat enemies to upgrade your spells, improve your stats like hit points and speed, and u",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Mythic Crusade",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "探索、获取资源、扩建城镇、招募军队、与异教徒作战、寻找新法术、学习技能、寻找强大的神器。创建您独一无二的建筑，夺回神话圣地。",
         "platforms": [
           "PC"
         ]
@@ -14881,11 +14881,11 @@
         ]
       },
       {
-        "title": "AI女友",
+        "title": "Mark of Cain",
         "genre": [
           "动作游戏"
         ],
-        "style": "手机里的AI突然出现在了你的身边，并且她们之间似乎爆发了一些矛盾 这款游戏是一个AI恋爱游戏",
+        "style": "《Mark of Cain》是一款合作运动FPS游戏，在这里，速度就是生存，表情包就是福音。你和你的小队被传说中的该隐印记所诅咒，这是一种发光的印记，可以吸引来自地狱和其他地方的无情的恶魔群。",
         "platforms": [
           "PC"
         ]
@@ -14901,41 +14901,11 @@
         ]
       },
       {
-        "title": "Mark of Cain",
+        "title": "AI女友",
         "genre": [
           "动作游戏"
         ],
-        "style": "《Mark of Cain》是一款合作运动FPS游戏，在这里，速度就是生存，表情包就是福音。你和你的小队被传说中的该隐印记所诅咒，这是一种发光的印记，可以吸引来自地狱和其他地方的无情的恶魔群。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "The Cats of Monte Cristo",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "走进大仲马小说构建的沉浸世界，每只隐藏的猫咪都将为您揭开这段复仇传奇的全新篇章。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "BrawlMart",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "BrawlMart 是一款快节奏、以物理为驱动的派对游戏，最多四名玩家可以驾驶手推车冲入不断轮换的疯狂迷你游戏播放列表。每一回合都会扭曲规则，每一座竞技场都充满不可预测性，每场比赛都是彻底的混乱。\n在本地或线上与朋友或机器人一起游玩，沉浸在竞争与合作模式的混合中，从戳破气球 到躲避掉落的危险，同时在",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "无限打捞",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "在《无限打捞》中，你将扮演一家小型打捞公司的船长、老板兼运营者，努力在茫茫大海中闯出一片天地。从一艘船和寥寥几份小合同起步，逐步发展壮大你的公司，最终拥有一支蓬勃发展的船队。",
+        "style": "手机里的AI突然出现在了你的身边，并且她们之间似乎爆发了一些矛盾 这款游戏是一个AI恋爱游戏",
         "platforms": [
           "PC"
         ]
@@ -14951,11 +14921,21 @@
         ]
       },
       {
-        "title": "Hide and Sheep",
+        "title": "Monstergirl Hunters",
         "genre": [
-          "益智游戏"
+          "角色扮演"
         ],
-        "style": "Hide and Sheep is a 2-10 player online multiplayer social-deduction party game. Players need to blend in with the AI sheep, identify the other real pl",
+        "style": "你已被派往一系列岛屿上进行殖民。这些岛屿上到处都是各种各样的怪物女孩，她们十分凶猛，需要加以安抚。但同时，这些怪物女孩也是劳动力的来源，并能产出独特的物品，所以你需要她们来建设你的城市。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "The Cats of Monte Cristo",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "走进大仲马小说构建的沉浸世界，每只隐藏的猫咪都将为您揭开这段复仇传奇的全新篇章。",
         "platforms": [
           "PC"
         ]
@@ -14981,21 +14961,51 @@
         ]
       },
       {
-        "title": "Oradea",
+        "title": "BrawlMart",
         "genre": [
           "动作游戏"
         ],
-        "style": "这是一款以六边形和你的控制器为中心的节奏游戏。",
+        "style": "BrawlMart 是一款快节奏、以物理为驱动的派对游戏，最多四名玩家可以驾驶手推车冲入不断轮换的疯狂迷你游戏播放列表。每一回合都会扭曲规则，每一座竞技场都充满不可预测性，每场比赛都是彻底的混乱。\n在本地或线上与朋友或机器人一起游玩，沉浸在竞争与合作模式的混合中，从戳破气球 到躲避掉落的危险，同时在",
         "platforms": [
           "PC"
         ]
       },
       {
-        "title": "桌面奇幻战争",
+        "title": "无限打捞",
         "genre": [
-          "策略游戏"
+          "冒险游戏"
         ],
-        "style": "《桌面奇幻战争》是一款回合制策略战争游戏，灵感来源于经典桌面游戏。玩家需在战场上设计并部署自己的编队，通过策略性机动指挥他们取得胜利。管理经济并建设防御或支援建筑以增强己方编队，或建造攻城设施削弱并攻击对手。征服中立据点，扩张领土以改善经济，同时围歼敌军。但请记住，编队就是你手中全部筹码。每一次决策",
+        "style": "在《无限打捞》中，你将扮演一家小型打捞公司的船长、老板兼运营者，努力在茫茫大海中闯出一片天地。从一艘船和寥寥几份小合同起步，逐步发展壮大你的公司，最终拥有一支蓬勃发展的船队。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Hide and Sheep",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Hide and Sheep is a 2-10 player online multiplayer social-deduction party game. Players need to blend in with the AI sheep, identify the other real pl",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Enough",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《Enough》是一款类似《sokoban》的益智游戏，你在其中扮演的是一个不能再到地狱工作的恶魔Bell。在你的旅程中穿越森林、沙漠、山脉和海洋，看看天堂是否会给你另一个机会。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "TonoTone",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "TonoTone is designed to be an easy to understand, reasonable first approach to modular synthesis while still bringing new experiences for seasoned com",
         "platforms": [
           "PC"
         ]
@@ -15011,6 +15021,46 @@
         ]
       },
       {
+        "title": "Ghost Restaurant",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Ghost Restaurant》是一款故事丰富的解谜游戏，设定在时间冻结的餐厅，这是迷失灵魂的最后一站。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "3 Lines of A Delta",
+        "genre": [
+          "休闲游戏"
+        ],
+        "style": "一款时长不到三小时的短篇故事驱动型视觉小说。无需做出任何选择，您可以放松身心，静静欣赏故事的展开。叙事在不同角色的视角间切换。\n愿这个故事能留在您的记忆中，哪怕只是短暂的一瞬。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Void Hunters",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "The Galaxy Remembers Your Name\nVoid Hunters is a fast-paced space combat roguelite where every death spawns a nemesis, every run rewrites history, and",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "浮岛时光",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "你在睡梦中穿越到了一个神奇的世界，身边多出一个可爱的小精灵，你将与它在这片土地上留下许多多美好的时光。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "Night of the Living Bubble",
         "genre": [
           "动作游戏"
@@ -15021,11 +15071,31 @@
         ]
       },
       {
+        "title": "桌面奇幻战争",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "《桌面奇幻战争》是一款回合制策略战争游戏，灵感来源于经典桌面游戏。玩家需在战场上设计并部署自己的编队，通过策略性机动指挥他们取得胜利。管理经济并建设防御或支援建筑以增强己方编队，或建造攻城设施削弱并攻击对手。征服中立据点，扩张领土以改善经济，同时围歼敌军。但请记住，编队就是你手中全部筹码。每一次决策",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "Veil Realm",
         "genre": [
           "动作游戏"
         ],
         "style": "Veil Realm – a psychological horror game with astral survival elements.\nYou embark on a terrifying journey to find your missing son, leading you to an",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Oradea",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "这是一款以六边形和你的控制器为中心的节奏游戏。",
         "platforms": [
           "PC"
         ]
@@ -15046,56 +15116,6 @@
           "益智游戏"
         ],
         "style": "非常可爱的卡通风格，老少皆宜；\n从花园场景里，与动物交互，可进入拼图场景；\n每次进入拼图，拼图是固定的，但拼图的形状切块是随机的；\n拼图块共用8种形状，拼图过程趣味性丰富；\n拼图尺寸有大中小3类尺寸，对应总块数不同，难度不同。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "浮岛时光",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "你在睡梦中穿越到了一个神奇的世界，身边多出一个可爱的小精灵，你将与它在这片土地上留下许多多美好的时光。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Void Hunters",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "The Galaxy Remembers Your Name\nVoid Hunters is a fast-paced space combat roguelite where every death spawns a nemesis, every run rewrites history, and",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "TonoTone",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "TonoTone is designed to be an easy to understand, reasonable first approach to modular synthesis while still bringing new experiences for seasoned com",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Enough",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "《Enough》是一款类似《sokoban》的益智游戏，你在其中扮演的是一个不能再到地狱工作的恶魔Bell。在你的旅程中穿越森林、沙漠、山脉和海洋，看看天堂是否会给你另一个机会。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "3 Lines of A Delta",
-        "genre": [
-          "休闲游戏"
-        ],
-        "style": "一款时长不到三小时的短篇故事驱动型视觉小说。无需做出任何选择，您可以放松身心，静静欣赏故事的展开。叙事在不同角色的视角间切换。\n愿这个故事能留在您的记忆中，哪怕只是短暂的一瞬。",
         "platforms": [
           "PC"
         ]
@@ -15177,6 +15197,16 @@
         ]
       },
       {
+        "title": "Chronominion Idler",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Chronominion Idler》是一款像素类的挂机游戏，用不朽的瓷砖扩展和保护你的领土。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "The Stickman",
         "genre": [
           "动作游戏"
@@ -15197,11 +15227,71 @@
         ]
       },
       {
-        "title": "Chronominion Idler",
+        "title": "Stardust Sandbox",
         "genre": [
-          "冒险游戏"
+          "益智游戏"
         ],
-        "style": "《Chronominion Idler》是一款像素类的挂机游戏，用不朽的瓷砖扩展和保护你的领土。",
+        "style": "Stardust Sandbox is a creative sandbox simulation inspired by classic falling-sand games. It offers a free and experimental environment where you can",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Grind TD",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "门已开启，但它并非横穿——而是向下延伸。有东西正在逼近。作为像素领域的统治者，你将指挥策略的碰撞，深入攻防对决，体验塔防世界最纯粹的形态。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Draw, Draw, Pass!",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Draw, Draw, Pass!是一款混乱的合作绘画游戏。游戏玩法由1名猜测者组成，其余玩家是绘画者。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "SAD GOD",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "We invite you to descend into a pit of monsters and traps. Gain strength from coins and weapons from altars. Touch an orb. Then race to the surfa",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Bochi Collection",
+        "genre": [
+          "休闲游戏"
+        ],
+        "style": "《Bochi Collection: Short Narrative Experiences》是一本不断发展的短篇叙事经历文集。每个故事都提供了一个独特的世界，艺术方向和基调，从令人不安到温暖人心，设计在几分钟内体验。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "魔王之卡",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "魔王之卡 是一款单人对战卡牌游戏，在 3×3 网格上进行，对《最终幻想 VIII》的 三重对战 玩法进行了全新演绎。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Aroya Knight",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "2D Metroidvania Action-Adventure \nAroya Knight is a demanding 2D Metroidvania set in the dying world of Cygnus. Master punishing, precision comb",
         "platforms": [
           "PC"
         ]
@@ -15255,46 +15345,6 @@
         "platforms": [
           "PC"
         ]
-      },
-      {
-        "title": "SAD GOD",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "We invite you to descend into a pit of monsters and traps. Gain strength from coins and weapons from altars. Touch an orb. Then race to the surfa",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Bochi Collection",
-        "genre": [
-          "休闲游戏"
-        ],
-        "style": "《Bochi Collection: Short Narrative Experiences》是一本不断发展的短篇叙事经历文集。每个故事都提供了一个独特的世界，艺术方向和基调，从令人不安到温暖人心，设计在几分钟内体验。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Draw, Draw, Pass!",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "Draw, Draw, Pass!是一款混乱的合作绘画游戏。游戏玩法由1名猜测者组成，其余玩家是绘画者。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "魔王之卡",
-        "genre": [
-          "角色扮演"
-        ],
-        "style": "魔王之卡 是一款单人对战卡牌游戏，在 3×3 网格上进行，对《最终幻想 VIII》的 三重对战 玩法进行了全新演绎。",
-        "platforms": [
-          "PC"
-        ]
       }
     ]
   },
@@ -15322,6 +15372,27 @@
         "style": "《解忧咖啡馆：东京》是备受赞誉的咖啡冲泡和心灵沟通模拟游戏的最新续作。游戏将前作中的温暖、真诚与美味饮品带到了东京的一家全新咖啡馆，人类与超自然生物在这里分享各自的故事。",
         "platforms": [
           "PS5"
+        ]
+      },
+      {
+        "title": "动物迷城",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "动物迷城（Back to the Dawn）是一款关于越狱的角色扮演游戏，犯罪、阴谋、陷害交织其中，当然也少不了纷杂的感情线。你将扮演动物囚犯在严酷的监狱中生存、探索、成长以及逃脱。此外，你也会遇到众多个性十足的角色，并置身于令人印象深刻的剧情之中。打起精神来，证明自己的清白，揭开各方势力背后的阴谋",
+        "platforms": [
+          "NS",
+          "NS2"
+        ]
+      },
+      {
+        "title": "宝可梦 Pokopia",
+        "genre": [
+          "模拟"
+        ],
+        "style": "《宝可梦 Pokopia》这款游戏的主角是变身宝可梦百变怪。变身成人类的百变怪，将与居住在这里的宝可梦们从零开始打造新生活。",
+        "platforms": [
+          "NS2"
         ]
       },
       {
@@ -15385,36 +15456,6 @@
         ]
       },
       {
-        "title": "元卡牌之背包传说",
-        "genre": [
-          "角色扮演"
-        ],
-        "style": "元卡牌系列的第三作《元卡牌之背包传说》是一款背包管理类Roguelike卡牌游戏！ 战前：通过神器背包管理搭配组合你的流派 战中：拖拽卡牌在合适的时机对关键的敌人释放技能 战后：选取你的战利品，在商店里购买神器和卡牌",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Monstergirl Hunters",
-        "genre": [
-          "角色扮演"
-        ],
-        "style": "你已被派往一系列岛屿上进行殖民。这些岛屿上到处都是各种各样的怪物女孩，她们十分凶猛，需要加以安抚。但同时，这些怪物女孩也是劳动力的来源，并能产出独特的物品，所以你需要她们来建设你的城市。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "FoxHaunt",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "探索其他狐狸精灵的领域，获得精华，并在回合制战斗中挑战他们。一旦你获得了足够的力量，把你的目标放在击败仙狐之上，成为最强大的狐狸精灵。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "Cozy Sketcher – AI绘画游戏",
         "genre": [
           "益智游戏"
@@ -15430,6 +15471,66 @@
           "冒险游戏"
         ],
         "style": "THE STORY\nObserve your surroundings. Squint through the static. Focus on small, seemingly mundane details. Somewhere, there is a path forward. Just do",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "FoxHaunt",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "探索其他狐狸精灵的领域，获得精华，并在回合制战斗中挑战他们。一旦你获得了足够的力量，把你的目标放在击败仙狐之上，成为最强大的狐狸精灵。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "元卡牌之背包传说",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "元卡牌系列的第三作《元卡牌之背包传说》是一款背包管理类Roguelike卡牌游戏！ 战前：通过神器背包管理搭配组合你的流派 战中：拖拽卡牌在合适的时机对关键的敌人释放技能 战后：选取你的战利品，在商店里购买神器和卡牌",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Fruits Vs Veggies",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Looking for an online party game where you can blow up a formidable banana foe with a stick of dynamite? How about one where you can trick a cucumber",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Nuggle",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "你的目标是把所有的方块聚集在一起，这样他们就可以互相碰撞，确保没有人会错过。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Kingdom Dice",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "《Kingdom Dice》不仅是一款让你感觉自己是一个渴望拥有一个前所未有的帝国的强大领主的游戏，也是一款将充分展示你的创业潜力的游戏。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Gladiator Command",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "《Gladiator Command》是一款以古罗马残酷世界为背景的战略自动战斗游戏。",
         "platforms": [
           "PC"
         ]
@@ -15465,21 +15566,21 @@
         ]
       },
       {
-        "title": "Iron Colony",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "一场突如其来的机械故障导致你的飞船坠毁在一座神秘岛屿上，这里曾是渔民的家园。昔日宁静的港湾如今已被敌对的机器人占领，它们巡逻于岛屿的每个角落，毫不犹豫地发动攻击。\n作为幸存的飞行员，你必须探索这片被遗忘的土地，与无情的机械敌人展开激烈的战斗和策略对决。每一次胜利都将开启新的发现，并让你离逃离这座被遗",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "Veil: Project Conductor",
         "genre": [
           "冒险游戏"
         ],
         "style": "The train derails in an abandoned tunnel.\nNo signal, no exits — only darkness and the broken remains of the carriage.\nYou are an undercover journalist",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Iron Colony",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "一场突如其来的机械故障导致你的飞船坠毁在一座神秘岛屿上，这里曾是渔民的家园。昔日宁静的港湾如今已被敌对的机器人占领，它们巡逻于岛屿的每个角落，毫不犹豫地发动攻击。\n作为幸存的飞行员，你必须探索这片被遗忘的土地，与无情的机械敌人展开激烈的战斗和策略对决。每一次胜利都将开启新的发现，并让你离逃离这座被遗",
         "platforms": [
           "PC"
         ]
@@ -15515,54 +15616,13 @@
         ]
       },
       {
-        "title": "Gladiator Command",
+        "title": "Monstergirl Hunters",
         "genre": [
-          "策略游戏"
+          "角色扮演"
         ],
-        "style": "《Gladiator Command》是一款以古罗马残酷世界为背景的战略自动战斗游戏。",
+        "style": "你已被派往一系列岛屿上进行殖民。这些岛屿上到处都是各种各样的怪物女孩，她们十分凶猛，需要加以安抚。但同时，这些怪物女孩也是劳动力的来源，并能产出独特的物品，所以你需要她们来建设你的城市。",
         "platforms": [
           "PC"
-        ]
-      },
-      {
-        "title": "Nuggle",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "你的目标是把所有的方块聚集在一起，这样他们就可以互相碰撞，确保没有人会错过。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Kingdom Dice",
-        "genre": [
-          "策略游戏"
-        ],
-        "style": "《Kingdom Dice》不仅是一款让你感觉自己是一个渴望拥有一个前所未有的帝国的强大领主的游戏，也是一款将充分展示你的创业潜力的游戏。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "动物迷城",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "动物迷城（Back to the Dawn）是一款关于越狱的角色扮演游戏，犯罪、阴谋、陷害交织其中，当然也少不了纷杂的感情线。你将扮演动物囚犯在严酷的监狱中生存、探索、成长以及逃脱。此外，你也会遇到众多个性十足的角色，并置身于令人印象深刻的剧情之中。打起精神来，证明自己的清白，揭开各方势力背后的阴谋",
-        "platforms": [
-          "NS",
-          "NS2"
-        ]
-      },
-      {
-        "title": "宝可梦 Pokopia",
-        "genre": [
-          "模拟"
-        ],
-        "style": "《宝可梦 Pokopia》这款游戏的主角是变身宝可梦百变怪。变身成人类的百变怪，将与居住在这里的宝可梦们从零开始打造新生活。",
-        "platforms": [
-          "NS2"
         ]
       }
     ]
@@ -15584,6 +15644,16 @@
         ]
       },
       {
+        "title": "时光超市",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "欢迎来到《时光超市》。\n《时光超市》是一款致敬童年经典《狂欢超市》的复刻作品，融合复古画风与细腻的模拟经营玩法，带你重温那段令人难忘的游戏时光。\n你将从一家街角小便利店起步，亲自摆放货架、采购商品，与顾客打交道，一点点把小店打理起来。\n随着店铺口碑提升，你还将解锁更大的营业面积、更多的商品种类，以及",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "溟渊卡境",
         "genre": [
           "动作游戏"
@@ -15594,21 +15664,21 @@
         ]
       },
       {
-        "title": "Mina",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "Mina is an action-adventure game developed and published by Anopia Games, offering immersive gameplay and a deeply woven narrative. Players step into",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "Whispering Memories",
         "genre": [
           "益智游戏"
         ],
         "style": "You return to Starvale after many years, drawn back by memories and a sense of unfinished business. As you reconnect with old friends and explore fam",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Mina",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Mina is an action-adventure game developed and published by Anopia Games, offering immersive gameplay and a deeply woven narrative. Players step into",
         "platforms": [
           "PC"
         ]
@@ -15644,11 +15714,121 @@
         ]
       },
       {
-        "title": "Yooca: Your Life",
+        "title": "RAM Clicker",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《RAM Clicker》让你亲身体验 2026 年 RAM 危机。\n你从零开始收集内存，只是为了能组装一台买得起的电脑……\n但很快，你会发现事情并没有那么简单。\n有什么东西隐藏在背后。\n而且它并不友善。\n在游戏过程中，你将升级装备，并招募一群“frens”来帮助你更高效地收集内存，一步步揭开 RA",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Mega Kaiju Boom Ball",
         "genre": [
           "动作游戏"
         ],
-        "style": "Yooca: Your Life是一款快节奏的在线多人自行车比赛，策略和时机与速度一样重要。",
+        "style": "Overview\nMega Kaiju Boom Ball is a giant monster-themed break-em-up developed with retro 8-bit constraints in mind. The game mixes the dynamics o",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Anomaly 404",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Anomaly 404》是一款第一人称心理恐怖游戏，属于“找不同”类型，您的目标是发现并拍摄异常现象。\n\n您是一名记者，收到了一名员工关于人体恐怖实验的匿名信件。\n您仅凭一台相机，潜入Void公司的秘密军事设施，以揭露“404项目”背后的真相。\n\nVoid公司是一家为政府工作的私营公司。他们的任务",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Boing Over It",
+        "genre": [
+          "平台游戏"
+        ],
+        "style": "Boing Over It 不是来娱乐你的。\n它是来考验你的——你的耐心、你的精准度，以及你的自尊心。\n你扮演一根弹簧，唯一的目标就是尽可能往上爬，在一个巨大的垂直世界中跳跃，那里充满了荒诞的卡通物体、刁钻的平台，以及专门设计来让你失败的障碍。\n玩法说明\n基于物理的跳跃： 压缩、瞄准、松开。蓄力越多",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "DEEPLY",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "DEEPLY 是一款水下冒险游戏，主题围绕寻宝、装备升级以及探索神秘海洋。从你的木筏上一跃而入水中，收集资源、发现文物、升级装备，逐步接近父亲穷极一生追寻的那艘传奇沉船。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Bloksie (for now)",
+        "genre": [
+          "休闲游戏"
+        ],
+        "style": "《block sie》是一款塔防/算术游戏，你可以通过组合、克隆、出售和洗牌来尽可能多地从你的棋盘中榨取价值，因为越来越多的反block会破坏你的一天。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Wong",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Wong可以使用他的枪来摧毁目标。摧毁三个目标后，他可以进行一次强力射击，从而向后移动。\n通过蓄力射击所获得的速度对于以最快的速度完成关卡至关重要。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Scrub Dudes",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《Scrub Dudes》带你探索并清理一个由纸板、布料等手工材质构成的世界。没错…就是清理，因为这里有点脏！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Hidden Raccoons",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Hidden Raccoons 是一款平静又放松的找物游戏，你将在色彩丰富的像素艺术世界中寻找可爱的浣熊。没有计时器、没有分数压力，也无需匆忙进行。游戏的重点是仔细观察场景、发现细节，并按照自己的节奏游玩。\n每个关卡都有不同的场景。认真探索画面，找到隐藏的浣熊，并以自己的步调完成关卡。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "X Burger",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "欢迎来到 X Burger！这里是镇上最热闹、最快乐的地方。尤其是今天！因为今天是5月28日“世界汉堡日”。顾客们饥肠辘辘，气球已经吹好，庆典仿佛永不落幕。 作为这场欢乐混乱中的一员，你的任务是制作美味的汉堡，搭配酥脆的炸物、蘸酱和冰镇饮料一起上桌。而且，你并不孤单。当你备餐时，还有一位小丑同事在娱",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Birds Watching",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "你是一个原始自然保护区的护林员，与荒野和谐相处。你每天都在观察、记录和保护这些把这里称为家的鸟类。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Blockaholic",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "本游戏只有一条规则：若任一方块掉落地面，则游戏结束",
         "platforms": [
           "PC"
         ]
@@ -15674,41 +15854,11 @@
         ]
       },
       {
-        "title": "Blockaholic",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "本游戏只有一条规则：若任一方块掉落地面，则游戏结束",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Bloksie (for now)",
-        "genre": [
-          "休闲游戏"
-        ],
-        "style": "《block sie》是一款塔防/算术游戏，你可以通过组合、克隆、出售和洗牌来尽可能多地从你的棋盘中榨取价值，因为越来越多的反block会破坏你的一天。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Boing Over It",
-        "genre": [
-          "平台游戏"
-        ],
-        "style": "Boing Over It 不是来娱乐你的。\n它是来考验你的——你的耐心、你的精准度，以及你的自尊心。\n你扮演一根弹簧，唯一的目标就是尽可能往上爬，在一个巨大的垂直世界中跳跃，那里充满了荒诞的卡通物体、刁钻的平台，以及专门设计来让你失败的障碍。\n玩法说明\n基于物理的跳跃： 压缩、瞄准、松开。蓄力越多",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Wong",
+        "title": "Yooca: Your Life",
         "genre": [
           "动作游戏"
         ],
-        "style": "Wong可以使用他的枪来摧毁目标。摧毁三个目标后，他可以进行一次强力射击，从而向后移动。\n通过蓄力射击所获得的速度对于以最快的速度完成关卡至关重要。",
+        "style": "Yooca: Your Life是一款快节奏的在线多人自行车比赛，策略和时机与速度一样重要。",
         "platforms": [
           "PC"
         ]
@@ -15719,76 +15869,6 @@
           "益智游戏"
         ],
         "style": "Cute Away: Paws Caretaker Simulator creates a relaxing yet challenging experience where you turn an empty home into the ultimate feline caretaking hom",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Anomaly 404",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "《Anomaly 404》是一款第一人称心理恐怖游戏，属于“找不同”类型，您的目标是发现并拍摄异常现象。\n\n您是一名记者，收到了一名员工关于人体恐怖实验的匿名信件。\n您仅凭一台相机，潜入Void公司的秘密军事设施，以揭露“404项目”背后的真相。\n\nVoid公司是一家为政府工作的私营公司。他们的任务",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "DEEPLY",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "DEEPLY 是一款水下冒险游戏，主题围绕寻宝、装备升级以及探索神秘海洋。从你的木筏上一跃而入水中，收集资源、发现文物、升级装备，逐步接近父亲穷极一生追寻的那艘传奇沉船。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Hidden Raccoons",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "Hidden Raccoons 是一款平静又放松的找物游戏，你将在色彩丰富的像素艺术世界中寻找可爱的浣熊。没有计时器、没有分数压力，也无需匆忙进行。游戏的重点是仔细观察场景、发现细节，并按照自己的节奏游玩。\n每个关卡都有不同的场景。认真探索画面，找到隐藏的浣熊，并以自己的步调完成关卡。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Scrub Dudes",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "《Scrub Dudes》带你探索并清理一个由纸板、布料等手工材质构成的世界。没错…就是清理，因为这里有点脏！",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Mega Kaiju Boom Ball",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "Overview\nMega Kaiju Boom Ball is a giant monster-themed break-em-up developed with retro 8-bit constraints in mind. The game mixes the dynamics o",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "X Burger",
-        "genre": [
-          "模拟游戏"
-        ],
-        "style": "欢迎来到 X Burger！这里是镇上最热闹、最快乐的地方。尤其是今天！因为今天是5月28日“世界汉堡日”。顾客们饥肠辘辘，气球已经吹好，庆典仿佛永不落幕。 作为这场欢乐混乱中的一员，你的任务是制作美味的汉堡，搭配酥脆的炸物、蘸酱和冰镇饮料一起上桌。而且，你并不孤单。当你备餐时，还有一位小丑同事在娱",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Birds Watching",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "你是一个原始自然保护区的护林员，与荒野和谐相处。你每天都在观察、记录和保护这些把这里称为家的鸟类。",
         "platforms": [
           "PC"
         ]
@@ -15830,6 +15910,86 @@
         ]
       },
       {
+        "title": "Meow Survivors",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "你将扮演一只名叫喵喵的红猫，置身于充满敌意生物的世界。敌人会分批次发动攻击：起初数量稀少，但随着时间推移，敌群将愈发庞大。生存的唯一希望在于持续移动、消灭敌人、积累经验并强化你的英雄。\n游戏过程中，你将收集经验水晶、提升等级，并选择新技能或强化现有技能。每次通关都是为了延长生存时间、增强实力，并探",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Pulse of the Neon Soul",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "你是霓虹灵魂——从旧世界的残余物中诞生的光的碎片。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Untouchable Ground",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Untucheble Ground — a story-driven action RPG set in a grim wilderness, where ancient laws are stronger than steel or magic, and every step could be y",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "bit//Cycle",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "bit//Cycle 是一款迷宫驱动的类 Roguelite 游戏，在游戏中你需要在不断变化的数字网格中导航，同时你的火花会逐渐消耗。火花既是你的生命值，也是计时器和压力系统。继续前进的唯一方式是到达迷宫中分布的火花节点，或构建一组可叠加的子程序来随着时间恢复火花。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Summer Adventurers: Mediterranean",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "发现美丽和魅力的沿海城市，你搜索巧妙隐藏的物品在丰富的细节场景。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Briefcase",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "认识《Briefcase》！Briefcase 是一款关于库存整理的益智游戏。在特工和雇佣杀手的聚光灯背后，有一份鲜为人知的职业！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Reenchant",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "在《Reenchant》中，你将化身为一位古老的树灵，守护自己的家园，抵御不知疲倦的伐木者。当他们肆意摧毁森林时，你肩负起恢复自然与守护其美丽的使命。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "KAIBIL",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "KAIBIL是一款复古的像素美术RPG，以经典的回合制战斗为特色。探索前殖民玛雅世界，获得新的能力，并克服强大的敌人。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "Bob's Beaker Blobs",
         "genre": [
           "益智游戏"
@@ -15858,76 +16018,6 @@
         "platforms": [
           "PC"
         ]
-      },
-      {
-        "title": "Pulse of the Neon Soul",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "你是霓虹灵魂——从旧世界的残余物中诞生的光的碎片。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "bit//Cycle",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "bit//Cycle 是一款迷宫驱动的类 Roguelite 游戏，在游戏中你需要在不断变化的数字网格中导航，同时你的火花会逐渐消耗。火花既是你的生命值，也是计时器和压力系统。继续前进的唯一方式是到达迷宫中分布的火花节点，或构建一组可叠加的子程序来随着时间恢复火花。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Briefcase",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "认识《Briefcase》！Briefcase 是一款关于库存整理的益智游戏。在特工和雇佣杀手的聚光灯背后，有一份鲜为人知的职业！",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Reenchant",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "在《Reenchant》中，你将化身为一位古老的树灵，守护自己的家园，抵御不知疲倦的伐木者。当他们肆意摧毁森林时，你肩负起恢复自然与守护其美丽的使命。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Summer Adventurers: Mediterranean",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "发现美丽和魅力的沿海城市，你搜索巧妙隐藏的物品在丰富的细节场景。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Untouchable Ground",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "Untucheble Ground — a story-driven action RPG set in a grim wilderness, where ancient laws are stronger than steel or magic, and every step could be y",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "KAIBIL",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "KAIBIL是一款复古的像素美术RPG，以经典的回合制战斗为特色。探索前殖民玛雅世界，获得新的能力，并克服强大的敌人。",
-        "platforms": [
-          "PC"
-        ]
       }
     ]
   },
@@ -15935,26 +16025,6 @@
     "date": "2026-03-09",
     "displayDate": "2026-03-09",
     "games": [
-      {
-        "title": "Can You Escape: The Collection",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "《Can You Escape: The Collection》汇集了23款经典的密室逃脱游戏，最初是在手机平台上发布的，现在可以在Steam上获得一个完整的集合。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Current",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "在《Current》中找到你的心流，这是一款和平的平台游戏，专注于结合流体运动来提升动力。",
-        "platforms": [
-          "PC"
-        ]
-      },
       {
         "title": "DRFT",
         "genre": [
@@ -15971,6 +16041,66 @@
           "动作游戏"
         ],
         "style": "获得XP，升级，并完善你的能力。完成三个阶段的循环，以加强你的巫师，并授权你的敌人在下一次运行。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Current",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在《Current》中找到你的心流，这是一款和平的平台游戏，专注于结合流体运动来提升动力。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Can You Escape: The Collection",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Can You Escape: The Collection》汇集了23款经典的密室逃脱游戏，最初是在手机平台上发布的，现在可以在Steam上获得一个完整的集合。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Ajnabee - The Unknown",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Ajnabee – The Unknown 是一款以叙事为核心的心理恐怖游戏，专注于氛围营造、紧张感以及沉浸式叙事体验。你将扮演 奈娜（Naina），一名过着安静、普通生活的年轻女性——直到某个看不见的存在开始干扰她的现实，她的日常也随之逐渐崩塌。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Astro Fighters 2",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "10年前你们击退了入侵的外星人威胁现在他们重新武装起来准备报复。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Demon With A Candy Crisis",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Demon With A Candy Crisis is a simple and fun third-person platformer where you run through hell to get to the surface to find candy. Speedrun through",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Tree of Knowledge",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "A rogue-lite where instead of battling monsters, you battle trivia questions! On your way to the top you have the chance of discovering various events",
         "platforms": [
           "PC"
         ]
@@ -15996,51 +16126,11 @@
         ]
       },
       {
-        "title": "Astro Fighters 2",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "10年前你们击退了入侵的外星人威胁现在他们重新武装起来准备报复。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Ajnabee - The Unknown",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "Ajnabee – The Unknown 是一款以叙事为核心的心理恐怖游戏，专注于氛围营造、紧张感以及沉浸式叙事体验。你将扮演 奈娜（Naina），一名过着安静、普通生活的年轻女性——直到某个看不见的存在开始干扰她的现实，她的日常也随之逐渐崩塌。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "Life Inc.",
         "genre": [
           "益智游戏"
         ],
         "style": "Life Inc. 将你投入终极金融沙盒，每一个选择都至关重要。你会攀登企业阶梯吗？像房地产大亨一样炒房？从零开始建立商业帝国？",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Demon With A Candy Crisis",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "Demon With A Candy Crisis is a simple and fun third-person platformer where you run through hell to get to the surface to find candy. Speedrun through",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Tree of Knowledge",
-        "genre": [
-          "角色扮演"
-        ],
-        "style": "A rogue-lite where instead of battling monsters, you battle trivia questions! On your way to the top you have the chance of discovering various events",
         "platforms": [
           "PC"
         ]
@@ -16102,6 +16192,16 @@
         ]
       },
       {
+        "title": "深空防线",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "作为指挥官，你需要在有限的空间与资源中，建造并升级各种防御设施，抵御一波又一波的敌潮。动态塔防体验：敌人不会盲目冲锋，它们会侦测、预警并尝试绕过你的防线，你必须不断调整部署来应对。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "Drive Me Broke",
         "genre": [
           "冒险游戏"
@@ -16122,11 +16222,71 @@
         ]
       },
       {
-        "title": "深空防线",
+        "title": "Panic Sell 2",
         "genre": [
-          "策略游戏"
+          "益智游戏"
         ],
-        "style": "作为指挥官，你需要在有限的空间与资源中，建造并升级各种防御设施，抵御一波又一波的敌潮。动态塔防体验：敌人不会盲目冲锋，它们会侦测、预警并尝试绕过你的防线，你必须不断调整部署来应对。",
+        "style": "Panic Sell 2 是交易模拟器的史诗续作，市场疯狂波动，币价跳跃，你的每一个决定都可能将虚拟钱包变成宝藏……或者变空！在这款游戏中，你的座右铭很简单：低买高卖。聪明地操作，谨慎冒险，成为交易传奇！\n\nPanic Sell 2 等着你的精彩内容：\n\n\n  \n  稳定币（Stablecoins）",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "比利利茨",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "进入比利利茨 (Bililitz) 的世界，这是一款垂直的 Roguelike 游戏，背景设定在一个由魔法和秘密塑造的神秘国度。每次通关都将挑战你磨练不断变化的技能，在这里，每一步都难以预测，危险潜伏在每个角落。世界本身随着程序生成的不断变化，确保每一次旅程都独一无二。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Library Simulator",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "在这款图书馆管理模拟游戏中，你将从一个空房间和几本书开始。你的目标是从零开始设计并运营一个功能齐全的图书馆。每一个决定——从布局设计到会员计划——都会影响你的空间如何运作和成长。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Shift 0",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "适合 2–4 名玩家的合作游戏。搬运完全基于物理的物体，完成任务，一层一层往上爬，但别忘了时间有限。你的实习要么以录用结束，要么彻底重置。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Project: AFTERSHOCK",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "你构建了系统。现在摧毁它。\n你是 鲁道夫·莱因哈特·里希特博士，曾被称为“架构师”。你建立了国家的神经网格。政权给你打上叛徒的烙印，把你埋在牢房里让你闭嘴。但昨晚可疑的“地震”震碎了监狱的墙壁。\n现在，你在20年前建造的一个被遗忘的掩体中行动。面前是一台旧式终端。政权正在寻找数字足迹，但他们对你的模",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Project Starblade",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "欢迎来到Fathom实验室，感谢您对我们的“星际之刃”项目的兴趣！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "ECHO OF HUMANITY",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《ECHO OF HUMANITY》是一种关于沉默、记忆和曾经被称为生命的残余的大气恐怖体验。",
         "platforms": [
           "PC"
         ]
@@ -16162,61 +16322,11 @@
         ]
       },
       {
-        "title": "ECHO OF HUMANITY",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "《ECHO OF HUMANITY》是一种关于沉默、记忆和曾经被称为生命的残余的大气恐怖体验。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "Misery Nights",
         "genre": [
           "冒险游戏"
         ],
         "style": "你接受了“尼斯购物中心”的夜班警卫职位，因为谣言而臭名昭著。友好的工作人员显然在他们热情的微笑背后隐藏着邪恶的东西……",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Project: AFTERSHOCK",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "你构建了系统。现在摧毁它。\n你是 鲁道夫·莱因哈特·里希特博士，曾被称为“架构师”。你建立了国家的神经网格。政权给你打上叛徒的烙印，把你埋在牢房里让你闭嘴。但昨晚可疑的“地震”震碎了监狱的墙壁。\n现在，你在20年前建造的一个被遗忘的掩体中行动。面前是一台旧式终端。政权正在寻找数字足迹，但他们对你的模",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Library Simulator",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "在这款图书馆管理模拟游戏中，你将从一个空房间和几本书开始。你的目标是从零开始设计并运营一个功能齐全的图书馆。每一个决定——从布局设计到会员计划——都会影响你的空间如何运作和成长。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "比利利茨",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "进入比利利茨 (Bililitz) 的世界，这是一款垂直的 Roguelike 游戏，背景设定在一个由魔法和秘密塑造的神秘国度。每次通关都将挑战你磨练不断变化的技能，在这里，每一步都难以预测，危险潜伏在每个角落。世界本身随着程序生成的不断变化，确保每一次旅程都独一无二。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Shift 0",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "适合 2–4 名玩家的合作游戏。搬运完全基于物理的物体，完成任务，一层一层往上爬，但别忘了时间有限。你的实习要么以录用结束，要么彻底重置。",
         "platforms": [
           "PC"
         ]
@@ -16278,11 +16388,31 @@
         ]
       },
       {
-        "title": "MEKANION",
+        "title": "Rubber Duck",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Ever had to spend your working hours staring at screen clicking and pretending in order to gain for living? Now you've a Rubber Duck that can make you",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Snack Escort",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "在《Snack Escort》中，你将穿越充满了渴望抢夺你珍贵货物的饥饿生物的神奇土地。每次跑步都会带来新的挑战和惊喜。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Cirno! Lifts a Boulder",
         "genre": [
           "动作游戏"
         ],
-        "style": "你是全球组织\"氏族\"的新特工。氏族的使命是消灭在世界各地出现的地下城中的梅卡尼翁——被机器侵蚀的生命体！\n\n通过在氏族分部学习技能、制作定制装备以及完成各种任务来变得更强大吧！你变得越强大，你将面对的梅卡尼翁就越强大。",
+        "style": "一群调皮的仙女把奇诺困在了她自己的家门外，她们在房子正前方放置了一块巨大的岩石。好在对于奇诺来说，移除这块岩石很简单：她只需要变得更强大就行。\n怎么？当然是通过收集“力量”类物品来实现的！",
         "platforms": [
           "PC"
         ]
@@ -16303,6 +16433,16 @@
           "益智游戏"
         ],
         "style": "一个隐藏对象的神秘游戏。帮助神奇塞尔玛找到丢失的物品，发现重要的线索，并解决谜团。一个迷人的故事和一个有趣的冒险。加上一个自定义模式，无限的隐藏对象水平生成。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "MEKANION",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "你是全球组织\"氏族\"的新特工。氏族的使命是消灭在世界各地出现的地下城中的梅卡尼翁——被机器侵蚀的生命体！\n\n通过在氏族分部学习技能、制作定制装备以及完成各种任务来变得更强大吧！你变得越强大，你将面对的梅卡尼翁就越强大。",
         "platforms": [
           "PC"
         ]
@@ -16399,16 +16539,6 @@
         ]
       },
       {
-        "title": "Ollie and the Merchant of Dreams",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "《Ollie and the Merchant of Dreams》是一款专注于敏捷平台、动态战斗和探索的2D Metroidvania。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "MultiEnding Heroes",
         "genre": [
           "冒险游戏"
@@ -16429,11 +16559,41 @@
         ]
       },
       {
+        "title": "Ollie and the Merchant of Dreams",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Ollie and the Merchant of Dreams》是一款专注于敏捷平台、动态战斗和探索的2D Metroidvania。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "Monster Mine Clash",
         "genre": [
           "益智游戏"
         ],
         "style": "你的瞄准就是你唯一的防御。在怪物浪潮中生存下去，每一次击杀都会让你更强大。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Fig and Totems™",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "每一轮，你需在 30 秒内将你的“菲格图腾”藏好，然后在 2 分钟内找到对方的图腾。获胜者是那个最快找到最多图腾的菲格玩家。你可以选择进行快速的友谊赛，也可以进行锦标赛（共 3 轮）。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Kvarn",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Defeat enemies and bosses, level up and upgrade your gear to survive for as long as possible to climb the leaderboard in this Roguelike RPG survival.",
         "platforms": [
           "PC"
         ]
@@ -16454,26 +16614,6 @@
           "策略游戏"
         ],
         "style": "在《Snack Escort》中，你将穿越充满了渴望抢夺你珍贵货物的饥饿生物的神奇土地。每次跑步都会带来新的挑战和惊喜。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Kvarn",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "Defeat enemies and bosses, level up and upgrade your gear to survive for as long as possible to climb the leaderboard in this Roguelike RPG survival.",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Fig and Totems™",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "每一轮，你需在 30 秒内将你的“菲格图腾”藏好，然后在 2 分钟内找到对方的图腾。获胜者是那个最快找到最多图腾的菲格玩家。你可以选择进行快速的友谊赛，也可以进行锦标赛（共 3 轮）。",
         "platforms": [
           "PC"
         ]
@@ -16578,31 +16718,21 @@
         ]
       },
       {
+        "title": "太空超市模拟器",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "保持货架库存充足且井然有序。设定最优价格，以平衡客户满意度并最大化商店利润。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "Koltera 2",
         "genre": [
           "益智游戏"
         ],
         "style": "Koltera 2 is a relaxed incremental idler about gathering resources, refining them, and summoning creatures to your side to aid you on expeditions and",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Shutter Evidence",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "Shutter Evidence 是一款探索动作体验游戏,你将操控无人机穿越活跃的犯罪现场,通过拍摄证据来揭示秘密。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "境界突破:放置修仙",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "在这片浩瀚的修仙世界中，天地灵气充盈，仙缘无限等待有缘者。你将从炼气期的初入修行开始，踏上从筑基、金丹、元婴到化神的巅峰之路。游戏以轻松挂机为特色，让你在修炼、历练、闯荡仙境的同时，轻松积累经验与资源。",
         "platforms": [
           "PC"
         ]
@@ -16618,11 +16748,11 @@
         ]
       },
       {
-        "title": "No Nap November",
+        "title": "Shutter Evidence",
         "genre": [
-          "冒险游戏"
+          "动作游戏"
         ],
-        "style": "“No Nap November”是一款简短的心理恐怖游戏，背景设定在一个被困在无尽午睡状态之中的幼儿园里。",
+        "style": "Shutter Evidence 是一款探索动作体验游戏,你将操控无人机穿越活跃的犯罪现场,通过拍摄证据来揭示秘密。",
         "platforms": [
           "PC"
         ]
@@ -16638,41 +16768,11 @@
         ]
       },
       {
-        "title": "Marble Tilt",
+        "title": "境界突破:放置修仙",
         "genre": [
           "益智游戏"
         ],
-        "style": "Marble Tilt 是一款轻松的基于物理的解谜游戏，你只需倾斜木板，就能引导一颗弹珠穿过手工制作的木质迷宫。\n每个阶段都是一个小型的机械挑战，奖励精确度、时机和流畅的操作感。\nMarble Tilt 专为 Steam Deck、PC 和 Mac 而打造，具有清晰的木质迷宫设计和自然的运动反馈，在",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Cyber Saber PRO",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "点击鼠标左键来切割，按住它来偏转投射物，并掌握生存的最佳时机。易学，难掌握！",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "IMRY",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "IMRY is an atmospheric isometric RPG set in the 1970s Soviet taiga, where your choices shape a story of survival, identity, and a reality that refuses",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "我是史莱姆",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "在这里，你将进入蓝色史莱姆的记忆世界，解开谜题，探索未知。\n三个章节，每个章节十五个关卡，分别是《小学》、《中学》、《大学》，章节结尾可解锁相关成就。\n翻阅日记，可查看蓝色史莱姆记忆中的点点滴滴...\n不要碰到“坏情绪”，学会和它和平相处。",
+        "style": "在这片浩瀚的修仙世界中，天地灵气充盈，仙缘无限等待有缘者。你将从炼气期的初入修行开始，踏上从筑基、金丹、元婴到化神的巅峰之路。游戏以轻松挂机为特色，让你在修炼、历练、闯荡仙境的同时，轻松积累经验与资源。",
         "platforms": [
           "PC"
         ]
@@ -16688,11 +16788,61 @@
         ]
       },
       {
+        "title": "我是史莱姆",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "在这里，你将进入蓝色史莱姆的记忆世界，解开谜题，探索未知。\n三个章节，每个章节十五个关卡，分别是《小学》、《中学》、《大学》，章节结尾可解锁相关成就。\n翻阅日记，可查看蓝色史莱姆记忆中的点点滴滴...\n不要碰到“坏情绪”，学会和它和平相处。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "IMRY",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "IMRY is an atmospheric isometric RPG set in the 1970s Soviet taiga, where your choices shape a story of survival, identity, and a reality that refuses",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "Next Patient",
         "genre": [
           "益智游戏"
         ],
         "style": "you are assigned the task of reviewing documents and distributing medication at a hospital distribution desk. \nThroughout the day, patients will come",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Cyber Saber PRO",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "点击鼠标左键来切割，按住它来偏转投射物，并掌握生存的最佳时机。易学，难掌握！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "No Nap November",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "“No Nap November”是一款简短的心理恐怖游戏，背景设定在一个被困在无尽午睡状态之中的幼儿园里。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Marble Tilt",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Marble Tilt 是一款轻松的基于物理的解谜游戏，你只需倾斜木板，就能引导一颗弹珠穿过手工制作的木质迷宫。\n每个阶段都是一个小型的机械挑战，奖励精确度、时机和流畅的操作感。\nMarble Tilt 专为 Steam Deck、PC 和 Mac 而打造，具有清晰的木质迷宫设计和自然的运动反馈，在",
         "platforms": [
           "PC"
         ]
@@ -16724,26 +16874,6 @@
         ]
       },
       {
-        "title": "INSANIO",
-        "genre": [
-          "模拟游戏"
-        ],
-        "style": "准备你的空投小队交换武器，车辆和飞行员，你的喜好。选择一个任务并在地图上选择您的部署区域。从那一刻起，就不再插手了。你只能看着你的部队努力完成他们的任务。每个飞行员都有自己的特点影响他们的行为。虽然丢失的装备可以从战场上找回，但牺牲的飞行员却永远失去了。所以如果你想赢，就好好照顾他们。新装备将奖励成",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Everfall 2: Idle Dungeon RPG",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "《Everfall 2: Idle Dungeon RPG》带给你最大的多巴胺！试试2026年最有趣的游戏吧！",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "Stellar Drift",
         "genre": [
           "动作游戏"
@@ -16754,11 +16884,21 @@
         ]
       },
       {
-        "title": "Toilet Paper Idle",
+        "title": "Where Are We Floating?",
         "genre": [
-          "益智游戏"
+          "动作游戏"
         ],
-        "style": "《Toilet Paper Idle》是一款非严肃性质的渐进式闲置点击游戏，在这个游戏中，艰难时期的最关键资源成为了唯一的财富来源。",
+        "style": "扬帆寻宝\n您和您的朋友们驾驶船只，航行在波涛汹涌的“邦克海”上，追逐着传说中的宝藏。\n通过拜访不同的岛屿并收集线索，您将逐渐揭开宝藏所在岛屿的神秘面纱。\n在邦克海中生存\n邦克海的波涛对船长们来说并不友善。\n为了继续航行，您需要不断发现新岛屿，稍作休息，并补充物资。\n椰子、螃蟹和Boing Herb是",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Topobeam",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "Topobeam是一款关于在不同二维流形中重定向激光的益智游戏。",
         "platforms": [
           "PC"
         ]
@@ -16774,11 +16914,31 @@
         ]
       },
       {
-        "title": "Where Are We Floating?",
+        "title": "Toilet Paper Idle",
         "genre": [
-          "动作游戏"
+          "益智游戏"
         ],
-        "style": "扬帆寻宝\n您和您的朋友们驾驶船只，航行在波涛汹涌的“邦克海”上，追逐着传说中的宝藏。\n通过拜访不同的岛屿并收集线索，您将逐渐揭开宝藏所在岛屿的神秘面纱。\n在邦克海中生存\n邦克海的波涛对船长们来说并不友善。\n为了继续航行，您需要不断发现新岛屿，稍作休息，并补充物资。\n椰子、螃蟹和Boing Herb是",
+        "style": "《Toilet Paper Idle》是一款非严肃性质的渐进式闲置点击游戏，在这个游戏中，艰难时期的最关键资源成为了唯一的财富来源。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "INSANIO",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "准备你的空投小队交换武器，车辆和飞行员，你的喜好。选择一个任务并在地图上选择您的部署区域。从那一刻起，就不再插手了。你只能看着你的部队努力完成他们的任务。每个飞行员都有自己的特点影响他们的行为。虽然丢失的装备可以从战场上找回，但牺牲的飞行员却永远失去了。所以如果你想赢，就好好照顾他们。新装备将奖励成",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Everfall 2: Idle Dungeon RPG",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《Everfall 2: Idle Dungeon RPG》带给你最大的多巴胺！试试2026年最有趣的游戏吧！",
         "platforms": [
           "PC"
         ]
@@ -16846,6 +17006,16 @@
         ]
       },
       {
+        "title": "WIZARD PUNKS!!!",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "WIZARD PUNKS!!!是一款快节奏的4人本地派对游戏，灵感来自于2010年代早期的经典沙发派对游戏。一个独特的系统，结合元素来制作咒语，空气，土，火和水的力量是你的控制和混合。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "Pogo Together",
         "genre": [
           "益智游戏"
@@ -16856,11 +17026,21 @@
         ]
       },
       {
-        "title": "WIZARD PUNKS!!!",
+        "title": "Castles & Castellans",
         "genre": [
           "动作游戏"
         ],
-        "style": "WIZARD PUNKS!!!是一款快节奏的4人本地派对游戏，灵感来自于2010年代早期的经典沙发派对游戏。一个独特的系统，结合元素来制作咒语，空气，土，火和水的力量是你的控制和混合。",
+        "style": "《Castles & Castellans》融合了两种类型：即时策略和第三人称动作。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Thunder and Line-ing",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在网格上移动闪电。\n当一道闪电落地时，另一道闪电会落下。\n当闪电形成一行时，就会响起雷鸣。\n玩法\n将闪电逐行移动到下一行。\n当一行被填满时，它会消失，其上方的所有闪电都会落下。\n消除一行会增加你的分数。\n消除一行 10 次会增加你的等级。\n随着等级的提升，游戏速度会加快，消除一行获得的分数也会更高。",
         "platforms": [
           "PC"
         ]
@@ -16881,26 +17061,6 @@
           "动作游戏"
         ],
         "style": "3 way runner - shooter is a fast-paced arcade shooter where every run is a risky raid. Fight your way through narrow corridors and open areas, clear a",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Thunder and Line-ing",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "在网格上移动闪电。\n当一道闪电落地时，另一道闪电会落下。\n当闪电形成一行时，就会响起雷鸣。\n玩法\n将闪电逐行移动到下一行。\n当一行被填满时，它会消失，其上方的所有闪电都会落下。\n消除一行会增加你的分数。\n消除一行 10 次会增加你的等级。\n随着等级的提升，游戏速度会加快，消除一行获得的分数也会更高。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Castles & Castellans",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "《Castles & Castellans》融合了两种类型：即时策略和第三人称动作。",
         "platforms": [
           "PC"
         ]
@@ -16942,6 +17102,16 @@
         ]
       },
       {
+        "title": "Wizard 64",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "SURVIVE THE ARCANE SKY\nWizard 64 is a 3D action roguelike where you fly a magic vessel against thousands of enemies. Move in any direction, dodge proj",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "what did the chicken see",
         "genre": [
           "冒险游戏"
@@ -16957,16 +17127,6 @@
           "冒险游戏"
         ],
         "style": "在封闭的网络中苏醒，置身于由沉默数据与算法构筑的地下牢笼。信息碎片在其表层下跳动，等待被发掘与解读。\n每个角落隐藏着规律，每次遭遇都承载着逻辑的痕迹。前进的尺度不在于步数，而在于理解的深度。失败是常态；重建是程序。\n无对话无声响，唯有损坏电路的嗡鸣。你的道路由观察与解密定义。某些发现开启新径，某些则",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Wizard 64",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "SURVIVE THE ARCANE SKY\nWizard 64 is a 3D action roguelike where you fly a magic vessel against thousands of enemies. Move in any direction, dodge proj",
         "platforms": [
           "PC"
         ]
@@ -17028,11 +17188,11 @@
         ]
       },
       {
-        "title": "Bearly Flying",
+        "title": "Fallen Dominion",
         "genre": [
           "动作游戏"
         ],
-        "style": "在废弃的工厂中飞行。突破障碍，解开谜题，避免被压扁。",
+        "style": "BUILD. ADAPT. CONQUER.\nStep into a vibrant 3D world where strategy reigns supreme. In this PvE Auto Battler, you are the commander of a growing army",
         "platforms": [
           "PC"
         ]
@@ -17043,6 +17203,16 @@
           "动作游戏"
         ],
         "style": "Hold on to your feathers. This goose is your brother from another mother and you must protect him at ALL COSTS. Seriously. Don't let them touch the go",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Bearly Flying",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在废弃的工厂中飞行。突破障碍，解开谜题，避免被压扁。",
         "platforms": [
           "PC"
         ]
@@ -17104,11 +17274,31 @@
         ]
       },
       {
-        "title": "RoadHouse Manager",
+        "title": "Echoes of Fire",
         "genre": [
           "冒险游戏"
         ],
-        "style": "在这个古怪的游戏里，你要当酒保并用拳头为路边酒吧而战！让名人客人对你的华丽动作印象深刻，他们会成为常客，也可以被雇佣为员工、派去执行任务、或者玩骰子游戏来赢得上架的高档酒。解锁超过 120 首歌曲！给人工智能评论家留下深刻印象，创造你自己独特的招牌鸡尾酒！",
+        "style": "《Echoes of Fire》是一款激烈的单人生存游戏，背景设定在冰冷的荒野中，温暖是你唯一的生命线。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Andromis",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Andromis》是一款第三人称动作冒险游戏，讲述在一个由机器控制的城市中求生的故事。玩家将扮演两位故事相互交织的角色，可以随时切换控制，驾驶汽车和坦克，并在激烈的城市战场中与致命的机器人展开殊死搏斗。游戏包含庞大的故事剧情，充满各种任务、救援行动和激烈的战斗。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Mimikaki Collect",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "一个可爱的和令人振奋的2D耳朵清洁模拟游戏。清除“耳朵碎片”来赚钱，用它来定制你自己的房间！",
         "platforms": [
           "PC"
         ]
@@ -17134,31 +17324,11 @@
         ]
       },
       {
-        "title": "Mimikaki Collect",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "一个可爱的和令人振奋的2D耳朵清洁模拟游戏。清除“耳朵碎片”来赚钱，用它来定制你自己的房间！",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Echoes of Fire",
+        "title": "RoadHouse Manager",
         "genre": [
           "冒险游戏"
         ],
-        "style": "《Echoes of Fire》是一款激烈的单人生存游戏，背景设定在冰冷的荒野中，温暖是你唯一的生命线。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Andromis",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "《Andromis》是一款第三人称动作冒险游戏，讲述在一个由机器控制的城市中求生的故事。玩家将扮演两位故事相互交织的角色，可以随时切换控制，驾驶汽车和坦克，并在激烈的城市战场中与致命的机器人展开殊死搏斗。游戏包含庞大的故事剧情，充满各种任务、救援行动和激烈的战斗。",
+        "style": "在这个古怪的游戏里，你要当酒保并用拳头为路边酒吧而战！让名人客人对你的华丽动作印象深刻，他们会成为常客，也可以被雇佣为员工、派去执行任务、或者玩骰子游戏来赢得上架的高档酒。解锁超过 120 首歌曲！给人工智能评论家留下深刻印象，创造你自己独特的招牌鸡尾酒！",
         "platforms": [
           "PC"
         ]
@@ -17240,11 +17410,11 @@
         ]
       },
       {
-        "title": "Hatters",
+        "title": "Midnight Road",
         "genre": [
-          "动作游戏"
+          "冒险游戏"
         ],
-        "style": "Hatters 是一款合作动作类 roguelike 弹幕地狱游戏，魔法从四面八方飞舞，笑声与爆炸一样频繁。这是一段轻松幽默的奇幻冒险，最多可供四名玩家一起游玩，你将戴上古怪魔法师的帽子，直接投入疯狂的魔法混乱之中。每一场战斗都不可预测，因为法术是随机掉落的，迫使你即兴应对，使每场战斗都独特、混乱而",
+        "style": "你有没有梦想过在炎热的周六晚上进行一次公路旅行？这是你的机会。关掉灯，打开耳机，沉浸在充满神秘和恐怖的旅程中。",
         "platforms": [
           "PC"
         ]
@@ -17260,21 +17430,21 @@
         ]
       },
       {
-        "title": "Midnight Road",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "你有没有梦想过在炎热的周六晚上进行一次公路旅行？这是你的机会。关掉灯，打开耳机，沉浸在充满神秘和恐怖的旅程中。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "BLOODFALL: The First Temple",
         "genre": [
           "动作游戏"
         ],
         "style": "Setting\nEnter a forgotten age buried in myth and blood, older than history itself - where gods demanded sacrifice in exchange for divine favor. Welco",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Hatters",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Hatters 是一款合作动作类 roguelike 弹幕地狱游戏，魔法从四面八方飞舞，笑声与爆炸一样频繁。这是一段轻松幽默的奇幻冒险，最多可供四名玩家一起游玩，你将戴上古怪魔法师的帽子，直接投入疯狂的魔法混乱之中。每一场战斗都不可预测，因为法术是随机掉落的，迫使你即兴应对，使每场战斗都独特、混乱而",
         "platforms": [
           "PC"
         ]
@@ -17338,11 +17508,11 @@
     "displayDate": "2026-03-24",
     "games": [
       {
-        "title": "To  be a millionaire",
+        "title": "Stickman Physics Battle Arena",
         "genre": [
-          "益智游戏"
+          "动作游戏"
         ],
-        "style": "普通人也可以成为百万富翁，在游戏里，你可以先通过运输苹果赚钱，等赚到一定量的钱以后，你可以拥有自己的一家烤肉店，从此，成为百万富翁不是梦。",
+        "style": "在Stickman Physics Battle Arena中，你必须杀死无数的敌人来增加你的属性，成为最伟大的战士！",
         "platforms": [
           "PC"
         ]
@@ -17358,21 +17528,21 @@
         ]
       },
       {
-        "title": "Stickman Physics Battle Arena",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "在Stickman Physics Battle Arena中，你必须杀死无数的敌人来增加你的属性，成为最伟大的战士！",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "The Laurencia",
         "genre": [
           "冒险游戏"
         ],
         "style": "The Laurencia是一款以甜点世界、dvd为背景的单人冒险游戏。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "To  be a millionaire",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "普通人也可以成为百万富翁，在游戏里，你可以先通过运输苹果赚钱，等赚到一定量的钱以后，你可以拥有自己的一家烤肉店，从此，成为百万富翁不是梦。",
         "platforms": [
           "PC"
         ]
@@ -17427,6 +17597,16 @@
           "模拟游戏"
         ],
         "style": "当曾经盛极一时的罗马帝国跌落神坛，陷入衰败，你将领导一小批市民搜寻新地域，期望建立全新的罗马之城，打造一座承载帝国昔日所有美好的堡垒。你必须从一座凋敝的村庄开始，通过建造宏伟的神殿取悦诸神，满足市民需求，建立一个千年后都会令世界艳羡的社会。\n\n\n\n明智的城市规划者知道该如何利用周围的环境。你可以兴修",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "永恒围城：无尽纪元",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "在《永恒围城：无尽纪元》这款“以英雄为核心”的策略Roguelite游戏中，你的目标不是苟活于围困之下，而是终结围困本身。融合强大的军械与元素精华，释放毁灭性的力量，并召集精锐军团，击败邪恶主宰的大军。",
         "platforms": [
           "PC"
         ]
@@ -17492,6 +17672,46 @@
         ]
       },
       {
+        "title": "Mushi",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Mushi is a feature-packed incremental idle game. From the creators of Tower Walker this is a successor to improving the Auto-RPG formula and stepping",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Isekai Mage Girl Gacha Pull Simulator...",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "A brand-new sequel is here from the creator of “Schoolgirl Card Pull Simulator,” which sold 1,000 copies in just two days!\nEarn → Pull → Duplicate →",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Reconquista",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "这是一款快节奏的地下城突突射击游戏，专注于速度、侵略性和持续移动。\n你手持右手之剑和左手之毁灭魔法，在基于走廊的地下城中战斗。战斗是近距离的，无情的，旨在让你时刻保持前进。没有体力系统，没有缓慢的节奏，也无需等待“完美时机”。如果你停下，你就会死亡。\n每次游玩都在基于种子的生成地下城布局中进行，为每",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Neopets™：超级迷你游戏合集",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "26 款经典游戏带您回到 Neopia，为新老粉丝重现昔日风采！\n《Neopets™：超级迷你游戏合集》是一款精心重制的合集，汇集了 Neopets 黄金时代粉丝最喜爱的 26 款迷你游戏！从在《Hasee Bounce》中收集甜甜圈水果，在《Kass Basher》中发射 Kass，到在《Meer",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
         "title": "Wer war's?",
         "genre": [
           "益智游戏"
@@ -17517,46 +17737,6 @@
           "益智游戏"
         ],
         "style": "沉浸在一个温暖舒适的世界里，时间在此放缓，匹配麻将牌是您唯一需要考虑的事情。游戏拥有无尽的放松氛围和令人愉悦的美学设计，是您放松身心、集中注意力和找到自己节奏的完美选择。 无论您有五分钟或一个小时，戴上耳机，沉浸在麻将的轻柔节奏中，伴随着原创、平静的lofi背景音乐。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Neopets™：超级迷你游戏合集",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "26 款经典游戏带您回到 Neopia，为新老粉丝重现昔日风采！\n《Neopets™：超级迷你游戏合集》是一款精心重制的合集，汇集了 Neopets 黄金时代粉丝最喜爱的 26 款迷你游戏！从在《Hasee Bounce》中收集甜甜圈水果，在《Kass Basher》中发射 Kass，到在《Meer",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Reconquista",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "这是一款快节奏的地下城突突射击游戏，专注于速度、侵略性和持续移动。\n你手持右手之剑和左手之毁灭魔法，在基于走廊的地下城中战斗。战斗是近距离的，无情的，旨在让你时刻保持前进。没有体力系统，没有缓慢的节奏，也无需等待“完美时机”。如果你停下，你就会死亡。\n每次游玩都在基于种子的生成地下城布局中进行，为每",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Mushi",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "Mushi is a feature-packed incremental idle game. From the creators of Tower Walker this is a successor to improving the Auto-RPG formula and stepping",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Isekai Mage Girl Gacha Pull Simulator...",
-        "genre": [
-          "益智游戏"
-        ],
-        "style": "A brand-new sequel is here from the creator of “Schoolgirl Card Pull Simulator,” which sold 1,000 copies in just two days!\nEarn → Pull → Duplicate →",
         "platforms": [
           "PC"
         ]
@@ -17645,41 +17825,11 @@
         ]
       },
       {
-        "title": "Michael Test",
-        "genre": [
-          "冒险游戏"
-        ],
-        "style": "寻找隐藏的声音，组合视觉线索，锁定画中人物所犯下的七宗罪，并对其作出审判。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Afterdepth",
+        "title": "Beatcore",
         "genre": [
           "动作游戏"
         ],
-        "style": "地表已经灭亡。\n有毒的尘埃占据了空气，人类残存者只能躲入厚重的岩层深处。\n你是 D. Kellan，研究中心08的维修工程师，被派往更深的地下，维持最后的避难所运转……并查明 09号地堡 的真正命运。\n每一次下潜都是危险的。\n你挖开的每一米都会暴露出随时可能坍塌的洞穴、被遗弃的结构和奇异的地质现象。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Alastrius",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "Launch your heavily armed Star-Fighter into devastating battles across the galaxy in an intense on-the-rails space shooter.  Take the role of a s",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Melody Friends",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "把喜欢的歌拖拽进来 — 立刻就能玩！ 不需要复杂设置：拖拽一次，多种难度自动完成！",
+        "style": "A simple rhythm game where you hit beats as they come down the lanes. Level editor included.\nKey features\n🎵  32 surprisingly groovy royalty free",
         "platforms": [
           "PC"
         ]
@@ -17695,21 +17845,11 @@
         ]
       },
       {
-        "title": "Brighter Days",
+        "title": "Melody Friends",
         "genre": [
           "动作游戏"
         ],
-        "style": "探索伤痕累累的土地，一个手工制作的开放世界，充满了探索和发现的东西。通过解锁特定区域来穿越景观，在每个角落都有一个新的有趣的有用的物品。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Beatcore",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "A simple rhythm game where you hit beats as they come down the lanes. Level editor included.\nKey features\n🎵  32 surprisingly groovy royalty free",
+        "style": "把喜欢的歌拖拽进来 — 立刻就能玩！ 不需要复杂设置：拖拽一次，多种难度自动完成！",
         "platforms": [
           "PC"
         ]
@@ -17720,6 +17860,46 @@
           "动作游戏"
         ],
         "style": "电脑沉默了很长一段时间。\n直到有一天，女孩回来了，打开电脑……并开始删除文件。\n对一直快乐完成任务的 特拉希宾 和 雷莫文 来说，这一次的感觉却完全不同。\n在那些被删除的文件之间，他们仿佛听到了哭泣声。\n他们并不真正明白发生了什么。\n他们只知道：女孩很难过，而且让他们删除越来越多的东西。\n也许，看起",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Brighter Days",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "探索伤痕累累的土地，一个手工制作的开放世界，充满了探索和发现的东西。通过解锁特定区域来穿越景观，在每个角落都有一个新的有趣的有用的物品。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Afterdepth",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "地表已经灭亡。\n有毒的尘埃占据了空气，人类残存者只能躲入厚重的岩层深处。\n你是 D. Kellan，研究中心08的维修工程师，被派往更深的地下，维持最后的避难所运转……并查明 09号地堡 的真正命运。\n每一次下潜都是危险的。\n你挖开的每一米都会暴露出随时可能坍塌的洞穴、被遗弃的结构和奇异的地质现象。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Michael Test",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "寻找隐藏的声音，组合视觉线索，锁定画中人物所犯下的七宗罪，并对其作出审判。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Alastrius",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Launch your heavily armed Star-Fighter into devastating battles across the galaxy in an intense on-the-rails space shooter.  Take the role of a s",
         "platforms": [
           "PC"
         ]
@@ -17781,21 +17961,21 @@
         ]
       },
       {
-        "title": "Farol del Diablo (Devil's Lantern)",
-        "genre": [
-          "动作游戏"
-        ],
-        "style": "Farol del Diablo (Devil’s Lantern) is a horror game set in Loma Quebrada, an Argentinian town shrouded in darkness and folklore. Equipped with a flash",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
         "title": "Meat Outdoors",
         "genre": [
           "益智游戏"
         ],
         "style": "Meat Outdoors is a game about making grilled meat outside in open air. you can upgrade and recruit a variety of help to collect cooked meat.",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Farol del Diablo (Devil's Lantern)",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Farol del Diablo (Devil’s Lantern) is a horror game set in Loma Quebrada, an Argentinian town shrouded in darkness and folklore. Equipped with a flash",
         "platforms": [
           "PC"
         ]
@@ -17812,16 +17992,6 @@
           "动作游戏"
         ],
         "style": "《灰烬之国》是一款极致爽快的Rogue-lite动作游戏！自由组合一切你可以看到的东西，技能，连招，被动，装备，创造你独特的战斗风格。黑暗笼罩大地，废墟之中仍有微光闪烁。",
-        "platforms": [
-          "PC"
-        ]
-      },
-      {
-        "title": "Exodus Core",
-        "genre": [
-          "角色扮演"
-        ],
-        "style": "Exodus Core 是一款回合制战术角色扮演游戏，你将指挥一支精英机甲小队，在抵御外星侵略的战斗中扮演关键角色。",
         "platforms": [
           "PC"
         ]
@@ -17865,6 +18035,16 @@
         "platforms": [
           "PC"
         ]
+      },
+      {
+        "title": "Exodus Core",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "Exodus Core 是一款回合制战术角色扮演游戏，你将指挥一支精英机甲小队，在抵御外星侵略的战斗中扮演关键角色。",
+        "platforms": [
+          "PC"
+        ]
       }
     ]
   },
@@ -17872,6 +18052,26 @@
     "date": "2026-03-31",
     "displayDate": "2026-03-31",
     "games": [
+      {
+        "title": "Hand Meat Walker",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "这是一款策略驱动的FPS游戏，你可以在其中解决谜题，探索广阔而狭窄的区域，并与机器人同伴一起消灭恶意生物。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Augmented Fear",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Augmented Fear》是一款恐怖解谜游戏，背景设定在一个黑暗而压抑的赛博朋克世界。",
+        "platforms": [
+          "PC"
+        ]
+      },
       {
         "title": "Veg Uprising",
         "genre": [
@@ -17888,6 +18088,3373 @@
           "动作游戏"
         ],
         "style": "《Fuel Me Up》是一款疯狂的roguelike射击游戏，玩家为了生存而战斗，而飞船的油箱却在不停地泄漏。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "displayDate": "2026-04-01",
+    "games": [
+      {
+        "title": "烹饪模拟器2",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "《烹饪模拟器2》回归啦——游戏更大，更精良，还可以选择多人模式！创造属于你的食谱，借助全新升级的操作方式，成为市里最好的餐厅吧！你也可以只享受下厨房的乐趣，跟随自己的节奏制作菜肴。你才是这间餐厅的主厨！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "诺亚模拟器",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "世界即将毁灭。带着上帝赋予的使命，你成为人类最后的希望——诺亚。\nNoah Simulator（诺亚模拟器） 将玩家带入一个横跨7个古代文明的史诗旅程中。\n建造方舟，收集稀有动物，完成文明之间的任务，在大洪水到来之前与时间赛跑！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Occulto",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Occulto》是一款以幻想世界为背景的独立点击式艺术冒险游戏。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "大地狱：关东大地震1923",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "作为地狱总管，你的任务不仅是建造一座城市，更是要在罪恶主宰的领域中，将混乱化为秩序。在这里，每一个决定，每一个灵魂，都至关重要。\n\n在这款城市建造游戏中，你将在这废墟上打造一座亡者之城，平衡有限资源，并控制来到狱界的灵魂们。面对源自七宗罪的挑战，与被坠入狱界并成为这领域的守卫，坠狱兽对峙。每个任务都",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Nothing Beyond This Point",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Fight an army of corrupted souls in highly dynamic combat with a unique health system.\nNavigate a pitch black world using waypoints, wisdom, and blind",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "黑罗汉：悟净",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "玩家通过投掷骰子来决定自己的前进步数，玩家可以在空地花费资金来建造商店或其他建筑。在商店中可以购买装备来增强玩家属性，或是购买药品恢复己方单位状态等。当玩家遭遇敌人时会进入回合制战斗。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Veil : Black Blood",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Veil : Black Blood》是围绕着一个深层次的、动态的魔法系统而创造的，这个系统抛弃了传统的属性和技能点，而倾向于真正的发现。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Test Cricket Manager",
+        "genre": [
+          "体育游戏"
+        ],
+        "style": "这是一款板球管理游戏，你可以控制一个国家板球队的决定。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "推箱子3D",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "这是一款益智游戏，将箱子全部推动到指定位置即可完成游戏，操作很简单，但是却需要动脑。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Infinite Hole Sim Remix",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "无限洞模拟器是一个千载难逢的体验，掉进一个洞，并继续永远下降！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Five Letters Only",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "A fun and competitive, single-player word puzzle where every submitted word must be exactly five letters long. Top the leader boards across Infinity,",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Storytime Cats - A Twilight Tale",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "跳入一场迷人的故事书冒险，找到所有你那顽皮的猫咪朋友！\n超过600只隐藏的猫咪！\n隐藏的金枪鱼罐头！\n手绘插图！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Waddle Words",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "“Waddle Words”是一款可供 1 至 4 人玩的单词游戏。将语言的乐趣与鹅的神秘魅力相结合——因为鹅能让每一局游戏都变得更加精彩！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "童话塔防:英雄",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "这是一款3D肉鸽塔防游戏，通过合理利用资源建造炮塔，并与英雄配合共同阻击敌人的进攻。\n\n所有有炮塔都可以通过游戏内的资源升级，通关成功后可获得的星星，它既是成就也是可用于升级英雄的资源。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Matchward",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Tower defense empowered by match 3 puzzle strategy. Your towers are weak and dying. Summon gem-weaving magics to keep them alive and fighting! Level u",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "displayDate": "2026-04-02",
+    "games": [
+      {
+        "title": "我是耶稣",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在《我是耶稣》这款沉浸式第一人称叙事游戏中，追随耶稣的脚步，从降生到复活。施行神迹奇事，结识圣经人物，探索圣地。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Red Rust",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Red Rust》是一款由 ArtSource Digital 制作并发行的科幻类动作游戏，控制特工Red，前往西方执行秘密任务。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "ROGOLF",
+        "genre": [
+          "体育"
+        ],
+        "style": "ROGOLF 是一款即将发布的 Rogue-lite 游戏。畅玩迷你高尔夫，购买装备，并根据收集的金币和剩余击球次数赚取积分。你必须积累并获得所需的积分才能通过每个门，到达顶峰！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "命运架构师",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "《命运架构师》(Fate Architect) 是一款 Roguelike 卡牌构筑游戏。你并非只是拉动摇杆，而是亲自构建这台机器。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Peckers",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "继续在无尽的泥土中啄食，发现新的地下生物群落。每一层都会带来新的材料、奇怪的角色和奇怪的惊喜。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Records of Westarea War",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "在某个让人想起地球痕迹的世界里，韦斯特利亚大陆的人民从昔日的大混乱中形成了如今的诸国，并建立了稳定的秩序。\n世界似乎已经忘记了战争，“寂静的时代”看似将永远持续下去。\n然而，各国的统治逐渐出现了扭曲，最终以极东王国的政变为形式，再次回到了久违的战争时代。\n枪炮、剑与魔法、历史与技术、蒙上灰尘的",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "displayDate": "2026-04-03",
+    "games": [
+      {
+        "title": "魔法王国",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "全局采用即时战略游戏方式，带来紧张刺激的战斗",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "糖果大盗",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《糖果大盗》(Candy Bandits) 是一款激动人心的3D俯视角多人派对游戏，守护者与盗贼在混乱的团队对决中一较高下！装备上被动与主动技能的组合，从行动箱中收集强力的一次性行动卡，并与队友制定策略，智胜对手。\n你的目标是什么？收集30颗糖果以确保胜利，或者通过捉住敌方队伍来阻止他们——团队合",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Pigeon Hunter",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "步入一个美丽的插图世界鸽子猎人，一个宁静的隐藏对象游戏。每个房间都是手绘艺术品，充满了精心放置的物品，作为玩家，你必须找到这些物品才能完成关卡。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Sanctum Ruins",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Descend into the depths of a living dungeon in this strategic roguelike deck-builder.\nOVERVIEW\nSanctum Ruins challenges you to build the perfect deck,",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Grimoria",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "Grimoria 是一款以卡牌为核心的战略奇幻类 Roguelike 冒险。\n指挥一副由传奇英雄组成的卡组，在愈发艰难的战斗中对抗潜伏在黑暗中的怪物。\n• 每位英雄都拥有独一无二的技能，等待你灵活运用。\n• 谈判获取契约、附魔与法术，它们将在每一场战斗中为你提供支援。\n• 挑战强大的首领，他们都拥有",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-04",
+    "displayDate": "2026-04-04",
+    "games": [
+      {
+        "title": "SpaceSlog",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "建造你的飞船，管理你的船员，同时保障船员的生存，让飞船马力全开，去探索宇宙。游戏中事件驱动型的AI和飞船模拟系统将确保游戏的挑战性，你的每局游戏都会产生不同的故事。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Dangerous Mountain Together",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "你和你的朋友被拴在崎岖的山路上。绳子是你的生命线，把队友从坠落中拉回来，在攀登中锚定。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Yummimons",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Yummimons 是一款悬浮游戏，居住在你屏幕的角落——不干扰你的日常生活。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "种子之神",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《种子之神》（SeedGod）是一款以 1990 年的扫雷游戏为蓝本的 立即死亡 卡牌建造游戏，在游戏中，你必须在有虫子的田地里有策略地种植植物，不种植是不行的。\n\n虫子在哪里？\n\n用数字来指导你在哪里种植，在哪里不种植，如果有数字 1，我就不会在它周围种植。\n\n虫子可能具有攻击性。\n\n当你无意",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Triste",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "并非所有噩梦都令人害怕。有些只是不断重演，悄无声息，缓缓而来，就像一场永无止境的惩罚……你被困在特里斯特的世界里，每一回合都决定着你的命运。棋盘在变，敌人潜伏，畸形怪物从不可能的阴影中注视着你。在混沌中开辟道路的，只有你的卡牌、智慧与本能。在这个似乎永不终止的循环中。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-06",
+    "displayDate": "2026-04-06",
+    "games": [
+      {
+        "title": "BACKROOMS ANOMALY",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "你被困在一个循环的办公走廊中。\n\n不要忽视任何异常现象。\n如果你发现异常，跑回入口处。\n如果没有发现异常，从出口逃生。\n\n只有连续10次正确预测才能让你逃脱。\n\n\n\n\n《Backrooms异常》是一款考验你感知力和观察力的心理恐怖游戏。游戏场景设在传说中的Backrooms中一条无尽的办公走廊，四周",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "蜘蛛猴",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《蜘蛛猴》是一款基于物理的动作类 Roguelike 游戏。\n每一次移动都由真实物理驱动，每一个失误都会被无限放大，而每一次成功，都会让你觉得——这把是我自己打出来的。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "8AM: The Subway",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《8AM: The Subway》将玩家禁锢在一个安静的地铁站中，而这早已是终点站。隧道里呼吸着寒冷的空气，荧光灯微弱地闪烁着，轨道上有节奏的嗡嗡声渐渐变成了静止。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "StoryMode",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "StoryMode是一款高度可定制的多格式漫画和电子书阅读器，融合放置/增量游戏玩法与成长系统。将文件上传到Library，开始你的故事！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-07",
+    "displayDate": "2026-04-07",
+    "games": [
+      {
+        "title": "Vampire Hunter: Nightrise",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "吸血鬼的城堡隐约出现在地平线上——一个许多猎人已经进入的地方……没有人回来。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Mega Trons Survivors",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "霓虹双摇杆 • 弹幕地狱 Roguelike\n变得极度强大，彻底抹除 Mega Trons。\nMega Trons Survivors 将你投入一个《创》风格的霓虹网格世界，无尽的敌群持续生成。叠加彻底失衡的升级效果，消灭成千上万的机器人军团，在战斗中即时升级，并在每个发光竞技场完成支线目标，深入推",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "The Chosen Duck",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Explore the depths of the universe... there it is, a world with such.. strange creatures. Wait, those are... ducks?\n\nQUACK!\nIn a world inhabited only",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "displayDate": "2026-04-08",
+    "games": [
+      {
+        "title": "Hillshade Farm",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "你继承了一片安静的土地和一座破旧的农场。起初它并不起眼，但它属于你。这里有很多需要修复的地方，很多需要建造的东西，还有更多需要你去摸索的事情。按照自己的节奏生活，设定属于你的目标，创造真正有意义的成果。一天、一次选择、一个目标。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Signal Zone",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "在探索、建造和防御之间合理分配时间，管理稀缺资源，并调整策略以应对不可预测的敌人进攻。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "LISTEN 3",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《LISTEN 3》是一款生物赛博朋克恐怖游戏，讲述了一个盲人测试对象的故事，他听到的比看到的多。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "维滕格勒已不复存在",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《维滕格勒已不复存在》是一款带有恐怖元素的超现实叙事步行模拟游戏。城市中浓雾弥漫的街道将领你走过巴拿巴生命中一个夜晚的故事。你会遇到维滕格勒那些古怪的居民，但……这还重要吗？毕竟，维滕格勒已经消失了。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "displayDate": "2026-04-09",
+    "games": [
+      {
+        "title": "MechsNBugs",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在2199年，机甲角斗士竞技场的战斗举行娱乐群众。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "A Thousand Bees",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "A Thousand Bees is a beautiful, hand-drawn hidden object game leaning heavily into the honeycore and cottagecore aesthetics.\nFollow a perfect summer",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "displayDate": "2026-04-10",
+    "games": [
+      {
+        "title": "Aviarium",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "超过 522 种基础鸟类设计、总计 8,352 张以上插画可供收集与欣赏。每只鸟都被分配到 7 个稀有度等级之一：Common, Uncommon, Rare, Epic, Legendary, Mythic, Ancient。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "正在招聘门童。",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "《正在招聘门童》 是一款独特的恐怖模拟游戏，融合了门童的角色扮演与恶魔驱逐仪式。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Amphibarium",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "广泛的两栖动物图书馆 发现并收集大量的青蛙、蟾蜍和蝾螈。每个两栖动物都被分配七个稀有度等级之一:普通、罕见、稀有、史诗、传说、神话和远古。用充满活力的手绘设计完成您的日记。\n实时变态和策略 见证大自然的奇迹,您的生物从微小的卵成长为游泳的蝌蚪,最终实时变成威严的成年个体。将它们释放到野外以获得即时奖",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "The Anubis Treasure",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Anubis的宝藏\n\n探索、解谜并发现隐藏的秘密，在这款受古埃及金字塔启发的 2D 冒险游戏中展开旅程。\n\n沉浸在神秘与冒险的世界中\n\n埃及隐藏着一个巨大的秘密：Anubis的宝藏，一件被埋藏了数个世纪的传奇圣物。\n在这款 2D 平台冒险中，你将扮演一位年轻的考古学家。在经历了数次失败的探险后，他迎",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Mazino",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "经典迷宫追逐动作的霓虹转折。作为\"Chip\"导航发光的迷宫，躲避狡猾的庄家，乘坐热连胜，击中累积奖金。庄家总是赢...除非你在炽热连胜中。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-11",
+    "displayDate": "2026-04-11",
+    "games": [
+      {
+        "title": "Arcane Merchant",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Arcane Merchant 是一款设置在中世纪奇幻国度中心的魔法商店模拟游戏。 探索城镇，抓住贸易机会，开始你的财富之旅。你的每一个决定都将塑造你的财富和商店的未来。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Portal Guardian",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "Face waves of enemies in this epic tower defense game as you try to protect the realm and become more and more powerful in the process! Features inclu",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Pixel Empires",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "欢迎来到Pixel Empires，这是一款手工制作的像素艺术RTS游戏，让你控制一个初生的中世纪王国。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "displayDate": "2026-04-15",
+    "games": [
+      {
+        "title": "深渊世界",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "深渊世界是一款生存游戏，你将探索神秘的末日后海底世界。建造基地，抵御一波又一波的敌人。制作物品，对抗boss，探索不同的生物群系。潜入更深的海洋，寻找你正在寻找的答案。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "令千军",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《令千军》是一款回合养成与即时战斗相结合的游戏，你的任务是抵抗掠夺者大军的入侵。为了反抗，你必须培招募士兵、购买技能，强化军队，熟练使用魔法。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "奇物搜妖记",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "奇物搜妖记是一款中国风的类rouge构筑游戏，将在水墨画风中构筑超级法宝并击败妖兽取得最终胜利。\n降服妖兽\n将妖魂之力注入法宝，特定搭配的妖魂将爆发出超高攻击力来击败妖兽。\n\n每次击败妖兽后，敌人都将变得更强大。\n在冒险中获得随机的妖魂和法宝奖励，为了应对妖兽的不同特性以及取得最终胜利，你",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Kawaii Survivors",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "KAWAII SURVIVORS 是一款 bullet heaven roguelite 游戏，将可爱的 像素风格 画面与激烈的 赛博朋克生存 动作相结合。在一个崩溃的虚拟现实模拟中对抗无尽的腐化AI敌人浪潮，在这里可爱与致命相遇。\n被困在一个充满故障的赛博朋克地狱中，黑客 Lucy Chen 必须",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-16",
+    "displayDate": "2026-04-16",
+    "games": [
+      {
+        "title": "Starforged Legacy",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Starforged Legacy》是一款快节奏的roguelike自动射击游戏，玩家将驾驶一艘星际飞船穿越饱受战争蹂躏的人类星际殖民地。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Fun with Ragdolls Plus",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Play the action-adventure platformer set within a physics sandbox, where you can build worlds for your ragdoll to explore, solve puzzles, or simply en",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Kitty Finder",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《Kitty Finder》是一款在昏暗灯光笼罩的巨大宅邸中展开的宁静寻物游戏。我们的目标很简单：找到藏匿在每个角落的可爱小猫！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "displayDate": "2026-04-17",
+    "games": [
+      {
+        "title": "克苏鲁 恐怖深渊",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "在《克苏鲁 恐怖深渊》这部紧张刺激的洛夫克拉夫特风格惊悚游戏中，你将扮演 Noah受命调查太平洋深处矿工的神秘失踪事件。在 AI 伙伴 Key 的协助下，你将探索巨大的迷宫般的 R'lyeh 监狱——这是一座远古、沉没的巨型城市——并抵抗 Cthulhu 影响下的潜在疯狂。在这座城市的",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "ShantyTown",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《ShantyTown》是一款轻松惬意的立体模型建造游戏，你可以在游戏中打造色彩斑斓、氛围浓郁且布局紧凑的都市景观。游历多样地点，发挥创意，为每一处场景拼合出独特而温馨的小世界！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "旅居魔女与她的毕业课题",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "扮演一名生活在16世纪的魔女，为了解决自己的毕业课题，你暂住在某个山村之中。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "宠物乐园",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "屏幕底部的宠物乐园！\n宠物乐园是一方宁静祥和的小天地，小动物平日在这里进食和玩耍，默默陪伴你工作和休息。多加留意这个小角落，悉心照料小动物，让它们心情越来越好，茁壮成长！\n\n照顾小动物，种植饲料作物\n饲养各种可爱的小动物，及时喂食，做好日常清洁，让小动物住得开心。在小农场种植小动物爱吃的作物，及时浇",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Wormies",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "想开一家自己的蠕虫小店吗？那就来玩 Wormies 吧！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Rift Miner",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "在《Rift Miner》中，每一次潜入裂谷都是一次冒险的冒险。进入移动的，完全可破坏的体素世界，其手工制作的结构充满了程序分布的矿石。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "displayDate": "2026-04-18",
+    "games": [
+      {
+        "title": "Rogue Night",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Exploration: Traverse a variety of locations and dive into dungeons full of monsters, puzzles, and traps to find powerful weapons, rare rings,",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-21",
+    "displayDate": "2026-04-21",
+    "games": [
+      {
+        "title": "刀刃、弓矢与魔法",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《刀刃、弓矢与魔法》的独特魅力在于探索卡牌间因站位和技能产生的奇妙互动，这些组合往往会在你意想不到的瞬间逆转乾坤。\n在与对手的对决时，卡牌的选择、阵型的摆放，每一步都至关重要。游戏以简单的猜拳规则为核心机制——战士克制弓箭手、弓箭手克制法师、法师克制战士——这套规则既是“卡牌相克”的底层逻辑，也是规",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Tessel Run",
+        "genre": [
+          "休闲游戏"
+        ],
+        "style": "《Tessel Run》是一款手绘七巧板镶嵌游戏。每一个斜坡、弯弯曲曲和光滑的边缘都是从现实生活中的协作图纸中精心扫描出来的。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-22",
+    "displayDate": "2026-04-22",
+    "games": [
+      {
+        "title": "明日潮汐",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "来自《96 号公路》制作者的全新作品，在《明日潮汐》中，你将在危机四伏的海洋星球埃林德（Elynd）面临生存挑战，并应对朋友和你所喜欢的主播们做出的选择。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Until They Burn",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "直到他们燃烧是一个短的心理恐怖游戏设置在一个悲惨的火灾后的废弃公寓。这是一款具有独特视觉风格的心理恐怖行走模拟器。探索一个封闭的环境，当令人不安的事情在你周围展开时，揭开真相。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "displayDate": "2026-04-23",
+    "games": [
+      {
+        "title": "Masters of Albion",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "阿尔比恩的故事是权力与后果的交织，一个充满任务与道德抉择的世界，蕴含着深邃而丰富的叙事。\n\n在阴谋与诡计中穿梭——国王们来来去去，贵族们与你握手言欢，然后又背后捅刀，而人民像狗一样辛苦劳作，却得不到更好的待遇。\n\n你被赋予了神一般的古老力量，面对着数百年来从未见过的强大敌人。魔法正在重返阿尔",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "我们的王国 蚀时果实与远古魔物",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《我们的王国 蚀时果实与远古魔物》是一款积极冒险或全力复兴都任君选择的王国复兴动作游戏！ 本作是以复兴崩坏的王国为目标的动作RPG。 在2D横向卷轴动作的冒险中收集素材，并在复兴王国的模拟环节培育角色，复兴王国吧！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "LUMINEX QUARTET",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "This is an \"Ensemble RPG\" that pursues sound quality and human drama while inheriting the fundamental fun of RPGs, such as \"adventure\" and \"combat,\"",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-24",
+    "displayDate": "2026-04-24",
+    "games": [
+      {
+        "title": "识质存在",
+        "genre": [
+          "第三人称射击"
+        ],
+        "style": "卡普空的最新作《识质存在》——一部带有独特黑客感觉的全新科幻动作冒险！时代是近未来，主人公“休”与他的机器人同伴“黛安娜”必须齐心协力，才能穿过冰冷的月球研究站。",
+        "platforms": [
+          "NS2",
+          "PC",
+          "PS5",
+          "Xbox Series X|S"
+        ]
+      },
+      {
+        "title": "My summer love",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "姜允娜是韩国艺术大学的一名学生。她聪明伶俐，魅力十足。九十年代的夏天，你成了她班上的一名新生。两人之间会发展出爱情吗？",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "The Funnel",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《The Funnel》是一款叙事解谜游戏，混合了分支对话和具有挑战性的解谜小游戏。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Fireteam Breach",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Fireteam Breach是一款竞争性战术射击游戏，两支队伍在基于目标的游戏模式（如Secure Area， Bomb和Hostage）中进行战斗。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Dawn",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Dawn》是一款黑暗幻想的后世界末日生存恐怖游戏，背景是一场神奇的工业革命的废墟。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-25",
+    "displayDate": "2026-04-25",
+    "games": [
+      {
+        "title": "Russian Survivors",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在这个类似幸存者的游戏中，你将潜入不同的古老蜥蜴军队地区。选择你的队伍，杀死蜥蜴，升级你的武器和角色，更有效地杀死更多的蜥蜴！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "displayDate": "2026-04-27",
+    "games": [
+      {
+        "title": "Yomifuda: Kanji Survivors",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Mastering thousands of Japanese Kanji can be a daunting task, so we built a game to turn procrastination into progress. \nYomifuda: Kanji Survivors is",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "displayDate": "2026-04-28",
+    "games": [
+      {
+        "title": "My Dear Neighbor, edition 404",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "The darkest matrix ever created\n\nMy Dear Neighbor, edition 404 is a survival horror puzzle game set in a distinct and captivating world. Players will",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30",
+    "displayDate": "2026-04-30",
+    "games": [
+      {
+        "title": "沙罗周期",
+        "genre": [
+          "第三人称射击"
+        ],
+        "style": "《沙罗周期》的故事发生在收到不详日蚀所威胁的Carcosa星上，玩家将扮演Arjun Devraj，在失落的异世界殖民星上寻找答案。在本作中将包含永久的成长系统，每次死亡都会重塑世界，提供新的能力来攻克强敌。",
+        "platforms": [
+          "PS5"
+        ]
+      },
+      {
+        "title": "魔女的童话",
+        "genre": [
+          "动作角色扮演"
+        ],
+        "style": "《魔女的童话》是一人开发的一款动作类rogue，角色扮演游戏，你将扮演一位魔女，去寻找世界各处的魔法，你这一路的冒险将会被写成童话故事流传下去。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "独奏骑士",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《独奏骑士》（Solo Knight）是一款暗黑like游戏，专为喜爱刷刷刷与流派配装的玩家打造。你将探索凶险的地下世界，与不同怪物战斗，利用收集到的金币、装备、熔炼石等资源强化自身，通过天赋、符文、词缀等组合打造你的专属流派！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "ItLivesInTheWoods",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "NOTE: The game focuses on exploration and builds tension slowly to create a deeper and more meaningful experience. Its story is unveiled through surre",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "LOST IN THE DARK LABYRINTH",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Can you escape this colossal maze within 60 minutes?\nLost in the Dark Labyrinth is a maze-exploration survival FPS set inside a colossal labyrinth bui",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "School Crisis",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "这是一款第三人称合作潜行游戏，你和最多3个朋友潜入一所大学，完成滑稽的任务，避开警卫，尽量不被抓住。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "displayDate": "2026-05-01",
+    "games": [
+      {
+        "title": "无敌少侠VS",
+        "genre": [
+          "格斗游戏"
+        ],
+        "style": "《无敌少侠VS》是一款以无敌宇宙为背景的残酷的超级英雄3v3标签格斗游戏，你可以在标志性地点与粉丝喜爱的角色团队进行殊死战斗。",
+        "platforms": [
+          "PC",
+          "PS5",
+          "Xbox Series X|S"
+        ]
+      },
+      {
+        "title": "Koloboke: Sickness Simulator",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在这款游戏中，你只能翻滚与跳跃——就这样。只要多加练习，你就能轻松克服任何障碍而不再痛苦挣扎。这时候，别忘了把游戏推荐给你的朋友。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "带派幸存者3D",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《带派幸存者3D》是一款融合了幸存者Like机制的3D射击游戏！万千变化的少女，巨大的堕落美少女BOSS，变幻多端的武器！技能！构筑！驾驶直升机坦克！攀越楼房，在城市滑翔！在被丧尸病毒感染的城市中，你能带领她们逃出生天吗！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Soko Pirates",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Classic mechanics\nSoko Pirates is built on the proven Sokoban mechanic — you push crates, plan your moves, and shove boxes onto designated targets. Ea",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Walk the Dog on Paper",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "这是一款带有技能升级等动作RPG元素的2D复古风格的横冲直撞奔跑游戏。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Solis",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Solis is a  hand-drawn adventure about technology and deception in a city at night.\nDuring a company trip you explore the city of Solis from dusk till",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Mine of despair",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "In a World of Heroic Fantasy…\nIn a heroic fantasy universe inspired by Dungeons & Dragons, take control of one of six prisoners with a troubled pa",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "SeArena",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《SeArena》是一款竞争性的海战游戏，在这里掌舵、大炮瞄准和无畏的登船决定了比赛的胜负。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Love Bird",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "欢迎来到《Love Bird》真人秀相亲节目，你是其中的明星。你的工作吗?赢得人心，引发戏剧，吸引国家-或者在尝试时崩溃和燃烧。但这不仅仅是关于爱情——在电视真人秀的世界里，爱情排在好的戏剧之后，制片人总是在看。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-02",
+    "displayDate": "2026-05-02",
+    "games": [
+      {
+        "title": "Robolucion: The Sandwich Conspiracy",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "世界崩溃了。人类被一个改变了一切的人灭绝了。无法无天的雇佣兵现在统治着曾经文明的废墟。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "勇气与坟墓",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《勇气与坟墓》是一款回合制战术角色扮演游戏，每一个决定都取决于掷骰子的结果。带领四名英雄组成的队伍，穿越程序化生成的地下城，战略思考与随机性的刺激交织在一起。这不仅仅是另一款地下城冒险游戏——它是对经典桌面角色扮演游戏的致敬。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "displayDate": "2026-05-04",
+    "games": [
+      {
+        "title": "Backrooms Lost Dimension",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Backrooms Lost Dimension》是一款单人恐怖冒险游戏。探索令人不安的关卡，解决独特的谜题，并在遵循原创故事的同时幸存恐怖的遭遇。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "displayDate": "2026-05-05",
+    "games": [
+      {
+        "title": "Mazemerizzz2",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Moe is napping again and this time, it's a NIGHTMARE! The Watcher has Moe trapped in a massive endless maze filled with danger! Zombies, minotaurs and",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "displayDate": "2026-05-06",
+    "games": [
+      {
+        "title": "Toad Turf",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Toad Turf》是一款令人兴奋的派对射击游戏，支持4-16名玩家进行免费或团队模式，可以通过在线或局域网进行游戏，所有选项都支持分屏。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-08",
+    "displayDate": "2026-05-08",
+    "games": [
+      {
+        "title": "Rey: Shattered Darkness",
+        "genre": [
+          "动作"
+        ],
+        "style": "《Rey: Shattered Darkness》是一款黑暗的2D动作平台游戏，其中精确的战斗、紧凑的移动和时间断裂的世界相互碰撞。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-10",
+    "displayDate": "2026-05-10",
+    "games": [
+      {
+        "title": "Open Air",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《冒险游戏》是一款冒险游戏，夏天海节日你等了这么久，你来了！但这是什么，为什么舞台是空的，你周围的每个人都很难过？探索岛屿，了解岛民的故事，在冥想中释放新的力量，安排最响亮、最酷的节日！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "displayDate": "2026-05-12",
+    "games": [
+      {
+        "title": "Besmirch",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "你被雇去Besmirch的一个农场工作。为贪婪的主人和饥饿的城镇照看庄稼。更糟糕的是，还有末日的传言。储备和生存的地狱之门。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Let Them Breathe",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Let Them Breathe》讲述了一个5岁的男孩前往韩国首尔，帮助治愈有意识的僵尸，并为幸存者接种疫苗的故事。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-13",
+    "displayDate": "2026-05-13",
+    "games": [
+      {
+        "title": "TingBase",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "TingBase是一款竞争激烈的在线PvP游戏，融合了第一人称射击游戏的强度和MMO战斗的深度。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-14",
+    "displayDate": "2026-05-14",
+    "games": [
+      {
+        "title": "King Crab",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "在这个身临其境的VR体验中，你将引导一只可爱的螃蟹——被亲切地称为“国王”——在一个令人惊叹的热带岛屿上与无情的潮汐作斗争。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Maze Creep!!",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Maze Creep!!是一款恐怖讽刺游戏，玩家在游戏中探索程序生成的迷宫，躲避全耳的迷宫爬行动物和一大群其他怪物。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "displayDate": "2026-05-15",
+    "games": [
+      {
+        "title": "The Island of Doctor Morose",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "在这款极具风格化的恐怖冒险游戏中，玩家将前往神秘的Greatmaw岛寻找他们失踪的朋友Phillip。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Deathplane",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Deathplane》是一款2D解谜平台游戏，玩家需要在关卡下方上下移动真正的死亡飞机，以杀死敌人并找到解决方案和秘密。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Taste of Blood",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "Taste of Blood是一款融合了MOBA和RPG元素的即时战略（RTS）游戏。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Pintorino",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Pintorino is a thoughtfully designed puzzle game in which you control a player moving across a grid-based board. Your main objective is to navigate th",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-16",
+    "displayDate": "2026-05-16",
+    "games": [
+      {
+        "title": "Car World",
+        "genre": [
+          "竞速游戏"
+        ],
+        "style": "你是否曾经想要一款关于汽车的超级模拟游戏，其中每个开关都在工作，仪表盘上的每个警告灯都很重要？",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-18",
+    "displayDate": "2026-05-18",
+    "games": [
+      {
+        "title": "Parsector",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Parsector是一款3D太空飞行游戏，玩家在游戏中扮演一名星际飞船飞行员，在银河系的外边缘飞行。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-19",
+    "displayDate": "2026-05-19",
+    "games": [
+      {
+        "title": "极限竞速：地平线6",
+        "genre": [
+          "竞速游戏"
+        ],
+        "style": "驾驶超过 550 辆真实存在的赛车，探索日本的绝美风光，在《Forza Horizon》有史以来最宏大的冒险中成为竞速传奇。",
+        "platforms": [
+          "PC",
+          "Xbox Series X|S"
+        ]
+      },
+      {
+        "title": "海盗：加勒比海战",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "你将扮演一艘私掠船的角色，为你选择的国家服务，以赢得名声和财富。你将在危险的海洋中航行，建立一支强大的舰队，并与敌对船只展开史诗般的战斗。 \n你的旅程将带你前往富有异国情调的安的列斯群岛，在那里，你可以发现隐藏的宝藏，招募新的船员，并为你的国家在加勒比海的霸主地位而战。选择代表其中一个海洋列强：法",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "PIX Football Manager",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "PIX Football Manager是一个怀旧的，休闲的足球管理模拟器专注于球探。选择你的开始联赛，创建你的俱乐部，并通过你的眼睛，只有人才上升的行列。没有主观的球员评分，只有真正的经理人才能发现下一个超级巨星。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-21",
+    "displayDate": "2026-05-21",
+    "games": [
+      {
+        "title": "解忧咖啡馆：东京",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《解忧咖啡馆：东京》是备受赞誉的咖啡冲泡和心灵沟通模拟游戏的最新续作。游戏将前作中的温暖、真诚与美味饮品带到了东京的一家全新咖啡馆，人类与超自然生物在这里分享各自的故事。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Korrin Horne",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Korrin Horne》是一款2D反乌托邦动作平台游戏，背景设定在一个充满钢铁、信仰和被遗忘的人性的腐朽世界。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-22",
+    "displayDate": "2026-05-22",
+    "games": [
+      {
+        "title": "Bubsy 4D",
+        "genre": [
+          "动作"
+        ],
+        "style": "跟随巴布西展开一场全新的星际平台游戏冒险！没错，我们同样感到难以置信。这只全世界最臭名昭著、满嘴俏皮话的山猫带着全新挑战、全新技能和更鲜明的个性——杀回3D世界了，而且还是在宇宙中！在外星球上奔跑、跳跃、滑翔、翻滚，与机械绵羊战斗，收集堆积如山的毛线。这次又会闹出什么乱子呢？\n巴布西的老对手——痴迷",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "NONEWORLD",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "NONEWORLD is an RPG adventure set in strange universe caught in the grasps of despair. \nAs a Princess from another world, you awaken in a strange for",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Firebird - Tale of the Stolen Light",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Firebird》是一款节奏紧凑的 2D 动作冒险平台游戏，故事发生在一个充满阴影与消逝神话的童话世界中。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Tales of Medieval Duelists",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Tales of Medieval Duelists* 是一款开创性的动作角色扮演游戏。它摒弃了预设动画，采用实时物理驱动的战斗系统。每一次碰撞、劈砍与招架都由引擎实时演算，带来无与伦比的打击感、力量反馈与淋漓尽致的战斗体验。在一片交织着纷繁故事、富含深度成长系统且充满无限重玩价值的大陆上，铸就属于",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "displayDate": "2026-05-25",
+    "games": [
+      {
+        "title": "帕拉人生",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "准备出发，你的全新人生，就从这里展开！《乐园人生》是一款沙盒类生活模拟游戏。在游戏中结实形形色色的帕拉民，探索充满活力的开放世界，打造属于自己的梦幻家园。只要你愿意踏上这段旅程，这里就会成为你的归宿。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "displayDate": "2026-05-26",
+    "games": [
+      {
+        "title": "遗迹：第一守护者",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Arsiltus的命运现在掌握在你的手上。在《遗迹：第一守护者》这款动作角色扮演游戏中，你将作为第一位守护者，在黑暗中踏上拯救世界的英雄之路。曾经繁荣的Arsitus被大废墟毁坏后产生的虚空吞没，成为一片死地。现在你的任务是找到毁坏的大废墟的碎片，关闭虚空。这款游戏提供了深入的游戏玩法，惊心动魄的战",
+        "platforms": [
+          "PC",
+          "PS5",
+          "Xbox Series X|S"
+        ]
+      },
+      {
+        "title": "Stonemachia",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Assume the role of Zefiro, a pawn capable of transforming into other chess pieces, as he embarks on a perilous Dantesque journey in a world ravaged by",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Phantom Vice Auto",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在一个充满腐败、背叛和地下权力斗争的霓虹灯笼罩的大都市里，三个不太可能的反英雄——一个精明的街头骗子，一个声名狼藉的前特工和一个冷血的雇佣兵——被卷入了一场残酷的生存之战。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "007 初露锋芒",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "赢得编号。007 初露锋芒是IO Interactive出品的惊险刺激的间谍动作冒险游戏。跟随年轻、机智但偶尔鲁莽的詹姆斯·邦德的脚步，他是军情六处训练项目中的新兵，一起探索这位世界最著名间谍的起源故事。",
+        "platforms": [
+          "NS2",
+          "PS5",
+          "Xbox Series X|S"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-27",
+    "displayDate": "2026-05-27",
+    "games": [
+      {
+        "title": "Lens Of Fear",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "一款写实、超沉浸式、紧张刺激的动作冒险恐怖游戏。该游戏将便携式摄像机视角与高度细节化的环境及沉浸式音效设计相结合，带来真实的恐怖体验。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "displayDate": "2026-05-28",
+    "games": [
+      {
+        "title": "007 初露锋芒",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "赢得编号。007 初露锋芒是IO Interactive出品的惊险刺激的间谍动作冒险游戏。跟随年轻、机智但偶尔鲁莽的詹姆斯·邦德的脚步，他是军情六处训练项目中的新兵，一起探索这位世界最著名间谍的起源故事。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Stranded Survivors",
+        "genre": [
+          "动作"
+        ],
+        "style": "在《Stranded Survivors》中，你的目标是在试图到达并拯救需要你帮助的搁浅动物的同时，从成群的怪物中生存下来。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "逸剑风云决",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "《逸剑风云决》是一款像素武侠RPG游戏。玩家将扮演一名来自关外辽城的普通少年，因意外卷入江湖纷争而身中剧毒，幸得武当掌门清虚真人出手才得救。自此，你梦想成为一代大侠，正式踏入了中原武林。你的选择将改变整个武林故事，与江湖中各种侠客结交互动，甚至改变他们的命运！",
+        "platforms": [
+          "PS5"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "displayDate": "2026-05-29",
+    "games": [
+      {
+        "title": "GastroNomicon",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "一个混乱生活第三人称射击游戏，你在程序生成的地图和舞台上通过一波又一波的疯狂蔬菜进行战斗。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Paradise Beyond the Nightmare",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Paradise Beyond the Nightmare》是一款2D探索恐怖游戏，玩家可以在2D空间中深入探索和解决谜题。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Deluge: Raintime",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "—there's something wrong with the lake, the lake that was once a sea. \nCertain things are better left alone, they don't willingly submit to the games",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "乐高蝙蝠侠：黑暗骑士遗产",
+        "genre": [
+          "动作"
+        ],
+        "style": "在《乐高蝙蝠侠：黑暗骑士遗产》中以黑暗骑士的身份崛起，体验蝙蝠侠的精彩故事。在充满刺激和动作的大胆冒险中，体验激烈的战斗、开放世界的哥谭市，以及粉丝熟知和喜爱的乐高标志性魅力。",
+        "platforms": [
+          "PS5",
+          "Xbox Series X|S"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "displayDate": "2026-05-30",
+    "games": [
+      {
+        "title": "乐高蝙蝠侠：黑暗骑士遗产",
+        "genre": [
+          "动作"
+        ],
+        "style": "在《乐高蝙蝠侠：黑暗骑士遗产》中以黑暗骑士的身份崛起，体验蝙蝠侠的精彩故事。在充满刺激和动作的大胆冒险中，体验激烈的战斗、开放世界的哥谭市，以及粉丝熟知和喜爱的乐高标志性魅力。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-31",
+    "displayDate": "2026-05-31",
+    "games": [
+      {
+        "title": "Jupiter",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在遥远的宇宙中，一个外星文明正与严重的氮短缺作斗争。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "displayDate": "2026-06-01",
+    "games": [
+      {
+        "title": "无尽尸潮",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "80年前，地球遭遇了一场毁灭性的生化危机，导致大部分人类变为丧尸。为了生存，幸存的人类逃离地球，生活在了一个巨大的空间站上。\n然而，随着时间的推移，空间站的生存空间逐渐减少，资源也变得日益匮乏。\n为了寻找新的生存空间，空间站的部分幸存者决定组成多支先遣队伍重返地球进行侦查。\n这些队伍来自不同的种族，",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-02",
+    "displayDate": "2026-06-02",
+    "games": [
+      {
+        "title": "Irradiate 235",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "Irradiate 235 is an Automation-Metroidvania  where the player not only builds the factories but designs the very machines themselves. The machines ha",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Crafters Heaven",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "潜入一个充满活力的低多边形世界，在这里，创造力与生存相遇。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Casting Shadows",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Casting Shadows》Eris的生活很艰难，对她来说，她感觉自己只是日复一日地生活，努力让事情运转起来。她一直很难与他人建立联系，但很快她就会学会把信任放在一个不太可能的来源，并发现自己的命运隐藏在阴影中。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Uagi-Saba 2",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Uagi-Saba 2 is a creature care/breeder sim. Raise cute creatures all with their own brain, genes and unique body parts. Guide them through beauti",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "displayDate": "2026-06-04",
+    "games": [
+      {
+        "title": "Chicken Coop Invaders",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "卢卡斯和他的爷爷朗先生住在一个牧场里，他不知道超级机器人，一个可怕的太空恶棍，正准备和他的外星士兵一起发动袭击。他的目标是：摧毁他船上雷达能找到的所有鸡！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "displayDate": "2026-06-05",
+    "games": [
+      {
+        "title": "Black Tear",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Black Tear》是一款黑暗的2D动作冒险游戏，每一个选择都会影响你的命运。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "displayDate": "2026-06-06",
+    "games": [
+      {
+        "title": "8AM: The Warehouse",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "“8AM: The Warehouse”让玩家在夜深人静的时候被困在一个巨大的物流仓库里。传送带嗡嗡作响，叉车在黑暗中闲置，荧光灯像昆虫一样嗡嗡作响。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Red Balloon",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Red Balloon》是一款由你的选择推动的一人称恐怖体验。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "displayDate": "2026-06-07",
+    "games": [
+      {
+        "title": "Mudventure",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "关于本游戏\nMudventure 是一款轻松的沙盒冒险游戏，\n玩家将在一个由泥土构成、充满生命的滩涂世界中探索、挖掘、收集并创造属于自己的旅程。\n玩家可以直接操控角色探索地形，挖掘滩涂收集资源，\n并与环境互动，以自己的方式逐步开拓这个世界。\nMudventure 拥有一个明确的目标：\n收",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "displayDate": "2026-06-09",
+    "games": [
+      {
+        "title": "[ Content Deleted ]",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Content Deleted 是一款独特的恐怖游戏，它模糊了虚构和现实之间的界限，将恐怖的来源直接放在角色自己的电脑上。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Lucky's Funhouse",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Short Description\nYou must stay alive in this horror/puzzle adventure. Do your best to survive the monsters of the funhouse and uncover the mystery b",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "矮人炮弹",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "握紧你的胡子准备起飞！在这款独一无二的肉鸽爬塔游戏中，你将化身矮人指挥官，把战士们像炮弹一样发射出去！每一次抓取弹射都是对反应和精准度的终极考验，感受砸穿敌军阵线、摧毁坚固城墙的纯粹快感！这不是娘炮的魔法对决，是纯爷们的物理超度！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "displayDate": "2026-06-12",
+    "games": [
+      {
+        "title": "Crystal Ball Critters",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Welcome! Crystal Ball Critters is a multiplayer ball-racing game, in which you race your friends through our antagonist's carefully thought out mult",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Libra Apocrypha",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Libra Apocrypha》是一款黑暗幻想的甲板建造RPG游戏，结合了回合制战斗、roguelite进程和角色驱动的叙事设置，世界被神圣的疯狂撕裂。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "displayDate": "2026-06-15",
+    "games": [
+      {
+        "title": "Enigma Of Forest",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "# Enigma Of Forest\n4v1 狼人狩猎多人恐怖游戏 揭开黑暗的神秘面纱，为生存做好准备！\n森林之谜 与五位好友一起深入森林，见证大自然的恐怖。\n但这次纯真的探索将变成一场噩梦，因为你们中的一个人将受到可怕的诅咒。你们中的一个人现在变成了狼人！\n合作才能生存： 你们需要齐心协力找出狼人",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "displayDate": "2026-06-16",
+    "games": [
+      {
+        "title": "钢铁蔷薇：逃离",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《钢铁蔷薇：逃离》是一款中世纪风格平台动作游戏。玩家将扮演一位从神秘组织中寻求自我救赎的女战士，在风格各异的精巧关卡中不断战斗，突破重围，最终抵达灵魂自由的彼岸。 \n本次试玩版包含前四关的精选内容，您可体验完整的小关卡流程以及第二关的Boss战，感受游戏的战斗与关卡魅力。 \n【核心玩法】 \n独具特色",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "displayDate": "2026-06-19",
+    "games": [
+      {
+        "title": "Git Gud",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "竞速平台游戏 & 合作多人模式\nGit Gud 是一款 **基于技能的竞速平台游戏**，适合单人玩家和合作模式爱好者。\n你身处一个充满活力的世界，身边唯一的伙伴是一只古怪的鸡，它会不断激励你完成目标，绝不放弃——因为你必须 Git Gud！奔跑、跳跃，挑战高难度关卡，冲击只有极少数人才能达到",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-21",
+    "displayDate": "2026-06-21",
+    "games": [
+      {
+        "title": "BaalHexo",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "You awaken in a sprawling castle with no memory of how you arrived. Your only companion is a mysterious crow, and your only way out is through: room b",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-22",
+    "displayDate": "2026-06-22",
+    "games": [
+      {
+        "title": "Scrap Story",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "One rainy morning your brother decides to go on a journey to find a legendary treasure. Worried about him, you decide to go after him knowing the dang",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Pat the Cat",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "抚摸它，喂它，和它一起玩，并获得咕噜声积分。解锁帽子，玩具和舒适的地方。定制你的猫咪，在你工作或放松的时候享受它的陪伴。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "displayDate": "2026-06-24",
+    "games": [
+      {
+        "title": "Endless Invader",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Endless Invader 是一款围绕守护行星展开的动作防御游戏。敌人从四面八方来袭，玩家必须坚持到底，不让行星被摧毁。\n聪明地、疯狂地、拼尽全力地击退敌人，打败最终单位，赢得胜利！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "displayDate": "2026-06-25",
+    "games": [
+      {
+        "title": "No Way Back: Dark Horizon",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《No Way Back: Dark Horizon》让你在一个用于人类实验的孤岛上为生存而绝望地战斗。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Cryptoria",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "\"Explore dark pixel-art dungeons filled with traps, secrets, and deadly foes. Loot treasures, upgrade your gear, and survive the depths of Cryptoria i",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "displayDate": "2026-06-26",
+    "games": [
+      {
+        "title": "Type or Die",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "你的主人已倒在战场上。你是他的坐骑，接过他的利剑。在这款受桌游和Roguelite游戏启发的打字游戏中，一格一格地前进，每回合掷骰子。在一个如同活生生的哥特式手稿般的世界中，遭遇怪物、宝箱、商店、事件，并做出各种战术选择。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "displayDate": "2026-06-30",
+    "games": [
+      {
+        "title": "Exodus Core",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "Exodus Core 是一款回合制战术角色扮演游戏，你将指挥一支精英机甲小队，在抵御外星侵略的战斗中扮演关键角色。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Paid in Blood",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "一款心理悬疑类的游戏。你被困在一个黑暗的房间里。你的男友已经死亡。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "MoonLit Journey: The Age of Deth",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Join us on an Epic Journey into the warped minds of life long gamers who are creating a nostalgic game, setting the player deep into a fantasy realm w",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Blind Spot",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "在《Blind Spot》中，你在一个看似正常的住宅外操作，你必须使用你的小工具和机器来确保里面的恶魔家庭不会离开房子。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-01",
+    "displayDate": "2026-07-01",
+    "games": [
+      {
+        "title": "Nocturne",
+        "genre": [
+          "动作冒险"
+        ],
+        "style": "《Nocturne》是一款具有独特节奏战斗的RPG游戏。丰富的叙事会让你质疑你为何穿越了到一个充斥着分崩离析的美丽世界。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Medieval Lord Tycoon",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "This is a pixel art medieval lord simulator. \nYou can farm the fields, chop wood, and hunt game yourself—or delegate these trivial tasks to your towns",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Rage Bait",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Rage Bait is a chaotic blend of The Stanley Parable’s narrator-driven absurdity, Undertale’s emotional undercurrents, and the cruel unpredictability o",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "The Industrial Council",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "This game runs a local LLM, allowing you to talk to characters in the game as if they were people. Behind the AI dialog lies a game world that is rich",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-02",
+    "displayDate": "2026-07-02",
+    "games": [
+      {
+        "title": "Peace Island",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "One fine day, in a remote island community off the coast of Maine, nine cats wake up to discover that their humans have disappeared.  To survive, they",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "FLOW STATE",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《FLOW STATE》是一款将跑酷和枪战结合在一起的单人快速射击游戏。死亡，重试，并缩短你的时间攀登排行榜，因为你的每一次运行变得更好。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Tales of Tonbrook",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "《Tales of Tonbrook》是一款舒适的生活模拟游戏，混合了《龙与地下城》游戏的冒险和奇迹。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "displayDate": "2026-07-17",
+    "games": [
+      {
+        "title": "Illegal Plantation",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "It’s time to leave it all behind and do a dance with the law. Build your own illegal plantation, cultivate your weed, water the plants, maintain good",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "displayDate": "2026-07-23",
+    "games": [
+      {
+        "title": "Project F.A.L.S.E.",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Prehistory:\nProject F.A.L.S.E. is a game about an alternative world after the tragedy at a powerful energy complex as part of the experiment \"Fast Ato",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "迷宫梦魇-黑暗的尽头",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "《迷宫梦魇-黑暗的尽头》是一款第一人称迷宫生存射击游戏。你被困在雾气笼罩的随机迷宫中，只能依靠手电、脚步声和有限弹药，在狭窄通道与重复拐角间辨认方向，寻找那只携带钥匙的僵尸并找到出口。每一关迷宫结构与僵尸分布都会变化，迷路、被包围、在绝望中爆头突围，是这场噩梦的日常。\n核心玩法\n1 随机迷宫探索每一",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "displayDate": "2026-07-24",
+    "games": [
+      {
+        "title": "RoboDeal Simulator",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "在冰封星球西拉里斯-9号上，你是一名可自由定制的机械工匠，在高科技组装实验室中运作。你的使命：为四大势力——辛迪加、联邦、游牧集体与日蚀当局——量身设计、制造并交付专属机器人。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "displayDate": "2026-07-27",
+    "games": [
+      {
+        "title": "科斯达丽佳的世末终之旅途",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "人类的文明终于燃尽了最后的火种。 幸存者选择聚集在一起，将自己关在安全区域等待死亡的降临。 但科斯达丽佳并没有。 我也是。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "displayDate": "2026-07-28",
+    "games": [
+      {
+        "title": "PDF File Slayer",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在这个快节奏的复古FPS中，你将净化一个充斥着邪恶罪犯的城市，只有原始的火力和坚不可摧的正义感。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "displayDate": "2026-07-29",
+    "games": [
+      {
+        "title": "Where We Used to Play",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Where We Used to Play 是一款第一人称心理恐怖游戏，故事发生在一栋看似普通……却并不正常的房子里。\n你将一次又一次地探索相同的环境，仔细观察每一个房间，并判断是否发生了变化。\n如果你发现了异常，就必须返回起点的黑暗房间。\n如果一切看起来没有变化，则可以继续前往终点",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "displayDate": "2026-07-30",
+    "games": [
+      {
+        "title": "悠然生活之庭",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "《悠然生活之庭》故事描述年轻的主角在山中不知所措时，某个村落的人民拯救了他，并向无处可去的主角提出建议，希望他为村子工作。就这样，主角开始了静谧、悠闲的乡下生活，他在田园里种菜、照顾家畜，还去钓鱼，甚至制作家具等...",
+        "platforms": [
+          "NS",
+          "NS2",
+          "PC",
+          "PS5"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "displayDate": "2026-07-31",
+    "games": [
+      {
+        "title": "核心战力组",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《核心战力组》是一款以职场生存为核心的轻度 roguelike 游戏 —— 当你作为新人踏入办公室的那一刻，就已被系统自动分配了 “核心战力” 身份：或许是背锅时首当其冲的 “替罪羊”，或许是调解矛盾时被推出去的 “儆猴鸡”，又或是在部门混战中搅乱局势的 “搅屎棍”。每一种身份都对应着截然不同的生存",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-01",
+    "displayDate": "2026-08-01",
+    "games": [
+      {
+        "title": "东周拟战",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "《东周拟战》这是一款中度策略游戏，操作简洁，画面风格简约。游戏背景发生在东周周恒王时期，玩家扮演一位诸侯国，参与列国变法攻伐。“大争之世，各国无不变法图强，强则强，弱则亡！”",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Distant Trails",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Distant Trails》是一款单人第三人称冒险神秘游戏，跟随一群越野跑者的旅行。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Skyrest",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Skyrest is a first-person roguelike action game where you play as a deceased person at the gates of the afterlife, confronting your unresolved inner i",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "displayDate": "2026-08-03",
+    "games": [
+      {
+        "title": "环钓中国",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "在各大流域中进行垂钓，解锁稀有渔获，丰富的装备DIY系统，游戏拥有拟真的饵料、天气、水温等系统。超200种鱼类以及各式钓具。\n\n自定义、合理的搭配你的渔具",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Northern Waters - Fishing & Restauran...",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "探索Northern Waters - Fishing & Restaurant Simulator的冰冻湖泊、平静河流和隐藏钓鱼点。可使用车辆或租用船只前往偏远地点。钓鱼时可使用第一人称视角，管理餐厅时可切换俯视视角。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "displayDate": "2026-08-05",
+    "games": [
+      {
+        "title": "Jar Head Cauldron",
+        "genre": [
+          "第一人称射击"
+        ],
+        "style": "Defeat enemies with enchanted weapons crafted using your cauldron featuring “in world crafting” to upgrade items, weapons and keys to help you save al",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Nature Minds",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "你扮演的是塔里克，一个年轻的战士，当古老的迪尔蒙手镯与他捆绑在一起时，他被卷入了这场动乱。手链里有四个破碎的灵魂，每一个都对恢复世界的平衡至关重要。为了完成神器并揭开吉尔伽美什不朽背后的真相，塔里克必须穿越遥远而危险的土地，面对他们堕落的形态，重获他们的本质。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "displayDate": "2026-08-06",
+    "games": [
+      {
+        "title": "8AM: The Graveyard",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《8AM: The Graveyard》将玩家禁锢在一个古老的墓地中，直到午夜。空气中弥漫着浓雾，歪歪扭扭的墓碑间闪烁着微弱的灯笼，风吹来的窃窃私语可能是树叶，也可能是别的什么。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "displayDate": "2026-08-07",
+    "games": [
+      {
+        "title": "Tetro Battle",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "《Tetro Battle》是一款具有冒险和逻辑的3D竞技游戏。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-09",
+    "displayDate": "2026-08-09",
+    "games": [
+      {
+        "title": "Purrfect Galaxies",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Purrfect Galaxies 是一款快速的猫咪冒险和简单的资源管理游戏，风格类似经典的 Hamurabi。掌控行星喵星，维持你不断增长、需求高的猫咪群体，度过十个充满挑战的太阳周期。你能成功地蜷缩在你舒适的角落里，还是被吞噬的饥饿将结束你的统治？\n\n■ 推荐对象：\n⇒ 喜欢文本基础的策略游戏和",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "displayDate": "2026-08-18",
+    "games": [
+      {
+        "title": "A Dungeon Is You",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "Oh no, you got hit by a truck and died.\nFortunately you have been reincarnated as a dungeon core!\nAll you know is what's inside your dungeon domain.\nA",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "displayDate": "2026-08-19",
+    "games": [
+      {
+        "title": "ANARIA: Reborn",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在Anaria中，你在一栋神秘的房子中醒来，却不记得自己是谁，也不清楚为何来到这里。通过神秘的笔记、环境线索和电影化场景拼凑出令人毛骨悚然的故事片段，逐渐揭示真相。每一次发现都会将你更深地带入心理迷宫，这里的一切都不如表面看起来的那样。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Depth of Mind",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "《Depth of Mind》是一款战术roguelike游戏，在游戏中你将带领一队精神特工进入一个关键主题的破碎意识中。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "displayDate": "2026-08-28",
+    "games": [
+      {
+        "title": "Five Arcade",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "射击通过五廊移动！一个快节奏的双摇杆2D街机物理平台庆祝50年的游戏。滑翔，飞行，降落和爆炸通过60个像素完美的阶段使用开裂选择枪；从机枪和火焰喷射器到火箭发射器和击掌枪。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Busted - Deal or Die",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Busted is a 2d roguelike dungeon crawler based on blackjack mechanics. Explore different chambers, equip special abilities and use unique cards to you",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Chronicles of Childhood",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "拿起你的弹弓和富有想象力的创作作斗争。在你的反小行星激光的帮助下，引导你的宇宙飞船穿过炽热的小行星地带。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "displayDate": "2026-08-31",
+    "games": [
+      {
+        "title": "Tokyo Desire : Deck Builders",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "《东京欲望》将甲板建筑风格的roguelike风格带向大胆创新的方向，邀请玩家在东京霓虹灯的深处编织自己的叙事。 探索和发展与各种角色在战略卡玩法的背景下错综复杂的关系。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Pocket Universe",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "星球目录\n发现超过300个独特的星球来完成预制目录。但收集并不止于此。通过添加您自己的星球使宇宙真正属于您——只需使用您自己的图像将它们无缝集成到程序生成池中，您可以在未来的航行中找到它们。\n主动和被动游戏\n闲置探索： 设定目的地并启动自动驾驶。您的飞船将自动在宇宙中航行，在您工作、学习或放松时创造",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "displayDate": "2026-09-04",
+    "games": [
+      {
+        "title": "Aviarena",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "《Aviarena》是一款使用“活生生的虫子”作为手牌的 Roguelike 竞技场卡牌游戏。\n你需要管理手中的虫子、触发连锁、利用角色技能整理虫子，每一回合都会长出一段意料之外的玩法！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "The Zyrdain Sands",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "欢迎来到兹瑞丹沙丘，这里是一个由恶魔之神主宰的领域。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-08",
+    "displayDate": "2026-09-08",
+    "games": [
+      {
+        "title": "万圣节",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《万圣节》是一款兼具单人和多人模式的潜行恐怖游戏。无论你选择哪种模式，游戏剧情都聚焦于原作电影的那个夜晚：迈尔斯在哈登菲尔德小镇上肆意猎杀。",
+        "platforms": [
+          "PS5",
+          "Xbox Series X|S"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-09",
+    "displayDate": "2026-09-09",
+    "games": [
+      {
+        "title": "影之刃零",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《影之刃零》是由灵游坊自主研发及发行，虚幻5引擎打造的暗黑武侠动作冒险游戏。 你将化身心脏遭受重创的剑客，在仅余六十六天的生命里，逃亡于刀光剑影和腥风血雨之间，并粉碎一桩笼罩在整个武林上方的惊天阴谋。在失序末法的武林中以身证道，以命寻心。",
+        "platforms": [
+          "PC",
+          "PS5"
+        ]
+      },
+      {
+        "title": "万圣节",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《万圣节》是一款兼具单人和多人模式的潜行恐怖游戏。无论你选择哪种模式，游戏剧情都聚焦于原作电影的那个夜晚：迈尔斯在哈登菲尔德小镇上肆意猎杀。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "影之刃零正版",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《影之刃零正版》是一款 roguelike 生存游戏，你需要在随机生成的地图中杀出重围，对抗成群的敌人和Boss。一路收集 loot，提升角色等级，upgrade 武器，尽可能活得更久！你能走多远",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "太空进化者",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "《太空进化者》是一款融合了即时战略元素的类Roguelite管理和遗传游戏。升级你的飞船和科技，完成任务，购买礼包，并根据每个任务的要求引导物种进化。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "displayDate": "2026-09-10",
+    "games": [
+      {
+        "title": "Solvimus",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Solvimus》是一款双人合作解谜游戏，专为挚友、勇敢的搭档以及不共戴天的死敌设计。但这绝不仅仅是一款解谜游戏——它更是一场持续 10 小时以上的友谊试炼，包含 30 个设计精巧的团队合作谜题，分布在五个极度烧脑的关卡之中。无论你们是在破解激光逻辑迷宫、精通时间操控之术，还是对着耳麦大喊“你搞什",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "displayDate": "2026-09-12",
+    "games": [
+      {
+        "title": "Jamir",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "BASE WARS MODE\n\nThree teams will join base wars and one team who damages the main generator most will take the control of the main base, if the leader",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "displayDate": "2026-09-23",
+    "games": [
+      {
+        "title": "EGGMART",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "如果运气眷顾你，你会发财！\n欢迎来到充满神秘惊喜蛋的世界！在EGGMART中，你不仅仅是经营一家商店 - 你在玩大赌博。每个蛋都是秘密，每次打开都是冒险。里面会是什么？普通玩具，还是让你致富的传奇收藏品？",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "displayDate": "2026-09-24",
+    "games": [
+      {
+        "title": "Reel Talk",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Welcome to the pond.\n\nREEL TALK is a multiplayer social fishing game about slowing down, being yourself, and finding your people. Grab a rod, pick y",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "displayDate": "2026-09-26",
+    "games": [
+      {
+        "title": "Lobstar: Arcade Version",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Lobstar: Arcade Version》是一款射击游戏，你不能射击子弹。相反，你可以把这些子弹打回敌人身上——或者直接冲到敌人脸上，自己打他们！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "displayDate": "2026-09-30",
+    "games": [
+      {
+        "title": "气运之子",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "希望这部作品能点燃玩家朋友们内心深处的热血与梦想！《气运之子》是一款中国风2D横板剧情回合制游戏。在这个游戏中，你将进入一个万象森罗、谲幻无垠的中国奇幻世界。在这里，你不再是旁观者，而是以自己的身份开启一场惊心动魄的冒险旅程，收集神秘的气运之力，手握乾坤。你可以成为正道魁首，凭磅礴正气横扫黑暗，拯",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Dream:scape Revelation",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《Dream:scape Revelation》是一款叙事探索游戏，其中记忆是谜题。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "displayDate": "2026-10-01",
+    "games": [
+      {
+        "title": "NecroMerc",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "\"It's Ironic how much you hate robots considering you're at least 70% necrobots by now. Every time one of us brings you back you get a little less hum",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Oathwood Realms",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "Oathwood Realms is an atmospheric strategy card game focused on meaningful decisions rather than reflexes or execution speed. From the outset, the gam",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "四面楚歌",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《四面楚歌》是一款回合制策略游戏，在战棋游戏基础上，巧妙融入了机关任务和卡牌技能，提升游戏策略性和关卡趣味性。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "displayDate": "2026-10-02",
+    "games": [
+      {
+        "title": "A.L.A.R.M. - Autistic Lovely Assassin...",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在 A.L.A.R.M. 中，你在一个科技与生物界限消融的破碎世界中醒来。名为 Nodus 的生命科技遗物将你与大地相连——既是工具，又是武器，更是诅咒。\n\n在由你的触碰塑造的不断演化的生态中进行地形改造、建造并生存。每一个行动都会改变大地，并影响你与盟友和敌",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "displayDate": "2026-10-03",
+    "games": [
+      {
+        "title": "SILENT REALM",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《SILENT REALM》是一款冒险类的动作游戏，设定在由陌生规则支配的非人类世界。充满骸骨般的实体与变化残骸，形态不断生成与腐朽，而死亡不再是结果，而是一种主动且敌对的力量。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "displayDate": "2026-10-05",
+    "games": [
+      {
+        "title": "PROJECT AROMA",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "这是一个技术演示，它主要集中在一个小型复古赛博朋克公寓内的详细的模拟机制和触觉对象交互，这只是我们在香气项目的完整版本中实现的沉浸和交互水平的一个尝试。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "displayDate": "2026-10-06",
+    "games": [
+      {
+        "title": "FAFO Executive Order Simulator",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "黑色喜剧讽刺游戏，你坐在大椅子上，做出那种令人发指的、半生不熟的、“完全稳定”的决定。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "displayDate": "2026-10-10",
+    "games": [
+      {
+        "title": "Faceless Residence",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "探索一个废弃的豪宅，里面充满了神秘，危险和压抑的气氛。在这款生存和探索游戏中，你扮演的角色必须揭开这个地方发生的事情，同时面对可怕的生物并解决具有挑战性的谜题。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-12",
+    "displayDate": "2026-10-12",
+    "games": [
+      {
+        "title": "The Patient - can you escape?",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "I'm a solo developer from Germany, and this is my first game.\nThanks to the support of Bagpack Games, I was able to create this first demo, which I pl",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-18",
+    "displayDate": "2026-10-18",
+    "games": [
+      {
+        "title": "AS ABOVE SO BELOW",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "AS ABOVE, SO BELOW is a Survival Horror Open World Action/RPG. You play as a recent college graduate offered a job in a small town, but upon arrival t",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "displayDate": "2026-10-21",
+    "games": [
+      {
+        "title": "Hoodie Havoc",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Big Head 是一款支持 最多 8 名玩家 的多人派对乱斗游戏，大家在场上互相滑倒、抓取、扔来扔去。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "displayDate": "2026-10-23",
+    "games": [
+      {
+        "title": "Death Rabbit",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "这座不夜城发生了险恶的转折，MTA的黑暗隧道已成为可怕疫情的中心。作为Alisa，你必须穿越一个充满危险的迷宫般的地下世界，那里的每个角落都潜伏着难以形容的恐怖。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Housekeeper: Anomaly",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "探索这个废弃的公寓大楼让人筋疲力尽，也让人困惑。它充满了异常的边缘。前房客的影子，撕裂你皮肤的太空漏斗，还有……模仿?",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Galactic Prospectors",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Galactic Prospectors》是一款2D太空生存沙盒游戏，游戏背景设定在200年后的未来，届时太阳系中的所有行星都被你（一个AI）摧毁。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "displayDate": "2026-10-30",
+    "games": [
+      {
+        "title": "Project Corruption",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "OVERVIEW\nPROJECT CORRUPTION is a tense and atmospheric survival-horror game set in the industrial depths of the failing I.B.I.S. space station where y",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Birthday Boy and Benny",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "Birthday Boy and Benny is an emotional turn-based RPG set in a colorful world with strange characters that may be even stranger than you first realize",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Grumpy Jack",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "用手绘艺术探索黑暗的幻想世界，遇到古怪的角色，并在史诗般的冒险中与危险的敌人战斗。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "displayDate": "2026-10-31",
+    "games": [
+      {
+        "title": "The Promethean Project",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "你正在调查一个废弃的研究设施，寻找你的兄弟——他最后的信号指向这里，但线索已经断了。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "displayDate": "2026-11-03",
+    "games": [
+      {
+        "title": "Radiant Starlets",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "探索阶段，找到你的盔甲和升级你的健康和能量。揭开秘密路线，收集你的零件，这样你就可以继续生存，逃离你的潜在俘虏，以及了解更多关于你的潜在合作伙伴！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "displayDate": "2026-11-14",
+    "games": [
+      {
+        "title": "Love Letter to a Vampyr",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "探索Helenox城堡危险的不受欢迎的走廊，在寻找终极吸血鬼爱情故事时尽量不要死。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "displayDate": "2026-11-16",
+    "games": [
+      {
+        "title": "Storytime Cats - Meows and Mistletoes",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "与《Storytime Cats - Meows and Mistletoes》一起依偎享受温馨的冒险，发现藏在舒适圣诞场景中的最可爱猫咪！",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "displayDate": "2026-11-19",
+    "games": [
+      {
+        "title": "MOBA TEAM MANAGER (MTM)",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "成为MOBA团队经理。管理球员，使用冠军组合和球员特征制定策略，并带领你的球队取得胜利。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "GTA6",
+        "genre": [
+          "动作冒险"
+        ],
+        "style": "《GTA6》带您前往雷奥奈达州，围绕罪恶城五光十色的霓虹街道和其他地方开启探索之旅，体验GTA系列迄今为止规模最大、最具沉浸感的演化。",
+        "platforms": [
+          "PS5",
+          "Xbox Series X|S"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "displayDate": "2026-11-20",
+    "games": [
+      {
+        "title": "Mage Escape 2000",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Mage Escape 2000是一个早期开发的自上而下的合作突袭RPG，其中多达12个被放逐的法师通过破碎的来世战斗-部分地下城爬行，部分提取惊悚片，所有高风险。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Isernsmith",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "Isernsmith is a unique gaming experience where progression requires a mix of sandbox elements such as crafting and combining weapons and tools alongsi",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "displayDate": "2026-11-21",
+    "games": [
+      {
+        "title": "尸骸：腐烂的回响",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "你在宇宙深处苏醒，身处一具神明般生物腐烂的躯体内。黑暗包围着你，腐朽的组织无尽延伸，只有你的求生本能尚存。《尸骸：腐烂的回响》挑战你建立殖民地，在这具死去的宇宙存在的尸体内确保你的物种存活。\n以复古终端美学和ASCII艺术风格设计，这款游戏将经典roguelike的无情本质与深度RPG系统和程序生",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "displayDate": "2026-11-24",
+    "games": [
+      {
+        "title": "Mars Era",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "Mars Era 是一款激动人心的回合制策略游戏，讲述了征服火星和建设第一个自给自足的火星殖民地的故事。管理资源、建设基础设施、接待定居者、研究新技术，并适应空间的极端条件。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "displayDate": "2026-11-27",
+    "games": [
+      {
+        "title": "忍卷",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "你所认知的忍者是什么样的？是潜行隐蔽的专家？还是强大的杀戮机器？【忍卷NinMaki】是一款横版动作闯关游戏，你将在游戏里体验忍者的任务使命。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Thornetica",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "在这个古色古香的戏剧俱乐部里，你可以见到形形色色的格格不入的学生。当幕布升起，在舞台的第一线，朋友变成了敌人。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-12-02",
+    "displayDate": "2026-12-02",
+    "games": [
+      {
+        "title": "Anasozas: Another Surreal World",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "《Anasozas: Another Surreal World》是一款剧情丰富的角色扮演游戏，你和你最好的朋友被传送到另一个世界！！",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Land and Sword",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "逃离被瘟疫摧毁的土地，带领一小群幸存者踏上寻找新开始的旅程。\n从零开始建设你的定居点，组织复杂的生产链，观察村民的日常生活，在持续不断的危险中让社区逐步壮大。\n通过相互关联的物流系统，管理资源采集、材料加工以及工具与武器的制造——从伐木到矿石冶炼，再到为士兵锻造装备。\n通过强化防御、训练军队并制定战",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-12-08",
+    "displayDate": "2026-12-08",
+    "games": [
+      {
+        "title": "Greek War",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "Choose your civilization. Build your army. Dominate the tactical field.\n\nGreek Wa",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-12-11",
+    "displayDate": "2026-12-11",
+    "games": [
+      {
+        "title": "王女的复国竞技法则",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "在一个文明被异星神掌握的世界中，人们生存所需的物资均掌握在异星的“神使”之中。某天，大陆仅剩 的王国之一，“白冠”，竟秘密制作出了拥有不属于这个世界记忆的人造人，于是......故事从此开始——",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Cave Crawler",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "\"Cave Crawler: A Retro Exploration Adventure\" is exactly as described! Explore a large, 2D open world with various islands, towns, and geographical fe",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Skippy's Grand Escape",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "About:\nIn this space themed top down maze runner you play as Skippy who's racing to reach each maze's exit as fast as possible.\nWatch out for enemies,",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-12-15",
+    "displayDate": "2026-12-15",
+    "games": [
+      {
+        "title": "Neuralnx",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "Join the Journey\nI’m Princess Rhea Dimaculangan, First of Her Name, Queen of Forgotten Rice Pots, Breaker of Cosplay Chains, and I invite you to join",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-12-16",
+    "displayDate": "2026-12-16",
+    "games": [
+      {
+        "title": "逃离",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "沉浸在恐怖游戏《逃离》的阴森氛围中。你必须在一家医院中发现可怕的秘密和奇怪的生物。解开谜题，为了生存而战，揭开这些墙壁所隐藏的黑暗真相。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Hunter From Hell",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "🔥 Hunter From Hell\nHunter From Hell is an intense horror-action game where you take on the role of a hunter tracking entities born from hell itself.",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-12-19",
+    "displayDate": "2026-12-19",
+    "games": [
+      {
+        "title": "Santa's Legacy",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "🎁 Santa’s Legacy\nDeliver the magic. Keep the spirit alive.\n🧭 About This Game\nEvery December, the North Pole awakens — gifts to craft, elves to manag",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "The Diamond Adventures",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《The Diamond Adventures》是一款多类型的单人冒险游戏，描绘了DanTDM在职业生涯中的每一个时代的旅程，从tcg和巡演到他不同的实验室和办公室，从早期的音乐到现代系列。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-12-23",
+    "displayDate": "2026-12-23",
+    "games": [
+      {
+        "title": "Farm of the unseen",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "在这款令人不安的生存恐怖游戏中，努力在乡村深处潜藏的恐惧中生存。探索表面宁静的乡间风光，静谧的湖泊与田园诗般的原野，实则隐藏着难以想象的恐怖。解开复杂谜题，揭开这个独特农场的秘密，同时躲避可怕怪物的追捕。每次遭遇都将考验你的智慧、策略与冷静。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "拆迁专家",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "目前游戏还处于早期开发阶段，任何人都可以免费参与到游戏的测试中来，还在等什么？快来亲自体验一下吧！\n拆迁专家是一款以建筑物破坏模拟游戏。我们构建了一个双级物理引擎，它既支持你在墙壁上破开一个小洞，又能够让建筑整体“轰轰隆隆”的倒下，从而带来非常真实的建筑物破坏表现。\n游戏特色\n表征破坏：墙壁的每一块",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-12-25",
+    "displayDate": "2026-12-25",
+    "games": [
+      {
+        "title": "新生：若能好好长大",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "新生：若能好好长大\n关于原生家庭创伤传递与治愈的模拟养成类游戏\n在高速发展的城市环境中，教育资源竞争不断加剧，家庭结构逐渐小型化。\n 父母在焦虑与期望中，往往被迫承担起“管理者”与“投资者”的双重角色。\n在一个以“成功结果”为唯一衡量标准的社会里，出于爱与责任的控制逐步侵入孩子成长的每一个阶",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Major Hoof",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "游戏是一款 2D 像素风射击游戏，具有横向和纵向卷轴，并包含弹幕元素。\n它结合了受经典 Amiga 作品启发的像素艺术美学、快节奏的战斗，以及背景中细腻的骨骼动画，营造出独特的复古氛围，并带有低调的波兰风格。",
+        "platforms": [
+          "PC"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-12-31",
+    "displayDate": "2026-12-31",
+    "games": [
+      {
+        "title": "丰裕之角 不可思议之物居住的小镇",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "丰裕之角，传说中的世外桃源，相传那里生存着各国神话中记载的神奇动物。在车站月台的偶遇，幸歌在善良天性的驱使下，无意间帮助了姐弟两人，三人也因此结下了友谊，结伴前往这片传说中的地域。命运丝线相互纠缠，友情羁绊也在不断加深，丰饶之角究竟位于何处？而神奇动物们的未来又将会在哪里？",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Droid Escape",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "《Droid Escape》是一款动作游戏，在这场冒险中，帮助Droid 07克服挑战，发现奥秘，并将您的朋友从困境中解放出来。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "白日梦",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "《白日梦》是一款探险类解谜游戏，故事发生在当今社会以一名小女孩在学校学习为背景。闲暇时间会偷偷看些小说名著等来缓解学习压力，无意中却触发了进入书本世界的能力。在幻境中进行探险解谜活动并得到宝贵的经验带回到现实世界中得以运用，使得学习更加应对自如，慢慢形成了积极乐观的性格，也慢慢影响着身边的同学。",
+        "platforms": [
+          "PC"
+        ]
+      },
+      {
+        "title": "Divine Tactics",
+        "genre": [
+          "策略游戏"
+        ],
+        "style": "在《Divine Tactics》中扮演神的斗篷，这是一个神话中的自动战斗者，你的智慧是你最强大的武器。",
         "platforms": [
           "PC"
         ]
