@@ -3,18 +3,22 @@
 从用户输入的文案中提取游戏信息并添加到游戏发售数据中。
 
 使用方法:
-    python scripts/add_game_from_text.py -m "你的游戏文案"
+    python scripts/add_game_from_text.py -m "你的游戏文案" [选项]
 
 环境变量:
     MOONSHOT_API_KEY: Kimi API 密钥
 
 示例:
     python scripts/add_game_from_text.py -m "《艾尔登法环》将于2026年3月15日发售，这是一款由FromSoftware开发的动作角色扮演游戏，支持PC和PS5平台。"
+    
+    # 添加后自动推送到仓库
+    python scripts/add_game_from_text.py -m "《黑神话悟空》将于2026年8月20日发售..." --publish
 """
 
 import argparse
 import json
 import os
+import subprocess
 import sys
 from pathlib import Path
 
@@ -235,6 +239,91 @@ def format_game_info(game_info: dict) -> str:
 """
 
 
+def push_to_git(game_title: str) -> bool:
+    """推送更改到 Git 仓库
+    
+    参数:
+        game_title: 游戏名称
+    
+    返回:
+        成功返回 True，失败返回 False
+    """
+    try:
+        # 获取项目根目录
+        script_dir = Path(__file__).parent
+        project_root = script_dir.parent
+        
+        # 保存当前工作目录
+        original_cwd = os.getcwd()
+        
+        try:
+            # 切换到项目根目录
+            os.chdir(project_root)
+            
+            # 执行 git add
+            print("\n执行 git add...")
+            result = subprocess.run(
+                ["git", "add", "-A"],
+                capture_output=True,
+                text=True,
+                check=False
+            )
+            
+            if result.returncode != 0:
+                print(f"错误: git add 失败")
+                print(f"STDERR: {result.stderr}")
+                return False
+            
+            # 创建 commit 消息
+            commit_message = f"chore: 添加游戏《{game_title}》"
+            
+            # 执行 git commit
+            print(f"执行 git commit: {commit_message}")
+            result = subprocess.run(
+                ["git", "commit", "-m", commit_message],
+                capture_output=True,
+                text=True,
+                check=False
+            )
+            
+            if result.returncode != 0:
+                # 如果没有更改，也算成功
+                if "nothing to commit" in result.stdout or "no changes added to commit" in result.stdout:
+                    print("⚠️  没有更改可提交")
+                    return True
+                print(f"错误: git commit 失败")
+                print(f"STDERR: {result.stderr}")
+                return False
+            
+            print("✅ git commit 成功")
+            
+            # 执行 git push
+            print("执行 git push...")
+            result = subprocess.run(
+                ["git", "push"],
+                capture_output=True,
+                text=True,
+                check=False
+            )
+            
+            if result.returncode != 0:
+                print(f"错误: git push 失败")
+                print(f"STDERR: {result.stderr}")
+                return False
+            
+            print("✅ git push 成功")
+            return True
+            
+        finally:
+            # 恢复原始工作目录
+            os.chdir(original_cwd)
+            
+    except Exception as e:
+        print(f"错误: Git 操作失败 - {e}")
+        return False
+
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="从文案中提取游戏信息并添加到游戏发售数据",
@@ -259,6 +348,11 @@ def main():
         "--dry-run",
         action="store_true",
         help="仅提取信息，不实际写入文件"
+    )
+    parser.add_argument(
+        "-b", "--publish",
+        action="store_true",
+        help="添加游戏后自动推送到 Git 仓库"
     )
 
     args = parser.parse_args()
@@ -332,6 +426,17 @@ def main():
     save_game_data(data_file, updated_data)
     print(f"\n✅ {message}")
     print(f"数据已保存到: {data_file}")
+    
+    # 如果指定了 --publish 参数，推送到 Git
+    if args.publish:
+        print("\n" + "="*67)
+        print("执行 Git 推送...")
+        print("="*67)
+        if push_to_git(game_info["title"]):
+            print("\n✅ 游戏信息已成功推送到仓库")
+        else:
+            print("\n❌ Git 推送失败，请检查您的 Git 配置和网络连接")
+            sys.exit(1)
 
 
 if __name__ == "__main__":
