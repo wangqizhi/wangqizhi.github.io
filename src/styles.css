@@ -349,16 +349,12 @@ section.timeline-shell {
 .timeline-scroll {
   position: relative;
   border-radius: 24px;
-  /* Add padding to match the mask height so content isn't cut off at start/end */
-  padding: 100px 0;
-  /* max-height: 75vh; REMOVE max-height */
   height: 100%; /* Fill remaining space */
   flex: 1; /* Flex grow */
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--muted) transparent;
-  mask-image: linear-gradient(to bottom, transparent 0%, black 100px, black calc(100% - 100px), transparent 100%);
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 100px, black calc(100% - 100px), transparent 100%);
+  overflow: hidden; /* Virtuoso handles its own scrolling */
+  /* Fade effect at top and bottom */
+  mask-image: linear-gradient(to bottom, transparent 0%, black 80px, black calc(100% - 80px), transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 80px, black calc(100% - 80px), transparent 100%);
 }
 
 .timeline-status {
@@ -436,6 +432,7 @@ section.timeline-shell {
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 /* The vertical line */
@@ -687,6 +684,24 @@ section.timeline-shell {
   .timeline-shell {
     padding: 0 16px;
   }
+
+  .platform-filters {
+    position: fixed;
+    left: 12px;
+    top: calc(48px + 128px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    max-width: none;
+    overflow: visible;
+    padding-bottom: 0;
+    z-index: 90;
+  }
+
+  .platform-filter-btn {
+    padding: 4px 8px;
+    font-size: 0.7rem;
+  }
   
   .timeline::before {
     left: 20px;
@@ -858,5 +873,39 @@ section.timeline-shell {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Timeline loading overlay */
+.timeline-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--haze);
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  z-index: 10;
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.timeline-loading-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--line);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
