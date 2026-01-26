@@ -30,12 +30,17 @@ def load_trans_result(file_path: str) -> dict[str, tuple[str, str]]:
     return trans_dict
 
 
-def fill_game_trans(game_trans: list[dict], trans_dict: dict[str, tuple[str, str]], force: bool = False) -> tuple[int, int]:
+def fill_game_trans(game_trans: list[dict], trans_dict: dict[str, tuple[str, str]], force: bool = False) -> tuple[int, int, int]:
     """
-    使用翻译字典填充 game-trans 列表，返回 (更新数量, 跳过数量)
+    使用翻译字典填充 game-trans 列表，返回 (更新数量, 跳过数量, 追加数量)
     """
     updated_count = 0
     skipped_count = 0
+    appended_count = 0
+
+    # 建立已存在的 zh 集合
+    existing_zh = {item.get("zh", "") for item in game_trans}
+
     for item in game_trans:
         zh = item.get("zh", "")
         if zh in trans_dict:
@@ -65,7 +70,14 @@ def fill_game_trans(game_trans: list[dict], trans_dict: dict[str, tuple[str, str
                 item["en"] = new_en
                 item["jp"] = new_jp
                 updated_count += 1
-    return updated_count, skipped_count
+
+    # 追加不存在的条目
+    for zh, (en, jp) in trans_dict.items():
+        if zh not in existing_zh:
+            game_trans.append({"zh": zh, "en": en, "jp": jp})
+            appended_count += 1
+
+    return updated_count, skipped_count, appended_count
 
 
 def main():
@@ -123,9 +135,10 @@ def main():
     print(f"  已加载 {len(game_trans)} 条游戏记录")
 
     # 填充翻译
-    updated_count, skipped_count = fill_game_trans(game_trans, trans_dict, args.force)
+    updated_count, skipped_count, appended_count = fill_game_trans(game_trans, trans_dict, args.force)
     print(f"\n统计:")
     print(f"  匹配并更新: {updated_count} 条")
+    print(f"  新追加: {appended_count} 条")
     print(f"  用户跳过: {skipped_count} 条")
 
     # 写入文件

@@ -798,7 +798,6 @@ const App = () => {
               </div>
             ) : timeline.length ? (
               <Virtuoso
-                key={language}
                 ref={virtuosoRef}
                 style={{ height: "100%" }}
                 data={timeline}

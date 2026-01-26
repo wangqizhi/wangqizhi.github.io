@@ -357,7 +357,7 @@
   {
     "zh": "逃离",
     "en": "Escape",
-    "jp": "Escape"
+    "jp": "エスケープ"
   },
   {
     "zh": "vissekom",
@@ -2866,8 +2866,8 @@
   },
   {
     "zh": "推箱子3D",
-    "en": "Push Box 3D",
-    "jp": "Push Box 3D 推箱子3D"
+    "en": "Sokoban 3D",
+    "jp": "倉庫番3D"
   },
   {
     "zh": "阿丽塔娜和双面具",
@@ -55191,8 +55191,8 @@
   },
   {
     "zh": "解忧咖啡馆：东京",
-    "en": "Carefree Café: Tokyo",
-    "jp": "解憂カフェ：東京"
+    "en": "Healing Café: Tokyo",
+    "jp": "癒しのカフェ：東京"
   },
   {
     "zh": "宝可梦 Pokopia",
@@ -55258,5 +55258,290 @@
     "zh": "奇异人生：重聚",
     "en": "Life Is Strange: Reunion",
     "jp": "ライフ イズ ストレンジ：リユニオン"
+  },
+  {
+    "zh": "烹饪模拟器2",
+    "en": "Cooking Simulator 2",
+    "jp": "クッキングシミュレーター2"
+  },
+  {
+    "zh": "诺亚模拟器",
+    "en": "Noah Simulator",
+    "jp": "ノア・シミュレーター"
+  },
+  {
+    "zh": "大地狱：关东大地震1923",
+    "en": "Great Hell: Kanto Earthquake 1923",
+    "jp": "大地獄：関東大震災1923"
+  },
+  {
+    "zh": "黑罗汉：悟净",
+    "en": "Black Arhat: Wujing",
+    "jp": "黒羅漢・悟浄"
+  },
+  {
+    "zh": "童话塔防：英雄",
+    "en": "Fairy Tale Tower Defense: Heroes",
+    "jp": "童話タワーディフェンス：ヒーローズ"
+  },
+  {
+    "zh": "我是耶稣",
+    "en": "I Am Jesus Christ",
+    "jp": "アイ・アム・ジーザス"
+  },
+  {
+    "zh": "命运架构师",
+    "en": "Architect of Fate",
+    "jp": "運命のアーキテクト"
+  },
+  {
+    "zh": "魔法王国",
+    "en": "Magic Kingdom",
+    "jp": "マジックキングダム"
+  },
+  {
+    "zh": "糖果大盗",
+    "en": "Candy Thief",
+    "jp": "キャンディ・シーフ"
+  },
+  {
+    "zh": "种子之神",
+    "en": "God of Seeds",
+    "jp": "種子の神"
+  },
+  {
+    "zh": "蜘蛛猴",
+    "en": "Spider Monkey",
+    "jp": "スパイダーモンキー"
+  },
+  {
+    "zh": "维滕格勒已不复存在",
+    "en": "Wittengler No Longer Exists",
+    "jp": "ヴィッテンゲラーは存在しない"
+  },
+  {
+    "zh": "正在招聘门童。",
+    "en": "Now Hiring: Doorman",
+    "jp": "ドアマン募集中。"
+  },
+  {
+    "zh": "深渊世界",
+    "en": "Abyss World",
+    "jp": "アビス・ワールド"
+  },
+  {
+    "zh": "令千军",
+    "en": "Command the Thousand Armies",
+    "jp": "千軍令"
+  },
+  {
+    "zh": "奇物搜妖记",
+    "en": "Chronicles of Curious Monsters",
+    "jp": "奇物捜妖記"
+  },
+  {
+    "zh": "克苏鲁 恐怖深渊",
+    "en": "Cthulhu: Dread Abyss",
+    "jp": "クトゥルフ：恐怖の深淵"
+  },
+  {
+    "zh": "旅居魔女与她的毕业课题",
+    "en": "The Traveling Witch and Her Graduation Thesis",
+    "jp": "旅する魔女と卒業課題"
+  },
+  {
+    "zh": "宠物乐园",
+    "en": "Pet Paradise",
+    "jp": "ペットパラダイス"
+  },
+  {
+    "zh": "刀刃、弓矢与魔法",
+    "en": "Blades, Bows and Magic",
+    "jp": "刃と弓と魔法"
+  },
+  {
+    "zh": "明日潮汐",
+    "en": "Tomorrow’s Tides",
+    "jp": "明日の潮汐"
+  },
+  {
+    "zh": "我们的王国 蚀时果实与远古魔物",
+    "en": "Our Kingdom: Time-Eroding Fruit and Ancient Beasts",
+    "jp": "我らの王国：蝕時の果実と古代魔獣"
+  },
+  {
+    "zh": "识质存在",
+    "en": "PRAGMATA",
+    "jp": "プラグマタ"
+  },
+  {
+    "zh": "沙罗周期",
+    "en": "Shara Cycle",
+    "jp": "シャラ・サイクル"
+  },
+  {
+    "zh": "魔女的童话",
+    "en": "The Witch’s Fairy Tale",
+    "jp": "魔女の童話"
+  },
+  {
+    "zh": "独奏骑士",
+    "en": "Solo Knight",
+    "jp": "ソロナイト"
+  },
+  {
+    "zh": "无敌少侠VS",
+    "en": "Invincible Hero VS",
+    "jp": "無敵ヒーローVS"
+  },
+  {
+    "zh": "带派幸存者3D",
+    "en": "Stylish Survivors 3D",
+    "jp": "スタイリッシュ・サバイバー3D"
+  },
+  {
+    "zh": "勇气与坟墓",
+    "en": "Courage and Graves",
+    "jp": "勇気と墓標"
+  },
+  {
+    "zh": "极限竞速：地平线6",
+    "en": "Forza Horizon 6",
+    "jp": "フォルツァ ホライゾン6"
+  },
+  {
+    "zh": "海盗：加勒比海战",
+    "en": "Pirates: Battle of the Caribbean",
+    "jp": "パイレーツ：カリブ海の戦い"
+  },
+  {
+    "zh": "帕拉人生",
+    "en": "Paralife",
+    "jp": "パラライフ"
+  },
+  {
+    "zh": "遗迹：第一守护者",
+    "en": "Relic: The First Guardian",
+    "jp": "レリック：最初の守護者"
+  },
+  {
+    "zh": "007 初露锋芒",
+    "en": "007: First Light",
+    "jp": "007 ファースト・ライト"
+  },
+  {
+    "zh": "逸剑风云决",
+    "en": "Wandering Sword",
+    "jp": "逸剣風雲決"
+  },
+  {
+    "zh": "乐高蝙蝠侠：黑暗骑士遗产",
+    "en": "LEGO Batman: Legacy of the Dark Knight",
+    "jp": "レゴ バットマン：ダークナイトの遺産"
+  },
+  {
+    "zh": "无尽尸潮",
+    "en": "Endless Zombie Horde",
+    "jp": "エンドレス・ゾンビラッシュ"
+  },
+  {
+    "zh": "矮人炮弹",
+    "en": "Dwarf Cannonball",
+    "jp": "ドワーフキャノンボール"
+  },
+  {
+    "zh": "钢铁蔷薇：逃离",
+    "en": "Steel Rose: Escape",
+    "jp": "鋼鉄の薔薇：エスケープ"
+  },
+  {
+    "zh": "迷宫梦魇：黑暗的尽头",
+    "en": "Labyrinth Nightmare: End of Darkness",
+    "jp": "迷宮の悪夢：闇の果て"
+  },
+  {
+    "zh": "科斯达丽佳的世末终之旅途",
+    "en": "Kostelica’s Journey to the End of the World",
+    "jp": "コスタリカの終末旅行"
+  },
+  {
+    "zh": "悠然生活之庭",
+    "en": "Garden of Leisurely Life",
+    "jp": "悠然生活の庭"
+  },
+  {
+    "zh": "核心战力组",
+    "en": "Core Combat Unit",
+    "jp": "コア戦力部隊"
+  },
+  {
+    "zh": "东周拟战",
+    "en": "Warring States: Eastern Zhou",
+    "jp": "東周擬戦"
+  },
+  {
+    "zh": "环钓中国",
+    "en": "Ring Fishing China",
+    "jp": "環釣中国"
+  },
+  {
+    "zh": "万圣节",
+    "en": "Halloween",
+    "jp": "ハロウィン"
+  },
+  {
+    "zh": "影之刃零",
+    "en": "Shadow Blade Zero",
+    "jp": "影の刃・ゼロ"
+  },
+  {
+    "zh": "太空进化者",
+    "en": "Space Evolver",
+    "jp": "スペース・エボルバー"
+  },
+  {
+    "zh": "气运之子",
+    "en": "Child of Fortune",
+    "jp": "気運の子"
+  },
+  {
+    "zh": "四面楚歌",
+    "en": "Besieged on All Sides",
+    "jp": "四面楚歌"
+  },
+  {
+    "zh": "尸骸：腐烂的回响",
+    "en": "Remains: Echoes of Decay",
+    "jp": "屍骸：腐敗の残響"
+  },
+  {
+    "zh": "忍卷",
+    "en": "Ninja Scroll",
+    "jp": "忍巻"
+  },
+  {
+    "zh": "王女的复国竞技法则",
+    "en": "Princess’s Rules of Restoration Arena",
+    "jp": "王女の復国競技法則"
+  },
+  {
+    "zh": "拆迁专家",
+    "en": "Demolition Expert",
+    "jp": "解体専門家"
+  },
+  {
+    "zh": "新生：若能好好长大",
+    "en": "Rebirth: If Only We Could Grow Up Well",
+    "jp": "新生：うまく育てたなら"
+  },
+  {
+    "zh": "丰裕之角：不可思议之物居住的小镇",
+    "en": "Horn of Abundance: The Town Where Wonders Dwell",
+    "jp": "豊穣の角：不思議なものが住む町"
+  },
+  {
+    "zh": "白日梦",
+    "en": "Daydream",
+    "jp": "白昼夢"
   }
 ]
