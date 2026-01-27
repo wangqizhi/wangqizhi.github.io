@@ -169,9 +169,9 @@ const TimelineGroupItem = memo(function TimelineGroupItem({
                   </div>
                 )}
               </div>
-              <p className="game-style" title={displayStyle}>
-                {displayStyle}
-              </p>
+              <div className="game-style-wrapper" data-tooltip={displayStyle}>
+                <p className="game-style">{displayStyle}</p>
+              </div>
               <div className="tag-row">
                 {showcase.genre.map((tag) => (
                   <span key={tag} className="tag showcase-tag">
@@ -208,9 +208,9 @@ const TimelineGroupItem = memo(function TimelineGroupItem({
                 </svg>
               </button>
             </div>
-            <p className="game-style" title={game.style}>
-              {game.style}
-            </p>
+            <div className="game-style-wrapper" data-tooltip={game.style}>
+              <p className="game-style">{game.style}</p>
+            </div>
             <div className="game-meta">
               <span className="game-studio">{game.studio}</span>
               <div className="platform-row">
@@ -944,10 +944,6 @@ const App = () => {
               <Tv size={16} />
               <span>Showcase</span>
             </button>
-            <button className="today-btn" onClick={() => scrollToToday(true)} title="Jump to Today">
-              <Calendar size={18} />
-              <span>{t("today")}</span>
-            </button>
           </div>
         </div>
         <div
@@ -956,6 +952,10 @@ const App = () => {
           onTouchStartCapture={markUserInteraction}
           onPointerDownCapture={markUserInteraction}
         >
+          <button className="today-btn-floating" onClick={() => scrollToToday(true)} title="Jump to Today">
+            <Calendar size={18} />
+            <span>{t("today")}</span>
+          </button>
           {(loadingPrev || loadingNext) && (
             <div className="timeline-loading-overlay">
               <div className="timeline-loading-spinner" />
