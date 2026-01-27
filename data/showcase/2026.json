@@ -1,0 +1,77 @@
+[
+  {
+    "date": "2026-01-29",
+    "displayDate": "2026-01-29 22:00",
+    "showcases": [
+      {
+        "title": "《朋友收集 梦想生活》专场直面会",
+        "title_en": "Friends Collection: Dream Life Direct",
+        "genre": [
+          "showcase"
+        ],
+        "style": "介绍《朋友收集 梦想生活》发售日等详情，时长约20分钟",
+        "style_en": "Reveal release date and more details for Friends Collection: Dream Life, approx. 20 minutes"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-30",
+    "displayDate": "2026-01-30 01:00",
+    "showcases": [
+      {
+        "title": "暴雪《魔兽世界》展示会",
+        "title_en": "Blizzard World of Warcraft Showcase",
+        "genre": [
+          "showcase"
+        ],
+        "style": "《魔兽世界》最新动向",
+        "style_en": "Latest updates for World of Warcraft"
+      }
+    ]
+  },
+  {
+    "date": "2026-02-05",
+    "displayDate": "2026-02-05 02:00",
+    "showcases": [
+      {
+        "title": "暴雪《守望先锋》展示会",
+        "title_en": "Blizzard Overwatch Showcase",
+        "genre": [
+          "showcase"
+        ],
+        "style": "《守望先锋》最新动向",
+        "style_en": "Latest updates for Overwatch"
+      }
+    ]
+  },
+  {
+    "date": "2026-02-10",
+    "displayDate": "2026-02-10 01:30",
+    "showcases": [
+      {
+        "title": "暴雪《炉石传说》展示会",
+        "title_en": "Blizzard Hearthstone Showcase",
+        "genre": [
+          "showcase"
+        ],
+        "style": "《炉石传说》最新动向",
+        "style_en": "Latest updates for Hearthstone"
+      }
+    ]
+  },
+  {
+    "date": "2026-02-12",
+    "displayDate": "2026-02-12 06:00",
+    "showcases": [
+      {
+        "title": "暴雪《暗黑破坏神》展示会",
+        "title_en": "Blizzard Diablo Showcase",
+        "genre": [
+          "showcase"
+        ],
+        "style": "《暗黑破坏神》最新动向",
+        "style_en": "Latest updates for Diablo"
+      }
+    ]
+  }
+]

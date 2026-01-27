@@ -1,6 +1,6 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Virtuoso, type VirtuosoHandle } from "react-virtuoso";
-import { Moon, Sun, Gamepad2, Github, Mail, MapPin, Calendar, Languages } from "lucide-react";
+import { Moon, Sun, Gamepad2, Github, Mail, MapPin, Calendar, Languages, Tv, Clock } from "lucide-react";
 
 const PLATFORM_FILTERS = [
   { key: "PC", label: "PC", className: "platform-pc" },
@@ -22,10 +22,26 @@ type Game = {
   platforms: string[];
 };
 
+type Showcase = {
+  title: string;
+  title_en?: string;
+  genre: string[];
+  style: string;
+  style_en?: string;
+  time?: string;
+};
+
+type ShowcaseGroup = {
+  date: string;
+  displayDate: string;
+  showcases: Showcase[];
+};
+
 type ReleaseGroup = {
   date: string;
   displayDate: string;
   games: Game[];
+  showcases?: Showcase[];
 };
 
 type YearPayload = ReleaseGroup[] | { year?: string; releases?: ReleaseGroup[] };
@@ -70,6 +86,8 @@ type TimelineGroupItemProps = {
   animationsEnabled: boolean;
   animationDelay?: number;
   onSelectGame: (game: Game) => void;
+  showOnlyShowcase: boolean;
+  language: "en" | "zh";
 };
 
 const TimelineGroupItem = memo(function TimelineGroupItem({
@@ -83,15 +101,26 @@ const TimelineGroupItem = memo(function TimelineGroupItem({
   animationsEnabled,
   animationDelay,
   onSelectGame,
+  showOnlyShowcase,
+  language,
 }: TimelineGroupItemProps) {
   const filteredGames = useMemo(() => {
+    if (showOnlyShowcase) {
+      return [];
+    }
     if (selectedPlatforms.size === 0) {
       return group.games;
     }
     return group.games.filter((game) => matchesPlatformFilter(game.platforms));
-  }, [group.games, matchesPlatformFilter, selectedPlatforms]);
+  }, [group.games, matchesPlatformFilter, selectedPlatforms, showOnlyShowcase]);
 
-  if (filteredGames.length === 0) {
+  const showcases = group.showcases ?? [];
+  const hasContent = filteredGames.length > 0 || showcases.length > 0;
+
+  // 转换 displayDate 从 UTC+8 到本地时区
+  const localDisplayDate = convertUTC8ToLocal(group.displayDate);
+
+  if (!hasContent) {
     return (
       <div
         key={group.date}
@@ -113,8 +142,47 @@ const TimelineGroupItem = memo(function TimelineGroupItem({
       data-date={group.date}
     >
       <div className="timeline-dot" />
-      <div className="timeline-date">{group.displayDate}</div>
+      <div className="timeline-date">{localDisplayDate}</div>
       <div className="game-card-wrapper">
+        {/* Showcase 卡片 */}
+        {showcases.map((showcase) => {
+          // 根据语言选择显示的 title 和 style
+          const displayTitle = language === "en" && showcase.title_en
+            ? showcase.title_en
+            : showcase.title;
+          const displayStyle = language === "en" && showcase.style_en
+            ? showcase.style_en
+            : showcase.style;
+          // 转换展示时间到本地时区
+          const localTime = showcase.time
+            ? convertUTC8ToLocal(`${group.date} ${showcase.time}`).split(" ")[1]
+            : undefined;
+
+          return (
+            <div key={showcase.title} className="game-card showcase-card">
+              <div className="game-card-header">
+                <h3>{getTranslatedGameName(displayTitle)}</h3>
+                {localTime && (
+                  <div className="showcase-time">
+                    <Clock size={14} className="showcase-time-icon" />
+                    <span>{localTime}</span>
+                  </div>
+                )}
+              </div>
+              <p className="game-style" title={displayStyle}>
+                {displayStyle}
+              </p>
+              <div className="tag-row">
+                {showcase.genre.map((tag) => (
+                  <span key={tag} className="tag showcase-tag">
+                    {getTranslatedGenre(tag)}
+                  </span>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+        {/* 游戏卡片 */}
         {filteredGames.map((game) => (
           <div key={game.title} className="game-card">
             <div className="game-card-header">
@@ -183,6 +251,42 @@ const toLocalDayValue = (dateString: string) => {
   return new Date(year, month - 1, day).getTime();
 };
 
+/**
+ * 将 UTC+8 时间字符串转换为浏览器本地时间
+ * @param displayDate 格式 "YYYY-MM-DD HH:mm"，假定为 UTC+8 时间
+ * @returns 本地时间字符串，格式 "YYYY-MM-DD HH:mm"
+ */
+const convertUTC8ToLocal = (displayDate: string): string => {
+  // 解析 displayDate，格式 "2026-01-30 01:00"
+  const match = displayDate.match(/^(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})$/);
+  if (!match) {
+    return displayDate; // 格式不匹配，直接返回原值
+  }
+
+  const [, yearStr, monthStr, dayStr, hourStr, minuteStr] = match;
+  const year = Number(yearStr);
+  const month = Number(monthStr) - 1; // JS 月份从 0 开始
+  const day = Number(dayStr);
+  const hour = Number(hourStr);
+  const minute = Number(minuteStr);
+
+  // 创建 UTC+8 时间对应的 UTC 时间戳
+  // UTC+8 时间比 UTC 早 8 小时，所以 UTC = UTC+8 - 8小时
+  const utcTimestamp = Date.UTC(year, month, day, hour - 8, minute);
+
+  // 创建 Date 对象（会自动转换为本地时间）
+  const localDate = new Date(utcTimestamp);
+
+  // 格式化为 "YYYY-MM-DD HH:mm"
+  const localYear = localDate.getFullYear();
+  const localMonth = String(localDate.getMonth() + 1).padStart(2, "0");
+  const localDay = String(localDate.getDate()).padStart(2, "0");
+  const localHour = String(localDate.getHours()).padStart(2, "0");
+  const localMinute = String(localDate.getMinutes()).padStart(2, "0");
+
+  return `${localYear}-${localMonth}-${localDay} ${localHour}:${localMinute}`;
+};
+
 const sortGroupsByDate = (groups: ReleaseGroup[]) =>
   [...groups].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
@@ -237,6 +341,7 @@ const App = () => {
     });
     return initial;
   });
+  const [showOnlyShowcase, setShowOnlyShowcase] = useState(false);
 
   const virtuosoRef = useRef<VirtuosoHandle>(null);
   const didInitialScrollRef = useRef(false);
@@ -414,6 +519,56 @@ const App = () => {
     return sortGroupsByDate(normalizeYearPayload(payload));
   }, []);
 
+  const fetchShowcaseYear = useCallback(async (year: number): Promise<ShowcaseGroup[]> => {
+    try {
+      const response = await fetch(`/data/showcase/${year}.json`);
+      if (!response.ok) {
+        return [];
+      }
+      const data: ShowcaseGroup[] = await response.json();
+      return data;
+    } catch {
+      return [];
+    }
+  }, []);
+
+  const mergeShowcaseIntoTimeline = useCallback((groups: ReleaseGroup[], showcaseGroups: ShowcaseGroup[]): ReleaseGroup[] => {
+    const dateMap = new Map<string, ReleaseGroup>();
+
+    // 先添加游戏数据
+    groups.forEach((group) => {
+      dateMap.set(group.date, { ...group });
+    });
+
+    // 合并 showcase 数据
+    showcaseGroups.forEach((sg) => {
+      // 从 showcase group 的 displayDate 中提取时间 (如 "01:00")
+      const timeMatch = sg.displayDate.match(/(\d{2}:\d{2})$/);
+      const time = timeMatch ? timeMatch[1] : undefined;
+
+      // 给该组下的所有 showcase 附加时间信息
+      const showcasesWithTime = sg.showcases.map((s) => ({
+        ...s,
+        time,
+      }));
+
+      const existing = dateMap.get(sg.date);
+      if (existing) {
+        existing.showcases = showcasesWithTime;
+      } else {
+        // 创建一个新的 group，只有 showcase
+        dateMap.set(sg.date, {
+          date: sg.date,
+          displayDate: sg.displayDate,
+          games: [],
+          showcases: showcasesWithTime,
+        });
+      }
+    });
+
+    return sortGroupsByDate(Array.from(dateMap.values()));
+  }, []);
+
   // Load game translations
   useEffect(() => {
     const loadTranslations = async () => {
@@ -467,11 +622,21 @@ const App = () => {
             : years[0];
 
         const entries = await fetchYear(initialYear);
+
+        // 加载当年和次年的 showcase 数据
+        const showcaseYears = [currentYear, currentYear + 1];
+        const showcasePromises = showcaseYears.map((y) => fetchShowcaseYear(y));
+        const showcaseResults = await Promise.all(showcasePromises);
+        const allShowcases = showcaseResults.flat();
+
+        // 合并 showcase 数据到时间线
+        const mergedEntries = mergeShowcaseIntoTimeline(entries, allShowcases);
+
         if (active) {
           setAvailableYears(years);
           setLoadedYears([initialYear]);
           setTimelineState({
-            data: entries,
+            data: mergedEntries,
             firstItemIndex: INITIAL_FIRST_ITEM_INDEX,
           });
           setError(null);
@@ -488,7 +653,7 @@ const App = () => {
     return () => {
       active = false;
     };
-  }, [fetchYear]);
+  }, [fetchYear, fetchShowcaseYear, mergeShowcaseIntoTimeline]);
 
   const minLoadedYear = loadedYears.length ? Math.min(...loadedYears) : null;
   const maxLoadedYear = loadedYears.length ? Math.max(...loadedYears) : null;
@@ -771,6 +936,14 @@ const App = () => {
                 </button>
               ))}
             </div>
+            <button
+              className={`showcase-filter-btn ${showOnlyShowcase ? "active" : ""}`}
+              onClick={() => setShowOnlyShowcase((prev) => !prev)}
+              title="Showcase"
+            >
+              <Tv size={16} />
+              <span>Showcase</span>
+            </button>
             <button className="today-btn" onClick={() => scrollToToday(true)} title="Jump to Today">
               <Calendar size={18} />
               <span>{t("today")}</span>
@@ -850,6 +1023,8 @@ const App = () => {
                       animationsEnabled={animationsEnabled}
                       animationDelay={animationDelay}
                       onSelectGame={onSelectGame}
+                      showOnlyShowcase={showOnlyShowcase}
+                      language={language}
                     />
                   );
                 }}

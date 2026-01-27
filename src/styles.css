@@ -629,6 +629,24 @@ section.timeline-shell {
   flex: 1;
 }
 
+.showcase-time {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: var(--accent);
+  background: rgba(255, 138, 91, 0.1);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+[data-theme="dark"] .showcase-time {
+  background: rgba(255, 159, 118, 0.15);
+}
+
 .game-detail-btn {
   display: none; /* Hidden by default on desktop */
   background: transparent;
@@ -798,7 +816,16 @@ section.timeline-shell {
     padding: 4px 8px;
     font-size: 0.7rem;
   }
-  
+
+  .showcase-filter-btn {
+    padding: 4px 10px;
+    font-size: 0.7rem;
+  }
+
+  .showcase-filter-btn span {
+    display: none;
+  }
+
   .timeline::before {
     left: 20px;
   }
@@ -1000,8 +1027,83 @@ section.timeline-shell {
   animation: spin 0.8s linear infinite;
 }
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+/* Showcase Filter Button */
+.showcase-filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: var(--panel);
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  opacity: 0.7;
+}
+
+.showcase-filter-btn:hover {
+  opacity: 1;
+  border-color: #9333ea;
+  color: #9333ea;
+}
+
+.showcase-filter-btn.active {
+  opacity: 1;
+  background: linear-gradient(135deg, #9333ea 0%, #7c3aed 100%);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.3);
+}
+
+/* Showcase Card Styles */
+.showcase-card {
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.08) 0%, rgba(124, 58, 237, 0.04) 100%);
+  border-color: rgba(147, 51, 234, 0.25);
+}
+
+.showcase-card:hover {
+  border-color: #9333ea;
+  box-shadow: 0 8px 24px rgba(147, 51, 234, 0.15);
+}
+
+.showcase-card h3 {
+  color: #9333ea;
+}
+
+.showcase-tag {
+  background: rgba(147, 51, 234, 0.12);
+  color: #9333ea;
+}
+
+/* Dark mode showcase styles */
+[data-theme="dark"] .showcase-card {
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.15) 0%, rgba(124, 58, 237, 0.08) 100%);
+  border-color: rgba(147, 51, 234, 0.35);
+}
+
+[data-theme="dark"] .showcase-card:hover {
+  border-color: #a855f7;
+  box-shadow: 0 8px 24px rgba(168, 85, 247, 0.2);
+}
+
+[data-theme="dark"] .showcase-card h3 {
+  color: #a855f7;
+}
+
+[data-theme="dark"] .showcase-tag {
+  background: rgba(168, 85, 247, 0.18);
+  color: #a855f7;
+}
+
+[data-theme="dark"] .showcase-filter-btn:hover {
+  border-color: #a855f7;
+  color: #a855f7;
+}
+
+[data-theme="dark"] .showcase-filter-btn.active {
+  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.35);
 }
