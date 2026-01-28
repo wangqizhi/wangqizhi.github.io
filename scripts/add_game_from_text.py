@@ -20,6 +20,8 @@ import json
 import os
 import subprocess
 import sys
+from datetime import date
+from shutil import copy2
 from pathlib import Path
 
 # Kimi API 配置
@@ -75,6 +77,8 @@ def call_kimi_api(api_key: str, user_text: str) -> dict | None:
         base_url=BASE_URL,
     )
 
+    today = date.today().isoformat()
+
     system_prompt = """你是一个专业的游戏信息提取助手。用户会给你一段包含游戏信息的文案，你需要从中提取以下信息并返回 JSON 格式：
 
 1. title: 游戏名称（字符串）
@@ -84,13 +88,13 @@ def call_kimi_api(api_key: str, user_text: str) -> dict | None:
 5. platforms: 发售平台（字符串数组），常见平台包括：PC、PS5、PS4、Xbox Series X/S、Xbox One、Switch、iOS、Android 等
 
 请严格按照以下 JSON 格式返回，不要包含任何其他文字：
-{
+{{
     "title": "游戏名称",
     "date": "YYYY-MM-DD",
     "genre": ["类型1", "类型2"],
     "style": "游戏简介描述",
     "platforms": ["平台1", "平台2"]
-}
+}}
 
 注意事项：
 - 如果某个信息在文案中没有明确提及，请根据上下文合理推断
@@ -98,7 +102,9 @@ def call_kimi_api(api_key: str, user_text: str) -> dict | None:
 - 如果发售日期只有年份，默认为该年1月1号
 - 游戏类型请使用中文
 - 如果文案中包含多个游戏，只提取第一个游戏的信息
-- 只返回 JSON，不要有任何解释文字"""
+- 只返回 JSON，不要有任何解释文字
+
+当前系统日期：{today}""".format(today=today)
 
     try:
         response = client.chat.completions.create(
@@ -155,6 +161,21 @@ def save_game_data(file_path: Path, data: list):
     file_path.parent.mkdir(parents=True, exist_ok=True)
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def copy_public_data_to_data(public_file_path: Path) -> Path:
+    """将 public 下的 JSON 同步到 data 目录"""
+    if not public_file_path.exists():
+        raise FileNotFoundError(f"public 数据文件不存在: {public_file_path}")
+
+    project_root = Path(__file__).parent.parent
+    data_dir = project_root / "data"
+    relative_path = public_file_path.relative_to(project_root / "public")
+    target_path = data_dir / relative_path
+
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+    copy2(public_file_path, target_path)
+    return target_path
 
 
 def find_date_entry(data: list, target_date: str) -> dict | None:
@@ -427,8 +448,15 @@ def main():
     print(f"\n✅ {message}")
     print(f"数据已保存到: {data_file}")
     
-    # 如果指定了 --publish 参数，推送到 Git
+    # 如果指定了 --publish 参数，同步 public 到 data 并推送到 Git
     if args.publish:
+        try:
+            synced_path = copy_public_data_to_data(data_file)
+            print(f"已同步到数据目录: {synced_path}")
+        except Exception as e:
+            print(f"错误: 同步 public 数据到 data 失败 - {e}")
+            sys.exit(1)
+
         print("\n" + "="*67)
         print("执行 Git 推送...")
         print("="*67)
