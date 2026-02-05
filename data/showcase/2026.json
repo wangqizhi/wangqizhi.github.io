@@ -41,6 +41,15 @@
         ],
         "style": "《守望先锋》最新动向",
         "style_en": "Latest updates for Overwatch"
+      },
+      {
+        "title": "Nintendo Direct Partner Showcase",
+        "title_en": "Nintendo Direct Partner Showcase",
+        "genre": [
+          "showcase"
+        ],
+        "style": "聚焦 Nintendo Switch 2 和 Nintendo Switch 合作伙伴厂商的游戏",
+        "style_en": "Focusing on Nintendo Switch 2 and partner publishers' games for Nintendo Switch"
       }
     ]
   },
