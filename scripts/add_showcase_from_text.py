@@ -11,8 +11,8 @@
 示例:
     python scripts/add_showcase_from_text.py -m "暴雪展示会官宣！《魔兽世界》——1月30日凌晨1：00"
 
-    # 添加后自动推送到仓库
-    python scripts/add_showcase_from_text.py -m "任天堂直面会将于2月20日晚上10点播出..." --publish
+    # 添加后执行编译并推送到仓库
+    python scripts/add_showcase_from_text.py -m "任天堂直面会将于2月20日晚上10点播出..." -b
 """
 
 import argparse
@@ -200,10 +200,11 @@ def insert_showcase(data: list, showcase_info: dict) -> tuple[list, bool, str]:
     target_datetime = showcase_info["date"]
     target_date = target_datetime.split(" ")[0]  # 提取日期部分
 
-    # 构建展示会条目
+    # 构建展示会条目（每个 showcase 独立包含 displayDate）
     showcase_entry = {
         "title": showcase_info["title"],
         "title_en": showcase_info["title_en"],
+        "displayDate": target_datetime,
         "genre": showcase_info["genre"],
         "style": showcase_info["style"],
         "style_en": showcase_info["style_en"],
@@ -221,10 +222,9 @@ def insert_showcase(data: list, showcase_info: dict) -> tuple[list, bool, str]:
         date_entry["showcases"].append(showcase_entry)
         return data, True, f"已将《{showcase_info['title']}》添加到 {target_date}"
     else:
-        # 创建新的日期条目
+        # 创建新的日期条目（不再需要 group 级别的 displayDate）
         new_entry = {
             "date": target_date,
-            "displayDate": target_datetime,
             "showcases": [showcase_entry]
         }
 
@@ -271,6 +271,44 @@ def format_all_showcases(showcases: list) -> str:
         result += f"    英文简介: {showcase['style_en']}\n"
     result += f"\n{'='*67}\n"
     return result
+
+
+def run_build() -> bool:
+    """执行 build.sh 编译脚本
+
+    返回:
+        成功返回 True，失败返回 False
+    """
+    try:
+        script_dir = Path(__file__).parent
+        build_script = script_dir / "build.sh"
+
+        if not build_script.exists():
+            print(f"错误: 找不到编译脚本 {build_script}")
+            return False
+
+        print(f"\n执行编译脚本: {build_script}")
+        result = subprocess.run(
+            ["bash", str(build_script)],
+            capture_output=True,
+            text=True,
+            check=False
+        )
+
+        if result.returncode != 0:
+            print(f"错误: 编译失败")
+            print(f"STDOUT: {result.stdout}")
+            print(f"STDERR: {result.stderr}")
+            return False
+
+        print("✅ 编译成功")
+        if result.stdout:
+            print(result.stdout)
+        return True
+
+    except Exception as e:
+        print(f"错误: 执行编译脚本失败 - {e}")
+        return False
 
 
 def push_to_git(showcase_title: str) -> bool:
@@ -385,7 +423,7 @@ def main():
     parser.add_argument(
         "-b", "--publish",
         action="store_true",
-        help="添加展示会后自动推送到 Git 仓库"
+        help="添加展示会后执行编译并推送到 Git 仓库"
     )
 
     args = parser.parse_args()
@@ -428,6 +466,7 @@ def main():
             entry = {
                 "title": showcase["title"],
                 "title_en": showcase["title_en"],
+                "displayDate": showcase["date"],
                 "genre": showcase["genre"],
                 "style": showcase["style"],
                 "style_en": showcase["style_en"],
@@ -478,8 +517,16 @@ def main():
     print(f"处理完成: 成功 {success_count} 个，失败 {fail_count} 个")
     print(f"{'='*67}")
 
-    # 如果指定了 --publish 参数，推送到 Git
+    # 如果指定了 --publish 参数，编译并推送到 Git
     if args.publish and success_count > 0:
+        print("\n" + "="*67)
+        print("执行编译...")
+        print("="*67)
+
+        if not run_build():
+            print("\n❌ 编译失败，已中止推送")
+            sys.exit(1)
+
         print("\n" + "="*67)
         print("执行 Git 推送...")
         print("="*67)

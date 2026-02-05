@@ -25,10 +25,10 @@ type Game = {
 type Showcase = {
   title: string;
   title_en?: string;
+  displayDate?: string;
   genre: string[];
   style: string;
   style_en?: string;
-  time?: string;
 };
 
 type ShowcaseGroup = {
@@ -153,9 +153,12 @@ const TimelineGroupItem = memo(function TimelineGroupItem({
           const displayStyle = language === "en" && showcase.style_en
             ? showcase.style_en
             : showcase.style;
-          // 转换展示时间到本地时区
-          const localTime = showcase.time
-            ? convertUTC8ToLocal(`${group.date} ${showcase.time}`).split(" ")[1]
+          // 从 showcase 的 displayDate 转换展示时间到本地时区
+          const localDisplayDate = showcase.displayDate
+            ? convertUTC8ToLocal(showcase.displayDate)
+            : undefined;
+          const localTime = localDisplayDate
+            ? localDisplayDate.split(" ")[1]
             : undefined;
 
           return (
@@ -540,28 +543,21 @@ const App = () => {
       dateMap.set(group.date, { ...group });
     });
 
-    // 合并 showcase 数据
+    // 合并 showcase 数据（每个 showcase 自带 displayDate）
     showcaseGroups.forEach((sg) => {
-      // 从 showcase group 的 displayDate 中提取时间 (如 "01:00")
-      const timeMatch = sg.displayDate.match(/(\d{2}:\d{2})$/);
-      const time = timeMatch ? timeMatch[1] : undefined;
-
-      // 给该组下的所有 showcase 附加时间信息
-      const showcasesWithTime = sg.showcases.map((s) => ({
-        ...s,
-        time,
-      }));
-
       const existing = dateMap.get(sg.date);
       if (existing) {
-        existing.showcases = showcasesWithTime;
+        // 合并到已有日期，保留每个 showcase 的 displayDate
+        existing.showcases = [...(existing.showcases || []), ...sg.showcases];
       } else {
         // 创建一个新的 group，只有 showcase
+        // 使用第一个 showcase 的 displayDate 作为 group 的 displayDate（用于日期显示）
+        const groupDisplayDate = sg.showcases[0]?.displayDate || sg.date;
         dateMap.set(sg.date, {
           date: sg.date,
-          displayDate: sg.displayDate,
+          displayDate: groupDisplayDate,
           games: [],
-          showcases: showcasesWithTime,
+          showcases: sg.showcases,
         });
       }
     });

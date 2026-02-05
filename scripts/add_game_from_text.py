@@ -11,8 +11,8 @@
 示例:
     python scripts/add_game_from_text.py -m "《艾尔登法环》将于2026年3月15日发售，这是一款由FromSoftware开发的动作角色扮演游戏，支持PC和PS5平台。"
     
-    # 添加后自动推送到仓库
-    python scripts/add_game_from_text.py -m "《黑神话悟空》将于2026年8月20日发售..." --publish
+    # 添加后执行编译并推送到仓库
+    python scripts/add_game_from_text.py -m "《黑神话悟空》将于2026年8月20日发售..." -b
 """
 
 import argparse
@@ -260,6 +260,44 @@ def format_game_info(game_info: dict) -> str:
 """
 
 
+def run_build() -> bool:
+    """执行 build.sh 编译脚本
+
+    返回:
+        成功返回 True，失败返回 False
+    """
+    try:
+        script_dir = Path(__file__).parent
+        build_script = script_dir / "build.sh"
+
+        if not build_script.exists():
+            print(f"错误: 找不到编译脚本 {build_script}")
+            return False
+
+        print(f"\n执行编译脚本: {build_script}")
+        result = subprocess.run(
+            ["bash", str(build_script)],
+            capture_output=True,
+            text=True,
+            check=False
+        )
+
+        if result.returncode != 0:
+            print(f"错误: 编译失败")
+            print(f"STDOUT: {result.stdout}")
+            print(f"STDERR: {result.stderr}")
+            return False
+
+        print("✅ 编译成功")
+        if result.stdout:
+            print(result.stdout)
+        return True
+
+    except Exception as e:
+        print(f"错误: 执行编译脚本失败 - {e}")
+        return False
+
+
 def push_to_git(game_title: str) -> bool:
     """推送更改到 Git 仓库
     
@@ -373,7 +411,7 @@ def main():
     parser.add_argument(
         "-b", "--publish",
         action="store_true",
-        help="添加游戏后自动推送到 Git 仓库"
+        help="添加游戏后执行编译并推送到 Git 仓库"
     )
 
     args = parser.parse_args()
@@ -448,13 +486,21 @@ def main():
     print(f"\n✅ {message}")
     print(f"数据已保存到: {data_file}")
     
-    # 如果指定了 --publish 参数，同步 public 到 data 并推送到 Git
+    # 如果指定了 --publish 参数，同步 public 到 data，编译并推送到 Git
     if args.publish:
         try:
             synced_path = copy_public_data_to_data(data_file)
             print(f"已同步到数据目录: {synced_path}")
         except Exception as e:
             print(f"错误: 同步 public 数据到 data 失败 - {e}")
+            sys.exit(1)
+
+        print("\n" + "="*67)
+        print("执行编译...")
+        print("="*67)
+
+        if not run_build():
+            print("\n❌ 编译失败，已中止推送")
             sys.exit(1)
 
         print("\n" + "="*67)

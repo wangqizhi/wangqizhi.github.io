@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-01-29",
-    "displayDate": "2026-01-29 22:00",
     "showcases": [
       {
         "title": "《朋友收集 梦想生活》专场直面会",
         "title_en": "Friends Collection: Dream Life Direct",
+        "displayDate": "2026-01-29 22:00",
         "genre": [
           "showcase"
         ],
@@ -16,11 +16,11 @@
   },
   {
     "date": "2026-01-30",
-    "displayDate": "2026-01-30 01:00",
     "showcases": [
       {
         "title": "暴雪《魔兽世界》展示会",
         "title_en": "Blizzard World of Warcraft Showcase",
+        "displayDate": "2026-01-30 01:00",
         "genre": [
           "showcase"
         ],
@@ -31,11 +31,11 @@
   },
   {
     "date": "2026-02-05",
-    "displayDate": "2026-02-05 02:00",
     "showcases": [
       {
         "title": "暴雪《守望先锋》展示会",
         "title_en": "Blizzard Overwatch Showcase",
+        "displayDate": "2026-02-05 02:00",
         "genre": [
           "showcase"
         ],
@@ -45,6 +45,7 @@
       {
         "title": "Nintendo Direct Partner Showcase",
         "title_en": "Nintendo Direct Partner Showcase",
+        "displayDate": "2026-02-05 22:00",
         "genre": [
           "showcase"
         ],
@@ -55,11 +56,11 @@
   },
   {
     "date": "2026-02-10",
-    "displayDate": "2026-02-10 01:30",
     "showcases": [
       {
         "title": "暴雪《炉石传说》展示会",
         "title_en": "Blizzard Hearthstone Showcase",
+        "displayDate": "2026-02-10 01:30",
         "genre": [
           "showcase"
         ],
@@ -70,11 +71,11 @@
   },
   {
     "date": "2026-02-12",
-    "displayDate": "2026-02-12 06:00",
     "showcases": [
       {
         "title": "暴雪《暗黑破坏神》展示会",
         "title_en": "Blizzard Diablo Showcase",
+        "displayDate": "2026-02-12 06:00",
         "genre": [
           "showcase"
         ],
