@@ -33,7 +33,7 @@ type Showcase = {
 
 type ShowcaseGroup = {
   date: string;
-  displayDate: string;
+  displayDate?: string;
   showcases: Showcase[];
 };
 
@@ -142,7 +142,7 @@ const TimelineGroupItem = memo(function TimelineGroupItem({
       data-date={group.date}
     >
       <div className="timeline-dot" />
-      <div className="timeline-date">{localDisplayDate}</div>
+      <div className="timeline-date">{localDisplayDate || group.date}</div>
       <div className="game-card-wrapper">
         {/* Showcase 卡片 */}
         {showcases.map((showcase) => {
@@ -259,7 +259,10 @@ const toLocalDayValue = (dateString: string) => {
  * @param displayDate 格式 "YYYY-MM-DD HH:mm"，假定为 UTC+8 时间
  * @returns 本地时间字符串，格式 "YYYY-MM-DD HH:mm"
  */
-const convertUTC8ToLocal = (displayDate: string): string => {
+const convertUTC8ToLocal = (displayDate: string | undefined): string => {
+  if (!displayDate) {
+    return "";
+  }
   // 解析 displayDate，格式 "2026-01-30 01:00"
   const match = displayDate.match(/^(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})$/);
   if (!match) {
