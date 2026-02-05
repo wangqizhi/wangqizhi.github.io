@@ -906,7 +906,7 @@ const App = () => {
             <Mail size={16} />
             wangqizhi1987@gmail.com
           </a>
-          <a className="pill" href="https://github.com/">
+          <a className="pill" href="https://github.com/wangqizhi">
             <Github size={16} />
             github.com
           </a>
