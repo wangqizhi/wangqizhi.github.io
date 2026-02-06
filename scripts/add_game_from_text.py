@@ -52,6 +52,35 @@ VAGUE_DATE_MAP = {
 }
 
 
+PLATFORM_ALIASES = {
+    "pc": "PC",
+    "windows": "PC",
+    "steam": "PC",
+    "ns": "NS",
+    "switch": "NS",
+    "nintendoswitch": "NS",
+    "switch1": "NS",
+    "ns2": "NS2",
+    "switch2": "NS2",
+    "nintendoswitch2": "NS2",
+    "ps4": "PS4",
+    "playstation4": "PS4",
+    "ps5": "PS5",
+    "playstation5": "PS5",
+    "xboxone": "Xbox One",
+    "xbox1": "Xbox One",
+    "xb1": "Xbox One",
+    "xboxseriesx|s": "Xbox Series X|S",
+    "xboxseriesx/s": "Xbox Series X|S",
+    "xboxseriesxs": "Xbox Series X|S",
+    "xsx": "Xbox Series X|S",
+    "ios": "iOS",
+    "iphone": "iOS",
+    "ipad": "iOS",
+    "android": "Android",
+}
+
+
 def parse_game_date(raw_date: str) -> tuple[str, str]:
     """
     解析 AI 返回的日期字段，支持精确日期和模糊日期。
@@ -81,6 +110,26 @@ def parse_game_date(raw_date: str) -> tuple[str, str]:
 
     # 无法识别，原样返回
     return raw_date, raw_date
+
+
+def normalize_platform_name(platform: str) -> str:
+    """将平台名称规范化到项目使用的写法。"""
+    if not isinstance(platform, str):
+        return str(platform)
+
+    compact = re.sub(r"[\s\-_]+", "", platform.strip().lower())
+    compact = compact.replace("／", "/")
+    return PLATFORM_ALIASES.get(compact, platform.strip())
+
+
+def normalize_platforms(platforms: list) -> list[str]:
+    """规范化平台列表并去重（保持顺序）。"""
+    normalized: list[str] = []
+    for platform in platforms:
+        canonical = normalize_platform_name(platform)
+        if canonical and canonical not in normalized:
+            normalized.append(canonical)
+    return normalized
 
 
 def check_api_key() -> str | None:
@@ -139,7 +188,7 @@ def call_kimi_api(api_key: str, user_text: str) -> list[dict] | None:
 2. date: 发售日期，格式为 "YYYY-MM-DD"（字符串）
 3. genre: 游戏类型（字符串数组），常见类型包括：动作游戏、角色扮演、益智游戏、冒险游戏、模拟游戏、策略游戏、射击游戏、体育游戏、竞速游戏、格斗游戏等
 4. style: 游戏简介/描述（字符串）
-5. platforms: 发售平台（字符串数组），常见平台包括：PC、PS5、PS4、Xbox Series X/S、Xbox One、Switch、iOS、Android 等
+5. platforms: 发售平台（字符串数组），请使用规范平台名：PC、NS、NS2、PS5、PS4、Xbox Series X|S、Xbox One、iOS、Android 等
 
 请严格按照以下 JSON 数组格式返回，不要包含任何其他文字：
 [
@@ -165,6 +214,7 @@ def call_kimi_api(api_key: str, user_text: str) -> list[dict] | None:
   - "2026年下半年" → "2026-下半年"
 - 如果发售日期只有年份且没有其他时间线索，使用 "YYYY-年内" 格式（如 "2026-年内"）
 - 游戏类型请使用中文
+- 平台名称请尽量输出规范值：NS（不要写 Switch）、NS2（不要写 Switch 2）
 - 提取文案中包含的所有游戏信息，每个游戏作为数组中的一个元素
 - 只返回 JSON 数组，不要有任何解释文字
 
@@ -560,6 +610,7 @@ def main():
         sort_date, display_date = parse_game_date(game_info["date"])
         game_info["date"] = sort_date
         game_info["_display_date"] = display_date
+        game_info["platforms"] = normalize_platforms(game_info["platforms"])
 
     # 显示提取的信息
     for i, game_info in enumerate(valid_games):
