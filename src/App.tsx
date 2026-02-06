@@ -294,7 +294,7 @@ const convertUTC8ToLocal = (displayDate: string | undefined): string => {
 };
 
 const sortGroupsByDate = (groups: ReleaseGroup[]) =>
-  [...groups].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+  [...groups].sort((a, b) => a.date.localeCompare(b.date));
 
 type TimelineState = {
   data: ReleaseGroup[];
