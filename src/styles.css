@@ -18,8 +18,8 @@
 }
 
 [data-theme="dark"] {
-  --ink: #eef1f5;
-  --muted: #949aab;
+  --ink: #c7ced9;
+  --muted: #7b8498;
   --haze: rgba(20, 22, 28, 0.72);
   --line: rgba(238, 241, 245, 0.15);
   --accent: #ff9f76;
