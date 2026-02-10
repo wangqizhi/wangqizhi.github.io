@@ -83,5 +83,20 @@
         "style_en": "Latest updates for Diablo"
       }
     ]
+  },
+  {
+    "date": "2026-02-13",
+    "showcases": [
+      {
+        "title": "索尼 State of Play 发布会",
+        "title_en": "Sony State of Play",
+        "displayDate": "2026-02-13 06:00",
+        "genre": [
+          "showcase"
+        ],
+        "style": "时长约60分钟",
+        "style_en": "Approximately 60 minutes"
+      }
+    ]
   }
 ]
