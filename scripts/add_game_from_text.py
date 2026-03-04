@@ -306,12 +306,26 @@ def find_date_entry(data: list, target_date: str) -> dict | None:
     return None
 
 
+def is_specific_date(value: str) -> bool:
+    """判断是否为具体日期（YYYY-MM-DD）。"""
+    return bool(re.match(r"^\d{4}-\d{2}-\d{2}$", value or ""))
+
+
 def check_game_exists(games: list, title: str) -> bool:
     """检查游戏是否已存在"""
     for game in games:
         if game.get("title") == title:
             return True
     return False
+
+
+def find_game_location(data: list, title: str) -> tuple[dict, dict] | tuple[None, None]:
+    """在全年数据中查找游戏所在的日期条目和游戏条目。"""
+    for entry in data:
+        for game in entry.get("games", []):
+            if game.get("title") == title:
+                return entry, game
+    return None, None
 
 
 def insert_game(data: list, game_info: dict, display_date: str | None = None) -> tuple[list, bool, str]:
@@ -338,6 +352,45 @@ def insert_game(data: list, game_info: dict, display_date: str | None = None) ->
 
     # 查找是否存在该日期
     date_entry = find_date_entry(data, target_date)
+
+    # 如果新增的是具体日期，且旧数据中存在同名游戏但日期是模糊日期，则自动迁移替换
+    existing_entry, existing_game = find_game_location(data, game_info["title"])
+    if existing_entry and existing_game:
+        existing_date = existing_entry.get("date", "")
+        if is_specific_date(target_date) and not is_specific_date(existing_date):
+            existing_entry["games"] = [
+                game for game in existing_entry.get("games", [])
+                if game.get("title") != game_info["title"]
+            ]
+
+            if not existing_entry["games"]:
+                data.remove(existing_entry)
+
+            date_entry = find_date_entry(data, target_date)
+            if date_entry and check_game_exists(date_entry["games"], game_info["title"]):
+                return data, False, f"游戏《{game_info['title']}》在 {show_date} 已存在，请处理冲突"
+
+            if date_entry:
+                date_entry["games"].append(game_entry)
+            else:
+                new_entry = {
+                    "date": target_date,
+                    "displayDate": show_date,
+                    "games": [game_entry]
+                }
+
+                inserted = False
+                for i, entry in enumerate(data):
+                    if entry["date"] > target_date:
+                        data.insert(i, new_entry)
+                        inserted = True
+                        break
+
+                if not inserted:
+                    data.append(new_entry)
+
+            old_show_date = existing_entry.get("displayDate", existing_date)
+            return data, True, f"已将《{game_info['title']}》从 {old_show_date} 自动替换为 {show_date}"
 
     if date_entry:
         # 检查游戏是否已存在
@@ -677,8 +730,17 @@ def main():
 
     print(f"\n共成功添加 {len(added_titles)} 个游戏")
 
-    # 如果指定了 --publish 参数，同步 public 到 data，编译并推送到 Git
-    if args.publish:
+    should_publish = args.publish
+    if not should_publish:
+        if sys.stdin.isatty():
+            publish_confirm = input("\n是否继续自动编译并推送到服务器? [y/N]: ").strip().lower()
+            if publish_confirm in ["y", "yes"]:
+                should_publish = True
+        else:
+            print("未指定 -b，已跳过自动编译与推送（非交互环境）")
+
+    # 如果指定了 --publish 参数（或用户交互确认），同步 public 到 data，编译并推送到 Git
+    if should_publish:
         for data_file in affected_data_files:
             try:
                 synced_path = copy_public_data_to_data(data_file)
