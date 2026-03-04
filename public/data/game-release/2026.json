@@ -15490,6 +15490,16 @@
         "platforms": [
           "PC"
         ]
+      },
+      {
+        "title": "Öoo",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "今日登陆NS的益智游戏",
+        "platforms": [
+          "NS"
+        ]
       }
     ]
   },
@@ -18951,6 +18961,17 @@
         "platforms": [
           "PC"
         ]
+      },
+      {
+        "title": "OPUS:心相吾山",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "4月16日登陆NS/NS2的冒险游戏",
+        "platforms": [
+          "NS",
+          "NS2"
+        ]
       }
     ]
   },
@@ -19424,6 +19445,27 @@
         "platforms": [
           "NS"
         ]
+      },
+      {
+        "title": "梦物语之街",
+        "genre": [
+          "冒险游戏"
+        ],
+        "style": "5月登陆NS的冒险游戏",
+        "platforms": [
+          "NS"
+        ]
+      },
+      {
+        "title": "一起开火车2",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "5月登陆NS/NS2的模拟游戏",
+        "platforms": [
+          "NS",
+          "NS2"
+        ]
       }
     ]
   },
@@ -19758,6 +19800,17 @@
         ],
         "style": "收录本篇后续故事和DLC的完整版",
         "platforms": [
+          "NS2"
+        ]
+      },
+      {
+        "title": "咖啡心语东京",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "5月21日登陆NS/NS2的模拟游戏",
+        "platforms": [
+          "NS",
           "NS2"
         ]
       }
@@ -20279,6 +20332,16 @@
         "platforms": [
           "NS2"
         ]
+      },
+      {
+        "title": "Denshattack",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "6月18日登陆NS2的动作游戏，试玩版今日上线",
+        "platforms": [
+          "NS2"
+        ]
       }
     ]
   },
@@ -20561,6 +20624,16 @@
           "NS",
           "NS2"
         ]
+      },
+      {
+        "title": "魔法少女的魔女裁判",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "7月9日登陆NS的角色扮演游戏",
+        "platforms": [
+          "NS"
+        ]
       }
     ]
   },
@@ -20575,6 +20648,16 @@
           "策略游戏"
         ],
         "style": "卡片召唤师系列新作，400+卡片与故事模式",
+        "platforms": [
+          "NS2"
+        ]
+      },
+      {
+        "title": "啦嗒铛",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "7月16日登陆NS2的动作游戏",
         "platforms": [
           "NS2"
         ]
@@ -21857,6 +21940,27 @@
         "platforms": [
           "NS2"
         ]
+      },
+      {
+        "title": "林中小女巫",
+        "genre": [
+          "模拟游戏"
+        ],
+        "style": "NS版今夏发售的模拟游戏",
+        "platforms": [
+          "NS"
+        ]
+      },
+      {
+        "title": "Heave Ho 2",
+        "genre": [
+          "益智游戏"
+        ],
+        "style": "今夏登陆NS/NS2的益智游戏",
+        "platforms": [
+          "NS",
+          "NS2"
+        ]
       }
     ]
   },
@@ -21891,6 +21995,26 @@
           "模拟游戏"
         ],
         "style": "维京主题生存制作建造游戏",
+        "platforms": [
+          "NS2"
+        ]
+      },
+      {
+        "title": "炎姬",
+        "genre": [
+          "动作游戏"
+        ],
+        "style": "2026年登陆NS2的动作游戏",
+        "platforms": [
+          "NS2"
+        ]
+      },
+      {
+        "title": "夜勤人2",
+        "genre": [
+          "角色扮演"
+        ],
+        "style": "2026年登陆NS2的角色扮演游戏",
         "platforms": [
           "NS2"
         ]
